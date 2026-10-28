@@ -15,7 +15,7 @@ public sealed class MainWindow : Window
     private static readonly Vector4 Green = new(0.42f, 0.92f, 0.55f, 1.0f);
     private static readonly Vector4 Red = new(1.0f, 0.42f, 0.42f, 1.0f);
 
-    private static readonly string[] InputModes = { "逐字粘贴（一个字一个字打，推荐）", "整词粘贴（快）", "只监控不输入" };
+    private static readonly string[] InputModes = { "直接写入（游戏回调，推荐）", "逐字粘贴（一个字一个字打）", "整词粘贴（快）", "只监控不输入" };
     private static readonly string[] ContentModes = { "原词（中文）", "拼音（词库映射）" };
     private static readonly string[] TargetOrders = { "屏幕位置（近→远，推荐）", "屏幕位置（远→近）", "面板顺序", "面板反向", "短词优先", "长词优先" };
 
@@ -158,17 +158,19 @@ public sealed class MainWindow : Window
 
         var modeIndex = config.AutoInputMode switch
         {
-            "paste" => 1,
-            "disabled" => 2,
+            "paste_char" => 1,
+            "paste" => 2,
+            "disabled" => 3,
             _ => 0,
         };
         if (ImGui.Combo("输入方式", ref modeIndex, InputModes, InputModes.Length))
         {
             config.AutoInputMode = modeIndex switch
             {
-                1 => "paste",
-                2 => "disabled",
-                _ => "paste_char",
+                1 => "paste_char",
+                2 => "paste",
+                3 => "disabled",
+                _ => "direct",
             };
             plugin.SaveConfig();
         }

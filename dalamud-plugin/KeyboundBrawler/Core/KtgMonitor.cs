@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using Dalamud.Plugin.Services;
 using FFXIVClientStructs.FFXIV.Component.GUI;
+using InteropGenerator.Runtime;
 
 namespace KeyboundBrawler.Core;
 
@@ -26,6 +27,7 @@ public sealed class KtgState
     public string Score { get; init; } = string.Empty;
     public string GaugeHp { get; init; } = string.Empty;
     public string Todo { get; init; } = string.Empty;
+    public uint TerritoryId { get; init; }
     public bool InGame { get; init; }
     public bool GameOver { get; init; }
 
@@ -51,13 +53,21 @@ public sealed class KtgMonitor
     };
 
     private readonly IGameGui gameGui;
+    private readonly IClientState clientState;
     private readonly IPluginLog pluginLog;
     private DateTime lastPoll = DateTime.MinValue;
     private DateTime lastDumpAt = DateTime.MinValue;
 
-    public KtgMonitor(IGameGui gameGui, IPluginLog pluginLog)
+    /// <summary>魔光键影战斗区域（学自 FFMoGuang 的实测 Territory 值）。</summary>
+    public const uint ArenaTerritory = 1359;
+
+    /// <summary>魔光键影报名大厅。</summary>
+    public const uint LobbyTerritory = 1360;
+
+    public KtgMonitor(IGameGui gameGui, IClientState clientState, IPluginLog pluginLog)
     {
         this.gameGui = gameGui;
+        this.clientState = clientState;
         this.pluginLog = pluginLog;
     }
 
@@ -86,13 +96,15 @@ public sealed class KtgMonitor
 
         try
         {
-            var inGame = IsAddonVisible("KTGEWord") || IsAddonVisible("KTGHudScore");
+            var territory = clientState.TerritoryType;
+            var inArena = territory == ArenaTerritory;
+            var inGame = inArena && (IsAddonVisible("KTGEWord") || IsAddonVisible("KTGHudScore"));
             var gameOver = IsAddonVisible("_KTGGameover") || IsAddonVisible("KTGResult");
             if (!inGame && !gameOver)
             {
                 if (State.InGame || State.GameOver)
                 {
-                    State = new KtgState();
+                    State = new KtgState { TerritoryId = territory };
                     StateChanged?.Invoke(State);
                 }
 
@@ -107,6 +119,7 @@ public sealed class KtgMonitor
                 Score = ReadTextNodes("KTGHudScore"),
                 GaugeHp = ReadTextNodes("KTGHudGaugeHp"),
                 Todo = ReadTextNodes("KTGHudTodo"),
+                TerritoryId = territory,
                 InGame = inGame,
                 GameOver = gameOver,
             };
@@ -410,5 +423,116 @@ public sealed class KtgMonitor
         }
 
         return result;
+    }
+
+    /// <summary>
+    /// 直接写入输入框并调用游戏提交回调（学自 FFMoGuang）：
+    /// KTGInput 的节点 7 是 AtkComponentTextInput，SetText 写入后调用 Callback(Enter) 提交。
+    /// 不模拟键盘、不用剪贴板，最稳定。
+    /// </summary>
+    public unsafe bool TryDirectSubmit(string text, out string error)
+    {
+        error = string.Empty;
+        if (string.IsNullOrEmpty(text))
+        {
+            error = "空词";
+            return false;
+        }
+
+        try
+        {
+            var ptr = gameGui.GetAddonByName("KTGInput", 1);
+            if (ptr.IsNull)
+            {
+                error = "KTGInput 不可见";
+                return false;
+            }
+
+            var addon = (AtkUnitBase*)ptr.Address;
+            if (addon == null || !addon->IsReady || !addon->IsVisible)
+            {
+                error = "KTGInput 未就绪";
+                return false;
+            }
+
+            var input = FindTextInput(addon);
+            if (input == null)
+            {
+                error = "找不到 KTGInput 的文本输入组件（节点 7）";
+                return false;
+            }
+
+            if (!input->Enabled)
+            {
+                error = "输入框未启用";
+                return false;
+            }
+
+            if (input->Callback == null)
+            {
+                error = "输入回调为空";
+                return false;
+            }
+
+            input->SetText(text);
+
+            var raw = input->RawString.ToString();
+            if (raw != text)
+            {
+                error = $"写入被截断：{raw}";
+                return false;
+            }
+
+            var bytes = System.Text.Encoding.UTF8.GetBytes(text + "\0");
+            fixed (byte* p = bytes)
+            {
+                var result = input->Callback(
+                    addon,
+                    InputCallbackType.Enter,
+                    p,
+                    p,
+                    input->CallbackEventKind);
+
+                if (result == InputCallbackResult.ClearText)
+                {
+                    input->SetText(string.Empty);
+                    return true;
+                }
+
+                error = $"回调返回 {result}";
+                return false;
+            }
+        }
+        catch (Exception ex)
+        {
+            error = $"直接提交异常：{ex.Message}";
+            return false;
+        }
+    }
+
+    /// <summary>在 addon 的 NodeList 里找节点 7 对应的 TextInput 组件。</summary>
+    private unsafe AtkComponentTextInput* FindTextInput(AtkUnitBase* addon)
+    {
+        var uld = &addon->UldManager;
+        if (uld->NodeList == null || uld->NodeListCount > 10000)
+            return null;
+
+        for (var i = 0; i < uld->NodeListCount; i++)
+        {
+            var node = uld->NodeList[i];
+            if (node == null)
+                continue;
+
+            if (node->NodeId != 7 || (int)node->Type < 1000)
+                continue;
+
+            var component = ((AtkComponentNode*)node)->Component;
+            if (component == null || (int)component->GetComponentType() != 7)
+                continue;
+
+            return (AtkComponentTextInput*)component;
+        }
+
+        return null;
     }
 }

@@ -5,7 +5,7 @@ namespace KeyboundBrawler;
 /// <summary>插件配置，保存在 %APPDATA%\XIVLauncherCN\pluginConfigs\KeyboundBrawler\Configuration.json。</summary>
 public sealed class PluginConfiguration : IPluginConfiguration
 {
-    public int Version { get; set; } = 6;
+    public int Version { get; set; } = 7;
 
     /// <summary>总开关。</summary>
     public bool Enabled { get; set; } = true;
@@ -52,8 +52,8 @@ public sealed class PluginConfiguration : IPluginConfiguration
     /// <summary>自动打字总开关（进 KTG 面板后自动输入当前词并回车）。</summary>
     public bool AutoPlay { get; set; } = true;
 
-    /// <summary>自动输入方式：paste_char（逐字粘贴，默认）/ paste（整词粘贴）/ disabled。</summary>
-    public string AutoInputMode { get; set; } = "paste_char";
+    /// <summary>自动输入方式：direct（直接写输入框+游戏回调，默认）/ paste_char（逐字粘贴）/ paste（整词粘贴）/ disabled。</summary>
+    public string AutoInputMode { get; set; } = "direct";
 
     /// <summary>固定频率：触发间隔不再随机波动，用 AutoFixedIntervalMs 固定值。</summary>
     public bool AutoFixedInterval { get; set; }

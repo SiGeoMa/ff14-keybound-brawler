@@ -49,6 +49,7 @@ public sealed class Plugin : IDalamudPlugin
     private DateTime lastNoWordLogAt = DateTime.MinValue;
     private readonly object submitGate = new();
     private bool pendingSubmit;
+    private bool pendingDirectSubmit;
     private string pendingSubmitText = string.Empty;
     private DateTime pendingSubmitAt;
 
@@ -148,6 +149,21 @@ public sealed class Plugin : IDalamudPlugin
             }
         }
 
+        // v7：默认改用直接写入（SetText + 游戏回调，学自 FFMoGuang）
+        if (Configuration.Version < 7)
+        {
+            Configuration.AutoInputMode = "direct";
+            Configuration.Version = 7;
+            try
+            {
+                Configuration.Save();
+            }
+            catch
+            {
+                // 忽略
+            }
+        }
+
         var assemblyDirectory = PluginInterface.AssemblyLocation.Directory?.FullName ?? AppContext.BaseDirectory;
         BundledDataDirectory = Path.Combine(assemblyDirectory, "data");
 
@@ -195,7 +211,7 @@ public sealed class Plugin : IDalamudPlugin
         AddonProbe.TextSnapshotted += OnAddonTextSnapshotted;
         AddonProbe.AddonShown += OnAddonShown;
 
-        Ktg = new KtgMonitor(GameGui, Log);
+        Ktg = new KtgMonitor(GameGui, ClientState, Log);
         Ktg.StateChanged += OnKtgStateChanged;
         Ktg.DiagnosticDump = dump =>
         {
@@ -469,20 +485,36 @@ public sealed class Plugin : IDalamudPlugin
                     return;
                 }
 
-                var ok = AutoTyper.TypeAndEnter(text, mode, submit: false);
-                if (ok)
+                if (Configuration.AutoInputMode == "direct")
                 {
+                    // 直接写输入框 + 调游戏回调：必须在主线程执行，这里只排队
                     lock (submitGate)
                     {
-                        pendingSubmit = true;
+                        pendingDirectSubmit = true;
                         pendingSubmitText = text;
                         pendingSubmitAt = DateTime.Now;
                     }
-                }
 
-                var message = ok ? $"已粘贴「{text}」，等待提交" : $"粘贴失败：{AutoTyper.LastError}";
-                WriteAutoLog($"[自动] {(ok ? "粘贴OK" : "FAIL")} 词「{target}」 输入「{text}」 反应{reaction}ms {AutoTyper.LastError}");
-                LastAutoMessage = message;
+                    WriteAutoLog($"[自动] 直接提交排队 词「{target}」 输入「{text}」 反应{reaction}ms");
+                    LastAutoMessage = $"已排队直接提交「{text}」";
+                }
+                else
+                {
+                    var ok = AutoTyper.TypeAndEnter(text, mode, submit: false);
+                    if (ok)
+                    {
+                        lock (submitGate)
+                        {
+                            pendingSubmit = true;
+                            pendingSubmitText = text;
+                            pendingSubmitAt = DateTime.Now;
+                        }
+                    }
+
+                    var message = ok ? $"已粘贴「{text}」，等待提交" : $"粘贴失败：{AutoTyper.LastError}";
+                    WriteAutoLog($"[自动] {(ok ? "粘贴OK" : "FAIL")} 词「{target}」 输入「{text}」 反应{reaction}ms {AutoTyper.LastError}");
+                    LastAutoMessage = message;
+                }
             }
             finally
             {
@@ -573,11 +605,13 @@ public sealed class Plugin : IDalamudPlugin
     private void ProcessPendingSubmit()
     {
         bool pending;
+        bool direct;
         string text;
         DateTime at;
         lock (submitGate)
         {
-            pending = pendingSubmit;
+            pending = pendingSubmit || pendingDirectSubmit;
+            direct = pendingDirectSubmit;
             text = pendingSubmitText;
             at = pendingSubmitAt;
         }
@@ -587,11 +621,11 @@ public sealed class Plugin : IDalamudPlugin
 
         try
         {
-            // 超时（2.5 秒没读到输入内容）就放弃提交
+            // 超时（2.5 秒没处理）就放弃
             if ((DateTime.Now - at).TotalMilliseconds > 2500)
             {
-                lock (submitGate) { pendingSubmit = false; }
-                WriteAutoLog($"[提交] 超时未检测到输入框内容，放弃提交「{text}」");
+                lock (submitGate) { pendingSubmit = false; pendingDirectSubmit = false; }
+                WriteAutoLog($"[提交] 超时，放弃提交「{text}」");
                 return;
             }
 
@@ -599,12 +633,29 @@ public sealed class Plugin : IDalamudPlugin
             var state = Ktg.State;
             if (state.GameOver || !state.InGame || !Ktg.IsAddonVisible("KTGInput"))
             {
-                lock (submitGate) { pendingSubmit = false; }
+                lock (submitGate) { pendingSubmit = false; pendingDirectSubmit = false; }
                 WriteAutoLog("[提交] 游戏已结束或输入框消失，跳过提交");
                 return;
             }
 
-            // 输入框必须真的有内容才回车
+            if (direct)
+            {
+                // 直接写输入框 + 游戏回调：只在安全条件下执行
+                if (!AutoTyper.IsGameForeground() || IsBlockingDialogVisible())
+                {
+                    lock (submitGate) { pendingDirectSubmit = false; }
+                    WriteAutoLog("[提交] 前台/对话框状态不安全，跳过直接提交");
+                    return;
+                }
+
+                var ok = Ktg.TryDirectSubmit(text, out var error);
+                lock (submitGate) { pendingDirectSubmit = false; }
+                WriteAutoLog($"[提交] {(ok ? "直接提交OK" : "FAIL")} 「{text}」 {error}");
+                LastAutoMessage = ok ? $"已直接提交「{text}」" : $"直接提交失败：{error}";
+                return;
+            }
+
+            // 粘贴模式：确认输入框真的有内容才回车
             var input = Ktg.ReadInput();
             if (string.IsNullOrWhiteSpace(input))
                 return;
@@ -616,7 +667,7 @@ public sealed class Plugin : IDalamudPlugin
         }
         catch (Exception ex)
         {
-            lock (submitGate) { pendingSubmit = false; }
+            lock (submitGate) { pendingSubmit = false; pendingDirectSubmit = false; }
             WriteAutoLog($"[提交] 异常：{ex.Message}");
         }
     }
