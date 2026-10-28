@@ -1,7 +1,7 @@
-﻿<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+<Project Sdk="Dalamud.NET.Sdk/15.0.0">
 
   <PropertyGroup>
-    <Version>0.3.4.0</Version>
+    <Version>0.3.5.0</Version>
 
     <!-- 读取游戏 AtkAddon 文本节点需要 unsafe -->
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
@@ -41,6 +41,14 @@
   <!-- 内置词库：首次启动时拷贝到 pluginConfigs\KeyboundBrawler\data\ -->
   <ItemGroup>
     <Content Include="data\**\*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Visible>false</Visible>
+    </Content>
+  </ItemGroup>
+
+  <!-- 插件图标 -->
+  <ItemGroup>
+    <Content Include="icon.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <Visible>false</Visible>
     </Content>

@@ -30,6 +30,7 @@ public sealed class Plugin : IDalamudPlugin
     [PluginService] internal static IAddonLifecycle AddonLifecycle { get; private set; } = null!;
     [PluginService] internal static IGameGui GameGui { get; private set; } = null!;
     [PluginService] internal static IClientState ClientState { get; private set; } = null!;
+    [PluginService] internal static IObjectTable ObjectTable { get; private set; } = null!;
     [PluginService] internal static IDataManager DataManager { get; private set; } = null!;
     [PluginService] internal static IPluginLog Log { get; private set; } = null!;
 
@@ -155,6 +156,21 @@ public sealed class Plugin : IDalamudPlugin
         {
             Configuration.AutoInputMode = "direct";
             Configuration.Version = 7;
+            try
+            {
+                Configuration.Save();
+            }
+            catch
+            {
+                // 忽略
+            }
+        }
+
+        // v8：选词顺序改为按实体距离（用 KTGEWord.WordEntry.EntityID）
+        if (Configuration.Version < 8)
+        {
+            Configuration.AutoTargetOrder = "distance";
+            Configuration.Version = 8;
             try
             {
                 Configuration.Save();
@@ -525,16 +541,48 @@ public sealed class Plugin : IDalamudPlugin
         });
     }
 
-    /// <summary>按配置给词节点排序（默认按屏幕 Y 从下到上 = 最近的敌人优先）。</summary>
+    /// <summary>按配置给词节点排序（默认按实体距离从近到远）。</summary>
     private List<WordNode> OrderNodes(IReadOnlyList<WordNode> nodes) => Configuration.AutoTargetOrder switch
     {
-        "order_reverse" => Enumerable.Reverse(nodes).ToList(),
+        "distance" => nodes.OrderBy(n => GetEntityDistance(n.EntityID)).ThenBy(n => n.Text.Length).ToList(),
         "screen_asc" => nodes.OrderBy(n => n.Y).ThenBy(n => n.X).ToList(),
         "screen_desc" => nodes.OrderByDescending(n => n.Y).ThenBy(n => n.X).ToList(),
+        "order" => nodes.ToList(),
+        "order_reverse" => Enumerable.Reverse(nodes).ToList(),
         "shortest" => nodes.OrderBy(n => n.Text.Length).ToList(),
         "longest" => nodes.OrderByDescending(n => n.Text.Length).ToList(),
-        _ => nodes.ToList(),
+        _ => nodes.OrderBy(n => GetEntityDistance(n.EntityID)).ThenBy(n => n.Text.Length).ToList(),
     };
+
+    /// <summary>
+    /// 用词条的 EntityID 查实体，算与玩家的距离（学自 FFXIVClientStructs.Expansion 的 WordEntry.EntityID）。
+    /// 查不到返回 float.MaxValue（排到最后）。
+    /// </summary>
+    private float GetEntityDistance(int entityId)
+    {
+        if (entityId <= 0)
+            return float.MaxValue;
+
+        try
+        {
+            var player = ObjectTable.LocalPlayer;
+            if (player == null)
+                return float.MaxValue;
+
+            var id = (uint)entityId;
+            foreach (var obj in ObjectTable)
+            {
+                if (obj.EntityId == id)
+                    return System.Numerics.Vector3.Distance(player.Position, obj.Position);
+            }
+        }
+        catch
+        {
+            // 忽略：查不到就当最远
+        }
+
+        return float.MaxValue;
+    }
 
     /// <summary>从词节点提取候选词（校正到词表，保序）。</summary>
     private List<string> ExtractCandidatesFromNodes(List<WordNode> nodes)

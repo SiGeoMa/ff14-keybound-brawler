@@ -17,7 +17,7 @@ public sealed class MainWindow : Window
 
     private static readonly string[] InputModes = { "直接写入（游戏回调，推荐）", "逐字粘贴（一个字一个字打）", "整词粘贴（快）", "只监控不输入" };
     private static readonly string[] ContentModes = { "原词（中文）", "拼音（词库映射）" };
-    private static readonly string[] TargetOrders = { "屏幕位置（近→远，推荐）", "屏幕位置（远→近）", "面板顺序", "面板反向", "短词优先", "长词优先" };
+    private static readonly string[] TargetOrders = { "实体距离（近→远，推荐）", "屏幕位置（近→远）", "屏幕位置（远→近）", "面板顺序", "短词优先", "长词优先" };
 
     private readonly Plugin plugin;
 
@@ -184,9 +184,9 @@ public sealed class MainWindow : Window
 
         var orderIndex = config.AutoTargetOrder switch
         {
-            "screen_asc" => 1,
-            "order" => 2,
-            "order_reverse" => 3,
+            "screen_desc" => 1,
+            "screen_asc" => 2,
+            "order" => 3,
             "shortest" => 4,
             "longest" => 5,
             _ => 0,
@@ -195,12 +195,12 @@ public sealed class MainWindow : Window
         {
             config.AutoTargetOrder = orderIndex switch
             {
-                1 => "screen_asc",
-                2 => "order",
-                3 => "order_reverse",
+                1 => "screen_desc",
+                2 => "screen_asc",
+                3 => "order",
                 4 => "shortest",
                 5 => "longest",
-                _ => "screen_desc",
+                _ => "distance",
             };
             plugin.SaveConfig();
         }

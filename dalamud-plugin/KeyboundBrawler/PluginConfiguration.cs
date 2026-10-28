@@ -5,7 +5,7 @@ namespace KeyboundBrawler;
 /// <summary>插件配置，保存在 %APPDATA%\XIVLauncherCN\pluginConfigs\KeyboundBrawler\Configuration.json。</summary>
 public sealed class PluginConfiguration : IPluginConfiguration
 {
-    public int Version { get; set; } = 7;
+    public int Version { get; set; } = 8;
 
     /// <summary>总开关。</summary>
     public bool Enabled { get; set; } = true;
@@ -73,8 +73,8 @@ public sealed class PluginConfiguration : IPluginConfiguration
     /// <summary>输入内容：word（原词，中文）/ pinyin（用词库把词转拼音）。</summary>
     public string AutoInputContent { get; set; } = "word";
 
-    /// <summary>选词顺序：screen_desc（屏幕下→上，最近优先，默认）/ screen_asc / order / order_reverse / shortest / longest。</summary>
-    public string AutoTargetOrder { get; set; } = "screen_desc";
+    /// <summary>选词顺序：distance（实体距离近→远，默认）/ screen_desc / screen_asc / order / shortest / longest。</summary>
+    public string AutoTargetOrder { get; set; } = "distance";
 
     /// <summary>每个字符输入间隔基准（毫秒）。</summary>
     public int AutoCharDelayMs { get; set; } = 120;

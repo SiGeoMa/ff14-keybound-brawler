@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using Dalamud.Plugin.Services;
 using FFXIVClientStructs.FFXIV.Component.GUI;
@@ -8,14 +9,23 @@ using InteropGenerator.Runtime;
 
 namespace KeyboundBrawler.Core;
 
-/// <summary>KTGEWord 里的一个敌人词节点：文本 + 屏幕位置（用于按远近排序）。</summary>
+/// <summary>KTGEWord 里的一个敌人词节点：文本、实体 ID、状态和屏幕位置。</summary>
 public sealed class WordNode
 {
     public string Text { get; init; } = string.Empty;
     public short X { get; init; }
     public short Y { get; init; }
 
-    public override string ToString() => $"{Text}({X},{Y})";
+    /// <summary>词条对应的游戏实体 ID（用于按距离排序）。</summary>
+    public int EntityID { get; init; }
+
+    /// <summary>词条状态（游戏内部状态值）。</summary>
+    public int State { get; init; }
+
+    /// <summary>是否被遮挡（文字被遮住时可能打不了）。</summary>
+    public bool Obstructed { get; init; }
+
+    public override string ToString() => $"{Text}({X},{Y},eid={EntityID})";
 }
 
 /// <summary>KTG（Keybound Brawler / 魔光键影）面板的一次快照。</summary>
@@ -127,7 +137,11 @@ public sealed class KtgMonitor
             var changed = !SameState(State, state);
             State = state;
             StateUpdatedAt = DateTime.Now;
-            WordNodes = ReadWordNodes();
+
+            // 优先用精确的 WordEntry 布局（带 EntityID），读不到再退回遍历文本节点
+            var entries = ReadWordEntries();
+            WordNodes = entries.Count > 0 ? entries : ReadWordNodes();
+
             if (changed)
                 StateChanged?.Invoke(state);
 
@@ -163,6 +177,69 @@ public sealed class KtgMonitor
         {
             return false;
         }
+    }
+
+    /// <summary>读 KTGEWord 的 20 个词条（精确布局，学自 FFXIVClientStructs.Expansion）。</summary>
+    public unsafe List<WordNode> ReadWordEntries()
+    {
+        var result = new List<WordNode>();
+        var ptr = gameGui.GetAddonByName("KTGEWord", 1);
+        if (ptr.IsNull)
+            return result;
+
+        var addon = (AtkUnitBase*)ptr.Address;
+        if (addon == null || !addon->IsReady)
+            return result;
+
+        // AddonKTGEWord：WordEntriesStorage 在偏移 568，每项 200 字节，共 20 项
+        var entries = (KtgWordEntry*)((byte*)addon + KtgWordEntriesOffset);
+        for (var i = 0; i < KtgWordEntryCount; i++)
+        {
+            ref var entry = ref entries[i];
+            var textNode = entry.NameTextNode;
+            if (textNode == null)
+                continue;
+
+            var text = ReadTextNodeText(textNode).Trim();
+            if (string.IsNullOrWhiteSpace(text))
+                continue;
+
+            var node = (AtkResNode*)textNode;
+            result.Add(new WordNode
+            {
+                Text = text,
+                X = (short)node->X,
+                Y = (short)node->Y,
+                EntityID = entry.EntityID,
+                State = entry.State,
+                Obstructed = entry.Obstructed,
+            });
+        }
+
+        return result;
+    }
+
+    private const int KtgWordEntriesOffset = 568;
+    private const int KtgWordEntryCount = 20;
+
+    /// <summary>KTGEWord 的单个词条布局（AddonKTGEWord.WordEntry，200 字节）。</summary>
+    [StructLayout(LayoutKind.Explicit, Size = 200)]
+    private unsafe struct KtgWordEntry
+    {
+        [FieldOffset(0)]
+        public AtkComponentNode* ComponentNode;
+
+        [FieldOffset(112)]
+        public AtkTextNode* NameTextNode;
+
+        [FieldOffset(168)]
+        public int EntityID;
+
+        [FieldOffset(176)]
+        public int State;
+
+        [FieldOffset(180)]
+        public bool Obstructed;
     }
 
     /// <summary>读 KTGEWord 里每个敌人词节点（文本 + 屏幕坐标）。</summary>
