@@ -11,8 +11,6 @@
   <!-- 直接链接插件的核心逻辑源码，不依赖 Dalamud，方便本地跑逻辑自检 -->
   <ItemGroup>
     <Compile Include="..\..\dalamud-plugin\KeyboundBrawler\Core\WordBook.cs" />
-    <Compile Include="..\..\dalamud-plugin\KeyboundBrawler\Core\TypingSession.cs" />
-    <Compile Include="..\..\dalamud-plugin\KeyboundBrawler\Core\KeywordRuleParser.cs" />
   </ItemGroup>
 
 </Project>

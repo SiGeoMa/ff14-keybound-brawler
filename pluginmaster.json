@@ -4,7 +4,7 @@
     "Punchline":  "FF14 魔光键影（Keybound Brawler）自动打字",
     "Description":  "自动读取金碟「魔光键影」KTG 面板里的敌人词，按屏幕位置先近后远集火，逐字输入并自动提交。含拟人化/演都不演模式、确认对话框防护、失焦切回前台。",
     "InternalName":  "KeyboundBrawler",
-    "AssemblyVersion":  "0.3.6.0",
+    "AssemblyVersion":  "0.4.0.0",
     "RepoUrl":  "https://github.com/SiGeoMa/ff14-keybound-brawler",
     "ApplicableVersion":  "any",
     "Tags":  [
@@ -25,7 +25,7 @@
     "DownloadLinkUpdate":  "https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-keybound-brawler@main/dist/KeyboundBrawler.zip",
     "DownloadLinkTesting":  null,
     "IconUrl":  "https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-keybound-brawler@main/icon.png",
-    "LastUpdate":  1793182620,
+    "LastUpdate":  1793183535,
     "DownloadCount":  0,
     "LoadPriority":  0
 }]
