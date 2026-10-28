@@ -365,7 +365,8 @@ public sealed class Plugin : IDalamudPlugin
             {
                 lastFocusLogAt = DateTime.Now;
                 WriteAutoLog("[前台] 游戏不在前台，暂停自动输入");
-                ChatGui.Print($"[KeyboundBrawler] 游戏不在前台，自动输入已暂停{(Configuration.AutoRefocusGame ? "（正在尝试切回）" : string.Empty)}");
+                if (Configuration.PrintRuntimeMessages)
+                    ChatGui.Print($"[KeyboundBrawler] 游戏不在前台，自动输入已暂停{(Configuration.AutoRefocusGame ? "（正在尝试切回）" : string.Empty)}");
             }
 
             if (Configuration.AutoRefocusGame)
@@ -744,7 +745,11 @@ public sealed class Plugin : IDalamudPlugin
 
         lastAutoOpenAt = DateTime.Now;
         mainWindow.IsOpen = true;
-        ChatGui.Print($"[KeyboundBrawler] {reason}，已自动打开窗口。");
+
+        if (Configuration.PrintRuntimeMessages)
+            ChatGui.Print($"[KeyboundBrawler] {reason}，已自动打开窗口。");
+        else
+            WriteAutoLog($"[弹窗] {reason}，已自动打开窗口");
     }
 
     private static bool MatchesKeywords(string text, string keywords)
@@ -768,7 +773,7 @@ public sealed class Plugin : IDalamudPlugin
 
     private void OnKeywordMatched(KeywordMatch match)
     {
-        if (Configuration.NotifyKeywordMatchesInChat)
+        if (Configuration.PrintRuntimeMessages)
             ChatGui.Print($"[KeyboundBrawler] 事件：{match.EventName}（关键词「{match.Keyword}」，来源 {match.Source}）");
     }
 

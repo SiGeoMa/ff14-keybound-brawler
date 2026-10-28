@@ -512,10 +512,10 @@ public sealed class MainWindow : Window
         }
 
         ImGui.SameLine();
-        var notify = config.NotifyKeywordMatchesInChat;
-        if (ImGui.Checkbox("命中时聊天提示", ref notify))
+        var runtimeMsg = config.PrintRuntimeMessages;
+        if (ImGui.Checkbox("运行时消息打到聊天框（默认关）", ref runtimeMsg))
         {
-            config.NotifyKeywordMatchesInChat = notify;
+            config.PrintRuntimeMessages = runtimeMsg;
             plugin.SaveConfig();
         }
 

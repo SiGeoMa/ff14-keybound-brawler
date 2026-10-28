@@ -102,7 +102,10 @@ public sealed class PluginConfiguration : IPluginConfiguration
     public string KeywordRules { get; set; } = string.Empty;
 
     /// <summary>关键字命中时在聊天框提示。</summary>
-    public bool NotifyKeywordMatchesInChat { get; set; } = true;
+    public bool NotifyKeywordMatchesInChat { get; set; }
+
+    /// <summary>运行时提示（自动弹窗、事件命中、失焦等）是否打印到聊天框；默认关，只写日志。</summary>
+    public bool PrintRuntimeMessages { get; set; }
 
     /// <summary>dalamud.log 路径；留空时自动探测国服 / 国际服路径。</summary>
     public string DalamudLogPath { get; set; } = string.Empty;
