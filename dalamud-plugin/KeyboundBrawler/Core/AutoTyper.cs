@@ -11,17 +11,11 @@ public enum AutoInputMode
     /// <summary>不自动输入，只监控。</summary>
     Disabled = 0,
 
-    /// <summary>SendInput Unicode（直接送字符，绕过输入法；实测游戏输入框可能不接收）。</summary>
-    Unicode = 1,
-
-    /// <summary>逐字符虚拟键（仅 ASCII / 字母数字）。</summary>
-    Keystrokes = 2,
-
-    /// <summary>写系统剪贴板 + Ctrl+V 粘贴 + 回车（中文最可靠）。</summary>
-    Paste = 3,
-
     /// <summary>逐字粘贴：一个字符一个字符 Ctrl+V，像真人打字一样慢慢出来。</summary>
     PasteChar = 4,
+
+    /// <summary>写系统剪贴板 + Ctrl+V 一次性粘贴整词。</summary>
+    Paste = 3,
 }
 
 /// <summary>
@@ -158,7 +152,7 @@ public sealed class AutoTyper
     }
 
     /// <summary>输入文本并回车提交。返回是否真的发送了。</summary>
-    public bool TypeAndEnter(string text, AutoInputMode mode)
+    public bool TypeAndEnter(string text, AutoInputMode mode, bool submit = true)
     {
         if (string.IsNullOrEmpty(text) || mode == AutoInputMode.Disabled)
             return false;
@@ -170,40 +164,9 @@ public sealed class AutoTyper
         }
 
         if (mode == AutoInputMode.Paste)
-            return PasteAndEnter(text);
+            return PasteAndEnter(text, submit);
 
-        if (mode == AutoInputMode.PasteChar)
-            return PasteCharByChar(text);
-
-        try
-        {
-            if (mode == AutoInputMode.Unicode)
-            {
-                foreach (var ch in text)
-                {
-                    SendUnicodeChar(ch);
-                    Thread.Sleep(NextCharDelay());
-                }
-            }
-            else
-            {
-                foreach (var ch in text)
-                {
-                    SendVirtualKey((ushort)char.ToUpperInvariant(ch), NextCharDelay());
-                }
-            }
-
-            Thread.Sleep(NextSubmitDelay());
-            SendVirtualKey(VkReturn, 30);
-            LastError = null;
-            return true;
-        }
-        catch (Exception ex)
-        {
-            LastError = $"模拟输入失败：{ex.Message}";
-            pluginLog.Warning(ex, "模拟输入失败");
-            return false;
-        }
+        return PasteCharByChar(text, submit);
     }
 
     /// <summary>只按回车（调试用）。</summary>
@@ -218,8 +181,8 @@ public sealed class AutoTyper
     /// <summary>粘贴前是否先清空输入框（Ctrl+A + Delete），避免上一次的内容残留叠加。</summary>
     public bool ClearInputBeforePaste { get; set; } = true;
 
-    /// <summary>粘贴：先清空输入框，再写剪贴板、Ctrl+V、回车。</summary>
-    public bool PasteAndEnter(string text)
+    /// <summary>粘贴：先清空输入框，再写剪贴板、Ctrl+V、（可选）回车。</summary>
+    public bool PasteAndEnter(string text, bool submit = true)
     {
         if (string.IsNullOrEmpty(text) || !IsGameForeground())
             return false;
@@ -237,8 +200,13 @@ public sealed class AutoTyper
 
             Thread.Sleep(40);
             SendKeyCombo(VkControl, VkV);
-            Thread.Sleep(NextSubmitDelay());
-            SendVirtualKey(VkReturn, 30);
+
+            if (submit)
+            {
+                Thread.Sleep(NextSubmitDelay());
+                SendVirtualKey(VkReturn, 30);
+            }
+
             LastError = null;
             return true;
         }
@@ -250,7 +218,7 @@ public sealed class AutoTyper
     }
 
     /// <summary>逐字粘贴：一个字符一次 Ctrl+V，间隔随机，像真人打字一样一个字一个字出来。</summary>
-    public bool PasteCharByChar(string text)
+    public bool PasteCharByChar(string text, bool submit = true)
     {
         if (string.IsNullOrEmpty(text) || !IsGameForeground())
             return false;
@@ -273,8 +241,12 @@ public sealed class AutoTyper
                 Thread.Sleep(NextCharDelay());
             }
 
-            Thread.Sleep(NextSubmitDelay());
-            SendVirtualKey(VkReturn, 30);
+            if (submit)
+            {
+                Thread.Sleep(NextSubmitDelay());
+                SendVirtualKey(VkReturn, 30);
+            }
+
             LastError = null;
             return true;
         }
@@ -324,23 +296,6 @@ public sealed class AutoTyper
         {
             CloseClipboard();
         }
-    }
-
-    private static void SendUnicodeChar(char ch)
-    {
-        var inputs = new INPUT[2];
-
-        inputs[0].type = InputKeyboard;
-        inputs[0].union.keyboard.wVk = 0;
-        inputs[0].union.keyboard.wScan = ch;
-        inputs[0].union.keyboard.dwFlags = KeyeventfUnicode;
-
-        inputs[1].type = InputKeyboard;
-        inputs[1].union.keyboard.wVk = 0;
-        inputs[1].union.keyboard.wScan = ch;
-        inputs[1].union.keyboard.dwFlags = KeyeventfUnicode | KeyeventfKeyup;
-
-        SendInput(2, inputs, Marshal.SizeOf<INPUT>());
     }
 
     private static void SendVirtualKey(ushort vk, int delayMs)

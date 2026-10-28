@@ -15,7 +15,7 @@ public sealed class MainWindow : Window
     private static readonly Vector4 Green = new(0.42f, 0.92f, 0.55f, 1.0f);
     private static readonly Vector4 Red = new(1.0f, 0.42f, 0.42f, 1.0f);
 
-    private static readonly string[] InputModes = { "逐字粘贴（一个字一个字打，推荐）", "整词粘贴（快）", "Unicode（直接送字符）", "虚拟键（ASCII）", "只监控不输入" };
+    private static readonly string[] InputModes = { "逐字粘贴（一个字一个字打，推荐）", "整词粘贴（快）", "只监控不输入" };
     private static readonly string[] ContentModes = { "原词（中文）", "拼音（词库映射）" };
     private static readonly string[] TargetOrders = { "屏幕位置（近→远，推荐）", "屏幕位置（远→近）", "面板顺序", "面板反向", "短词优先", "长词优先" };
 
@@ -159,9 +159,7 @@ public sealed class MainWindow : Window
         var modeIndex = config.AutoInputMode switch
         {
             "paste" => 1,
-            "unicode" => 2,
-            "keystrokes" => 3,
-            "disabled" => 4,
+            "disabled" => 2,
             _ => 0,
         };
         if (ImGui.Combo("输入方式", ref modeIndex, InputModes, InputModes.Length))
@@ -169,9 +167,7 @@ public sealed class MainWindow : Window
             config.AutoInputMode = modeIndex switch
             {
                 1 => "paste",
-                2 => "unicode",
-                3 => "keystrokes",
-                4 => "disabled",
+                2 => "disabled",
                 _ => "paste_char",
             };
             plugin.SaveConfig();
@@ -228,6 +224,23 @@ public sealed class MainWindow : Window
         }
 
         ImGui.PopStyleColor();
+
+        var fixedInterval = config.AutoFixedInterval;
+        if (ImGui.Checkbox("固定频率（触发间隔固定，不随机波动）", ref fixedInterval))
+        {
+            config.AutoFixedInterval = fixedInterval;
+            plugin.SaveConfig();
+        }
+
+        if (config.AutoFixedInterval)
+        {
+            var fixedMs = config.AutoFixedIntervalMs;
+            if (ImGui.SliderInt("固定间隔 (ms)", ref fixedMs, 300, 4000))
+            {
+                config.AutoFixedIntervalMs = fixedMs;
+                plugin.SaveConfig();
+            }
+        }
 
         var humanize = config.AutoHumanize;
         if (ImGui.Checkbox("启用拟人化（随机反应延迟 + 按键抖动 + 提交前停顿）", ref humanize))

@@ -5,7 +5,7 @@ namespace KeyboundBrawler;
 /// <summary>插件配置，保存在 %APPDATA%\XIVLauncherCN\pluginConfigs\KeyboundBrawler\Configuration.json。</summary>
 public sealed class PluginConfiguration : IPluginConfiguration
 {
-    public int Version { get; set; } = 5;
+    public int Version { get; set; } = 6;
 
     /// <summary>总开关。</summary>
     public bool Enabled { get; set; } = true;
@@ -52,8 +52,14 @@ public sealed class PluginConfiguration : IPluginConfiguration
     /// <summary>自动打字总开关（进 KTG 面板后自动输入当前词并回车）。</summary>
     public bool AutoPlay { get; set; } = true;
 
-    /// <summary>自动输入方式：paste_char（逐字粘贴，默认）/ paste / unicode / keystrokes / disabled。</summary>
+    /// <summary>自动输入方式：paste_char（逐字粘贴，默认）/ paste（整词粘贴）/ disabled。</summary>
     public string AutoInputMode { get; set; } = "paste_char";
+
+    /// <summary>固定频率：触发间隔不再随机波动，用 AutoFixedIntervalMs 固定值。</summary>
+    public bool AutoFixedInterval { get; set; }
+
+    /// <summary>固定频率的触发间隔（毫秒）。</summary>
+    public int AutoFixedIntervalMs { get; set; } = 1500;
 
     /// <summary>失焦时自动把游戏窗口切回前台（防止挂机/副本失败被踢）。</summary>
     public bool AutoRefocusGame { get; set; } = true;
@@ -65,7 +71,7 @@ public sealed class PluginConfiguration : IPluginConfiguration
     public string AutoTargetOrder { get; set; } = "screen_desc";
 
     /// <summary>每个字符输入间隔基准（毫秒）。</summary>
-    public int AutoCharDelayMs { get; set; } = 90;
+    public int AutoCharDelayMs { get; set; } = 120;
 
     /// <summary>拟人化：字符间隔随机抖动 + 随机停顿，避免机械固定节奏。</summary>
     public bool AutoHumanize { get; set; } = true;
@@ -77,14 +83,14 @@ public sealed class PluginConfiguration : IPluginConfiguration
     public int AutoJitterPercent { get; set; } = 40;
 
     /// <summary>看到新词后的反应延迟范围（毫秒）。</summary>
-    public int AutoStartDelayMinMs { get; set; } = 400;
+    public int AutoStartDelayMinMs { get; set; } = 600;
 
-    public int AutoStartDelayMaxMs { get; set; } = 1000;
+    public int AutoStartDelayMaxMs { get; set; } = 1500;
 
     /// <summary>打完字到按回车之间的停顿范围（毫秒）。</summary>
-    public int AutoSubmitDelayMinMs { get; set; } = 150;
+    public int AutoSubmitDelayMinMs { get; set; } = 200;
 
-    public int AutoSubmitDelayMaxMs { get; set; } = 400;
+    public int AutoSubmitDelayMaxMs { get; set; } = 500;
 
     /// <summary>自动抓取可疑面板（匹配 AddonKeywords 或首次出现）的 AtkValues 文本，写 logs\addon-text-*.log。</summary>
     public bool EnableAutoSnapshot { get; set; } = true;

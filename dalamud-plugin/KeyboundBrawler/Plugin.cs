@@ -47,6 +47,10 @@ public sealed class Plugin : IDalamudPlugin
     private DateTime lastSafetyLogAt = DateTime.MinValue;
     private DateTime lastFocusLogAt = DateTime.MinValue;
     private DateTime lastNoWordLogAt = DateTime.MinValue;
+    private readonly object submitGate = new();
+    private bool pendingSubmit;
+    private string pendingSubmitText = string.Empty;
+    private DateTime pendingSubmitAt;
 
     /// <summary>这些确认类对话框出现时，绝不能发按键（否则回车会确认默认选项，可能退本/退队）。</summary>
     private static readonly string[] BlockingAddons =
@@ -111,6 +115,29 @@ public sealed class Plugin : IDalamudPlugin
             Configuration.AutoSubmitDelayMinMs = 150;
             Configuration.AutoSubmitDelayMaxMs = 400;
             Configuration.Version = 5;
+            try
+            {
+                Configuration.Save();
+            }
+            catch
+            {
+                // 忽略
+            }
+        }
+
+        // v6：删掉无效输入方式 + 速度调慢（老配置自动迁移）
+        if (Configuration.Version < 6)
+        {
+            if (Configuration.AutoInputMode is "unicode" or "keystrokes")
+                Configuration.AutoInputMode = "paste_char";
+
+            Configuration.AutoCharDelayMs = 120;
+            Configuration.AutoJitterPercent = 40;
+            Configuration.AutoStartDelayMinMs = 600;
+            Configuration.AutoStartDelayMaxMs = 1500;
+            Configuration.AutoSubmitDelayMinMs = 200;
+            Configuration.AutoSubmitDelayMaxMs = 500;
+            Configuration.Version = 6;
             try
             {
                 Configuration.Save();
@@ -261,6 +288,7 @@ public sealed class Plugin : IDalamudPlugin
         LogTailer.Poll();
         CheckTerritoryAutoOpen();
         Ktg.Poll();
+        ProcessPendingSubmit();
         UpdateAutoLoop();
     }
 
@@ -389,13 +417,25 @@ public sealed class Plugin : IDalamudPlugin
         if (target is null)
             return;
 
-        // 节流：每次随机区间，避免固定节拍（正常 900~1500ms，演都不演 120~260ms）
+        // 节流：固定频率模式用固定值，否则随机区间（演都不演 120~260ms，正常 1200~2000ms）
         if (DateTime.Now < nextAutoAllowedAt)
             return;
 
-        var minIntervalMs = Configuration.AutoBlatantMode ? 120 : 900;
-        var maxIntervalMs = Configuration.AutoBlatantMode ? 260 : 1500;
-        nextAutoAllowedAt = DateTime.Now.AddMilliseconds(Random.Shared.Next(minIntervalMs, maxIntervalMs));
+        int intervalMs;
+        if (Configuration.AutoFixedInterval)
+        {
+            intervalMs = Math.Max(300, Configuration.AutoFixedIntervalMs);
+        }
+        else if (Configuration.AutoBlatantMode)
+        {
+            intervalMs = Random.Shared.Next(120, 260);
+        }
+        else
+        {
+            intervalMs = Random.Shared.Next(1200, 2000);
+        }
+
+        nextAutoAllowedAt = DateTime.Now.AddMilliseconds(intervalMs);
         lastAutoAt = DateTime.Now;
         wordAttempts[target] = wordAttempts.GetValueOrDefault(target, 0) + 1;
 
@@ -428,9 +468,19 @@ public sealed class Plugin : IDalamudPlugin
                     return;
                 }
 
-                var ok = AutoTyper.TypeAndEnter(text, mode);
-                var message = ok ? $"已自动输入「{text}」" : $"自动输入失败：{AutoTyper.LastError}";
-                WriteAutoLog($"[自动] {(ok ? "OK" : "FAIL")} 词「{target}」 输入「{text}」 反应{reaction}ms {AutoTyper.LastError}");
+                var ok = AutoTyper.TypeAndEnter(text, mode, submit: false);
+                if (ok)
+                {
+                    lock (submitGate)
+                    {
+                        pendingSubmit = true;
+                        pendingSubmitText = text;
+                        pendingSubmitAt = DateTime.Now;
+                    }
+                }
+
+                var message = ok ? $"已粘贴「{text}」，等待提交" : $"粘贴失败：{AutoTyper.LastError}";
+                WriteAutoLog($"[自动] {(ok ? "粘贴OK" : "FAIL")} 词「{target}」 输入「{text}」 反应{reaction}ms {AutoTyper.LastError}");
                 LastAutoMessage = message;
             }
             finally
@@ -515,6 +565,61 @@ public sealed class Plugin : IDalamudPlugin
         return result;
     }
 
+    /// <summary>
+    /// 主线程提交：只有确认输入框里真的有内容时才按回车。
+    /// 这是防"自动退本"的关键——空输入框按回车可能触发游戏其他确认行为。
+    /// </summary>
+    private void ProcessPendingSubmit()
+    {
+        bool pending;
+        string text;
+        DateTime at;
+        lock (submitGate)
+        {
+            pending = pendingSubmit;
+            text = pendingSubmitText;
+            at = pendingSubmitAt;
+        }
+
+        if (!pending)
+            return;
+
+        try
+        {
+            // 超时（2.5 秒没读到输入内容）就放弃提交
+            if ((DateTime.Now - at).TotalMilliseconds > 2500)
+            {
+                lock (submitGate) { pendingSubmit = false; }
+                WriteAutoLog($"[提交] 超时未检测到输入框内容，放弃提交「{text}」");
+                return;
+            }
+
+            // 游戏结束 / 输入框消失：绝不提交
+            var state = Ktg.State;
+            if (state.GameOver || !state.InGame || !Ktg.IsAddonVisible("KTGInput"))
+            {
+                lock (submitGate) { pendingSubmit = false; }
+                WriteAutoLog("[提交] 游戏已结束或输入框消失，跳过提交");
+                return;
+            }
+
+            // 输入框必须真的有内容才回车
+            var input = Ktg.ReadInput();
+            if (string.IsNullOrWhiteSpace(input))
+                return;
+
+            AutoTyper.SendEnter();
+            lock (submitGate) { pendingSubmit = false; }
+            WriteAutoLog($"[提交] 输入框「{input}」→ 已回车");
+            LastAutoMessage = $"已提交「{input}」";
+        }
+        catch (Exception ex)
+        {
+            lock (submitGate) { pendingSubmit = false; }
+            WriteAutoLog($"[提交] 异常：{ex.Message}");
+        }
+    }
+
     /// <summary>过滤明显不是词的内容（纯数字、空、过长），避免把面板里的数字当词输入。</summary>
     private static bool IsValidWord(string word)
     {
@@ -541,11 +646,8 @@ public sealed class Plugin : IDalamudPlugin
 
     private static AutoInputMode ParseMode(string mode) => mode switch
     {
-        "keystrokes" => AutoInputMode.Keystrokes,
-        "unicode" => AutoInputMode.Unicode,
         "disabled" => AutoInputMode.Disabled,
         "paste" => AutoInputMode.Paste,
-        "paste_char" => AutoInputMode.PasteChar,
         _ => AutoInputMode.PasteChar,
     };
 
