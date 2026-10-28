@@ -72,7 +72,21 @@ FF14 金碟游乐场打字玩法 **「魔光键影」（Keybound Brawler）** �
 - 每个词最多打 3 次，还打不动就换下一个；
 - 敌人死了词从列表消失后，计数自动清理。
 
-## 3. 构建 / 安装
+## 3. 安装
+
+### 方式 A：从 Dalamud 第三方仓库安装（推荐）
+
+1. 游戏内 `/xlplugins` → 设置 → **第三方插件仓库（Third-party Repositories）** → 添加：
+   ```
+   https://raw.githubusercontent.com/SiGeoMa/ff14-keybound-brawler/main/pluginmaster.json
+   ```
+2. 在插件列表里搜 `KeyboundBrawler` → 安装 → 启用（重启游戏后生效）。
+3. 游戏内 `/kbb` 打开窗口。
+
+- 仓库：<https://github.com/SiGeoMa/ff14-keybound-brawler>
+- 发布页：<https://github.com/SiGeoMa/ff14-keybound-brawler/releases>
+
+### 方式 B：本地构建
 
 ```powershell
 dotnet build ff14-keybound-brawler/dalamud-plugin/KeyboundBrawler/KeyboundBrawler.csproj -c Release

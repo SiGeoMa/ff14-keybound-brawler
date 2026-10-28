@@ -1,0 +1,31 @@
+[{
+    "Author":  "SiGeoMa",
+    "Name":  "KeyboundBrawler",
+    "Punchline":  "FF14 魔光键影（Keybound Brawler）自动打字",
+    "Description":  "自动读取金碟「魔光键影」KTG 面板里的敌人词，按屏幕位置先近后远集火，逐字输入并自动提交。含拟人化/演都不演模式、确认对话框防护、失焦切回前台。",
+    "InternalName":  "KeyboundBrawler",
+    "AssemblyVersion":  "0.3.0.0",
+    "RepoUrl":  "https://github.com/SiGeoMa/ff14-keybound-brawler",
+    "ApplicableVersion":  "any",
+    "Tags":  [
+                 "typing",
+                 "keybound",
+                 "brawler",
+                 "gold saucer",
+                 "金碟"
+             ],
+    "CategoryTags":  [
+                         "Utility"
+                     ],
+    "DalamudApiLevel":  15,
+    "IsHide":  false,
+    "IsTestingExclusive":  false,
+    "DownloadLink":  "https://github.com/SiGeoMa/ff14-keybound-brawler/releases/download/v0.3.0/KeyboundBrawler.zip",
+    "DownloadLinkInstall":  "https://github.com/SiGeoMa/ff14-keybound-brawler/releases/download/v0.3.0/KeyboundBrawler.zip",
+    "DownloadLinkUpdate":  "https://github.com/SiGeoMa/ff14-keybound-brawler/releases/download/v0.3.0/KeyboundBrawler.zip",
+    "DownloadLinkTesting":  null,
+    "IconUrl":  "",
+    "LastUpdate":  1793179708,
+    "DownloadCount":  0,
+    "LoadPriority":  0
+}]
