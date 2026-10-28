@@ -76,15 +76,18 @@ FF14 金碟游乐场打字玩法 **「魔光键影」（Keybound Brawler）** �
 
 ### 方式 A：从 Dalamud 第三方仓库安装（推荐）
 
+> 国内 `raw.githubusercontent.com` 经常不可达，所以清单用 **jsdelivr CDN** 分发。
+
 1. 游戏内 `/xlplugins` → 设置 → **第三方插件仓库（Third-party Repositories）** → 添加：
    ```
-   https://raw.githubusercontent.com/SiGeoMa/ff14-keybound-brawler/main/pluginmaster.json
+   https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-keybound-brawler@fbb39c25af8eb1976f92f9c4eeedb6202f23e3fb/pluginmaster.json
    ```
 2. 在插件列表里搜 `KeyboundBrawler` → 安装 → 启用（重启游戏后生效）。
 3. 游戏内 `/kbb` 打开窗口。
 
 - 仓库：<https://github.com/SiGeoMa/ff14-keybound-brawler>
 - 发布页：<https://github.com/SiGeoMa/ff14-keybound-brawler/releases>
+- 清单原始地址（GitHub 可直连时用）：`https://raw.githubusercontent.com/SiGeoMa/ff14-keybound-brawler/main/pluginmaster.json`
 
 ### 方式 B：本地构建
 
