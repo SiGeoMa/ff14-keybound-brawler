@@ -47,6 +47,7 @@ public sealed class Plugin : IDalamudPlugin
     private DateTime lastSafetyLogAt = DateTime.MinValue;
     private DateTime lastFocusLogAt = DateTime.MinValue;
     private DateTime lastNoWordLogAt = DateTime.MinValue;
+    private DateTime lastAfkWiggleAt = DateTime.MinValue;
     private readonly object submitGate = new();
     private bool pendingSubmit;
     private bool pendingDirectSubmit;
@@ -304,6 +305,7 @@ public sealed class Plugin : IDalamudPlugin
         LogTailer.Poll();
         CheckTerritoryAutoOpen();
         Ktg.Poll();
+        UpdateAntiAfk();
         ProcessPendingSubmit();
         UpdateAutoLoop();
     }
@@ -599,6 +601,30 @@ public sealed class Plugin : IDalamudPlugin
     }
 
     /// <summary>
+    /// 防 AFK：直接写入方式没有键盘事件，游戏可能判定玩家挂机。
+    /// 每隔一段时间发送无绑定按键（F13/Shift），骗过输入检测。
+    /// </summary>
+    private void UpdateAntiAfk()
+    {
+        if (!Configuration.AutoAntiAfk)
+            return;
+
+        if ((DateTime.Now - lastAfkWiggleAt).TotalSeconds < Math.Max(5, Configuration.AntiAfkIntervalSeconds))
+            return;
+
+        var state = Ktg.State;
+        if (!state.InGame || state.GameOver)
+            return;
+
+        if (!AutoTyper.IsGameForeground() || IsBlockingDialogVisible())
+            return;
+
+        lastAfkWiggleAt = DateTime.Now;
+        AutoTyper.SendAfkWiggle();
+        WriteAutoLog("[防AFK] 发送无绑定按键心跳");
+    }
+
+    /// <summary>
     /// 主线程提交：只有确认输入框里真的有内容时才按回车。
     /// 这是防"自动退本"的关键——空输入框按回车可能触发游戏其他确认行为。
     /// </summary>
@@ -647,6 +673,9 @@ public sealed class Plugin : IDalamudPlugin
                     WriteAutoLog("[提交] 前台/对话框状态不安全，跳过直接提交");
                     return;
                 }
+
+                // 提交前补一次键盘心跳（防 AFK 判定）
+                AutoTyper.SendAfkWiggle();
 
                 var ok = Ktg.TryDirectSubmit(text, out var error);
                 lock (submitGate) { pendingDirectSubmit = false; }

@@ -212,6 +212,23 @@ public sealed class MainWindow : Window
             plugin.SaveConfig();
         }
 
+        var antiAfk = config.AutoAntiAfk;
+        if (ImGui.Checkbox("防 AFK 心跳（定期发送无绑定按键，避免被判定挂机）", ref antiAfk))
+        {
+            config.AutoAntiAfk = antiAfk;
+            plugin.SaveConfig();
+        }
+
+        if (config.AutoAntiAfk)
+        {
+            var afkSeconds = config.AntiAfkIntervalSeconds;
+            if (ImGui.SliderInt("心跳间隔 (秒)", ref afkSeconds, 5, 120))
+            {
+                config.AntiAfkIntervalSeconds = afkSeconds;
+                plugin.SaveConfig();
+            }
+        }
+
         // ── 拟人化 ───────────────────────────────────────────
         ImGui.Separator();
         ImGui.TextColored(Gold, "拟人化输入（避免固定机械节奏）");

@@ -64,6 +64,12 @@ public sealed class PluginConfiguration : IPluginConfiguration
     /// <summary>失焦时自动把游戏窗口切回前台（防止挂机/副本失败被踢）。</summary>
     public bool AutoRefocusGame { get; set; } = true;
 
+    /// <summary>防 AFK：定期发送无绑定按键，避免自动打字（无键盘事件）被判定挂机。</summary>
+    public bool AutoAntiAfk { get; set; } = true;
+
+    /// <summary>防 AFK 心跳间隔（秒）。</summary>
+    public int AntiAfkIntervalSeconds { get; set; } = 20;
+
     /// <summary>输入内容：word（原词，中文）/ pinyin（用词库把词转拼音）。</summary>
     public string AutoInputContent { get; set; } = "word";
 
