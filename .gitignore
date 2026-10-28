@@ -1,0 +1,14 @@
+# 构建产物
+bin/
+obj/
+*.user
+*.suo
+.vs/
+
+# Dalamud 打包
+latest.zip
+
+# 本地日志 / 临时文件
+logs/
+*.log
+_scratch/

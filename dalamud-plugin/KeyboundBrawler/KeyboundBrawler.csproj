@@ -1,0 +1,49 @@
+﻿<Project Sdk="Dalamud.NET.Sdk/15.0.0">
+
+  <PropertyGroup>
+    <Version>0.3.0.0</Version>
+
+    <!-- 读取游戏 AtkAddon 文本节点需要 unsafe -->
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+
+    <!-- Dalamud 插件清单字段（与 KeyboundBrawler.json 保持一致） -->
+    <Author>keybound-brawler</Author>
+    <Name>KeyboundBrawler</Name>
+    <Punchline>FF14 魔光键影打字训练 / 日志采集占位</Punchline>
+    <Description>本地打字练习（内置魔光键影词库）+ 游戏聊天 / Dalamud 日志采集通道，供后续接入真实玩法数据。</Description>
+    <RepoUrl>https://github.com/keybound-brawler/ff14-keybound-brawler</RepoUrl>
+    <Tags>typing;keybound;brawler;gold saucer;training</Tags>
+    <CategoryTags>Utility</CategoryTags>
+    <DalamudApiLevel>15</DalamudApiLevel>
+    <MinimumDalamudVersion>15.0.0.0</MinimumDalamudVersion>
+  </PropertyGroup>
+
+  <!--
+    国服 XIVLauncher 的 Dalamud 安装目录是 %APPDATA%\XIVLauncherCN\addon\Hooks\dev
+    （国际服是 %APPDATA%\XIVLauncher\addon\Hooks\dev）。SDK 默认只认国际服路径，
+    这里在默认路径不存在时回退到国服路径；两种都找不到时 build 会给出明确报错。
+    也可以用环境变量 DALAMUD_HOME 指定自己的 Dalamud dev 目录。
+  -->
+  <PropertyGroup>
+    <DalamudLibPath Condition="!Exists('$(DalamudLibPath)') and Exists('$(appdata)\XIVLauncherCN\addon\Hooks\dev\Dalamud.dll')">$(appdata)\XIVLauncherCN\addon\Hooks\dev\</DalamudLibPath>
+    <!-- Dalamud.NET.Sdk 在 Sdk.props 里用默认路径拼了 AssemblySearchPaths，覆盖后要补上 -->
+    <AssemblySearchPaths>$(AssemblySearchPaths);$(DalamudLibPath)</AssemblySearchPaths>
+  </PropertyGroup>
+
+  <!-- 插件清单：Dalamud dev plugin 需要 DLL 同目录下的 json（打包器也会读它） -->
+  <ItemGroup>
+    <Content Include="KeyboundBrawler.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Visible>false</Visible>
+    </Content>
+  </ItemGroup>
+
+  <!-- 内置词库：首次启动时拷贝到 pluginConfigs\KeyboundBrawler\data\ -->
+  <ItemGroup>
+    <Content Include="data\**\*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Visible>false</Visible>
+    </Content>
+  </ItemGroup>
+
+</Project>

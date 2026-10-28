@@ -1,0 +1,26 @@
+{
+  "Author": "keybound-brawler",
+  "Name": "KeyboundBrawler",
+  "InternalName": "KeyboundBrawler",
+  "Punchline": "FF14 魔光键影打字训练 / 日志采集占位",
+  "Description": "本地打字练习（内置魔光键影词库）+ 游戏聊天 / Dalamud 日志采集通道，供后续接入真实玩法数据。",
+  "ApplicableVersion": "any",
+  "RepoUrl": "https://github.com/keybound-brawler/ff14-keybound-brawler",
+  "Tags": [
+    "typing",
+    "keybound",
+    "brawler",
+    "gold saucer",
+    "training"
+  ],
+  "CategoryTags": [
+    "Utility"
+  ],
+  "DalamudApiLevel": 15,
+  "MinimumDalamudVersion": "15.0.0.0",
+  "LoadRequiredState": 0,
+  "LoadSync": false,
+  "CanUnloadAsync": false,
+  "LoadPriority": 0,
+  "AcceptsFeedback": false
+}

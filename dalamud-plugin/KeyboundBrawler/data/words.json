@@ -1,0 +1,7266 @@
+{
+ "source": "输入法词库/词条总表.tsv",
+ "count": 1210,
+ "words": [
+  {
+   "word": "神罗",
+   "pinyin": "shenluo",
+   "pinyinSpaced": "shen luo",
+   "freq": 1
+  },
+  {
+   "word": "蒂法",
+   "pinyin": "difa",
+   "pinyinSpaced": "di fa",
+   "freq": 1
+  },
+  {
+   "word": "克劳德",
+   "pinyin": "kelaode",
+   "pinyinSpaced": "ke lao de",
+   "freq": 1
+  },
+  {
+   "word": "巴雷特",
+   "pinyin": "baleite",
+   "pinyinSpaced": "ba lei te",
+   "freq": 1
+  },
+  {
+   "word": "杰西",
+   "pinyin": "jiexi",
+   "pinyinSpaced": "jie xi",
+   "freq": 1
+  },
+  {
+   "word": "神罗战士",
+   "pinyin": "shenluozhanshi",
+   "pinyinSpaced": "shen luo zhan shi",
+   "freq": 1
+  },
+  {
+   "word": "雪崩",
+   "pinyin": "xuebeng",
+   "pinyinSpaced": "xue beng",
+   "freq": 1
+  },
+  {
+   "word": "猎敌者",
+   "pinyin": "liedizhe",
+   "pinyinSpaced": "lie di zhe",
+   "freq": 1
+  },
+  {
+   "word": "海德格",
+   "pinyin": "haidege",
+   "pinyinSpaced": "hai de ge",
+   "freq": 1
+  },
+  {
+   "word": "星球的哀号",
+   "pinyin": "xingqiudeaihao",
+   "pinyinSpaced": "xing qiu de ai hao",
+   "freq": 1
+  },
+  {
+   "word": "第捌区",
+   "pinyin": "dibaqu",
+   "pinyinSpaced": "di ba qu",
+   "freq": 1
+  },
+  {
+   "word": "我没兴趣",
+   "pinyin": "womeixingqu",
+   "pinyinSpaced": "wo mei xing qu",
+   "freq": 1
+  },
+  {
+   "word": "神罗总裁",
+   "pinyin": "shenluozongcai",
+   "pinyinSpaced": "shen luo zong cai",
+   "freq": 1
+  },
+  {
+   "word": "别擅自把我当成一伙的",
+   "pinyin": "bieshanzibawodangchengyihuode",
+   "pinyinSpaced": "bie shan zi ba wo dang cheng yi huo de",
+   "freq": 1
+  },
+  {
+   "word": "强硬和愚蠢只有一线之隔",
+   "pinyin": "qiangyingheyuchunzhiyouyixianzhige",
+   "pinyinSpaced": "qiang ying he yu chun zhi you yi xian zhi ge",
+   "freq": 1
+  },
+  {
+   "word": "胖莫古力",
+   "pinyin": "pangmoguli",
+   "pinyinSpaced": "pang mo gu li",
+   "freq": 1
+  },
+  {
+   "word": "宇宙骑士团",
+   "pinyin": "yuzhouqishituan",
+   "pinyinSpaced": "yu zhou qi shi tuan",
+   "freq": 1
+  },
+  {
+   "word": "单手是枪的男人",
+   "pinyin": "danshoushiqiangdenanren",
+   "pinyinSpaced": "dan shou shi qiang de nan ren",
+   "freq": 1
+  },
+  {
+   "word": "孤狼盖斯",
+   "pinyin": "gulanggaisi",
+   "pinyinSpaced": "gu lang gai si",
+   "freq": 1
+  },
+  {
+   "word": "葛斯老弟",
+   "pinyin": "gesilaodi",
+   "pinyinSpaced": "ge si lao di",
+   "freq": 1
+  },
+  {
+   "word": "艾丝特",
+   "pinyin": "aisite",
+   "pinyinSpaced": "ai si te",
+   "freq": 1
+  },
+  {
+   "word": "人生就是战斗",
+   "pinyin": "renshengjiushizhandou",
+   "pinyinSpaced": "ren sheng jiu shi zhan dou",
+   "freq": 1
+  },
+  {
+   "word": "塔克斯的制服为什么是黑色的啊",
+   "pinyin": "takesidezhifuweishenmeshiheisedea",
+   "pinyinSpaced": "ta ke si de zhi fu wei shen me shi hei se de a",
+   "freq": 1
+  },
+  {
+   "word": "请多指教",
+   "pinyin": "qingduozhijiao",
+   "pinyinSpaced": "qing duo zhi jiao",
+   "freq": 1
+  },
+  {
+   "word": "陆行鸟房",
+   "pinyin": "luxingniaofang",
+   "pinyinSpaced": "lu xing niao fang",
+   "freq": 1
+  },
+  {
+   "word": "艾蕾诺雅",
+   "pinyin": "aileinuoya",
+   "pinyinSpaced": "ai lei nuo ya",
+   "freq": 1
+  },
+  {
+   "word": "蜜娜",
+   "pinyin": "mina",
+   "pinyinSpaced": "mi na",
+   "freq": 1
+  },
+  {
+   "word": "给我圣灵药",
+   "pinyin": "geiwoshenglingyao",
+   "pinyinSpaced": "gei wo sheng ling yao",
+   "freq": 1
+  },
+  {
+   "word": "给我回旋镖",
+   "pinyin": "geiwohuixuanbiao",
+   "pinyinSpaced": "gei wo hui xuan biao",
+   "freq": 1
+  },
+  {
+   "word": "给我狼牙棒",
+   "pinyin": "geiwolangyabang",
+   "pinyinSpaced": "gei wo lang ya bang",
+   "freq": 1
+  },
+  {
+   "word": "给我突击炮",
+   "pinyin": "geiwotujipao",
+   "pinyinSpaced": "gei wo tu ji pao",
+   "freq": 1
+  },
+  {
+   "word": "给我缎带",
+   "pinyin": "geiwoduandai",
+   "pinyinSpaced": "gei wo duan dai",
+   "freq": 1
+  },
+  {
+   "word": "给我光之盾",
+   "pinyin": "geiwoguangzhidun",
+   "pinyinSpaced": "gei wo guang zhi dun",
+   "freq": 1
+  },
+  {
+   "word": "给我魔晶石",
+   "pinyin": "geiwomojingshi",
+   "pinyinSpaced": "gei wo mo jing shi",
+   "freq": 1
+  },
+  {
+   "word": "走了新来的",
+   "pinyin": "zoulexinlaide",
+   "pinyinSpaced": "zou le xin lai de",
+   "freq": 1
+  },
+  {
+   "word": "那是我的工作不需要谢礼",
+   "pinyin": "nashiwodegongzuobuxuyaoxieli",
+   "pinyinSpaced": "na shi wo de gong zuo bu xu yao xie li",
+   "freq": 1
+  },
+  {
+   "word": "玛琳",
+   "pinyin": "malin",
+   "pinyinSpaced": "ma lin",
+   "freq": 1
+  },
+  {
+   "word": "你真直接",
+   "pinyin": "nizhenzhijie",
+   "pinyinSpaced": "ni zhen zhi jie",
+   "freq": 1
+  },
+  {
+   "word": "爱丽丝",
+   "pinyin": "ailisi",
+   "pinyinSpaced": "ai li si",
+   "freq": 1
+  },
+  {
+   "word": "扎克斯",
+   "pinyin": "zhakesi",
+   "pinyinSpaced": "zha ke si",
+   "freq": 1
+  },
+  {
+   "word": "萨菲罗斯",
+   "pinyin": "safeiluosi",
+   "pinyinSpaced": "sa fei luo si",
+   "freq": 1
+  },
+  {
+   "word": "菲拉",
+   "pinyin": "feila",
+   "pinyinSpaced": "fei la",
+   "freq": 1
+  },
+  {
+   "word": "神罗兵",
+   "pinyin": "shenluobing",
+   "pinyinSpaced": "shen luo bing",
+   "freq": 1
+  },
+  {
+   "word": "尼福尔海姆",
+   "pinyin": "nifuerhaimu",
+   "pinyinSpaced": "ni fu er hai mu",
+   "freq": 1
+  },
+  {
+   "word": "星球的生命",
+   "pinyin": "xingqiudeshengming",
+   "pinyinSpaced": "xing qiu de sheng ming",
+   "freq": 1
+  },
+  {
+   "word": "第壹区",
+   "pinyin": "diyiqu",
+   "pinyinSpaced": "di yi qu",
+   "freq": 1
+  },
+  {
+   "word": "军事猎犬",
+   "pinyin": "junshiliequan",
+   "pinyinSpaced": "jun shi lie quan",
+   "freq": 1
+  },
+  {
+   "word": "收下这朵花吧",
+   "pinyin": "shouxiazheduohuaba",
+   "pinyinSpaced": "shou xia zhe duo hua ba",
+   "freq": 1
+  },
+  {
+   "word": "神罗治安维护部队",
+   "pinyin": "shenluozhianweihubudui",
+   "pinyinSpaced": "shen luo zhi an wei hu bu dui",
+   "freq": 1
+  },
+  {
+   "word": "第柒区贫民窟",
+   "pinyin": "diqiqupinminku",
+   "pinyinSpaced": "di qi qu pin min ku",
+   "freq": 1
+  },
+  {
+   "word": "不会屈服于胁迫",
+   "pinyin": "buhuiqufuyuxiepo",
+   "pinyinSpaced": "bu hui qu fu yu xie po",
+   "freq": 1
+  },
+  {
+   "word": "哈非常好",
+   "pinyin": "hafeichanghao",
+   "pinyinSpaced": "ha fei chang hao",
+   "freq": 1
+  },
+  {
+   "word": "第捌区车站",
+   "pinyin": "dibaquchezhan",
+   "pinyinSpaced": "di ba qu che zhan",
+   "freq": 1
+  },
+  {
+   "word": "我会扛起一切",
+   "pinyin": "wohuikangqiyiqie",
+   "pinyinSpaced": "wo hui kang qi yi qie",
+   "freq": 1
+  },
+  {
+   "word": "我们的星球即将消失",
+   "pinyin": "womendexingqiujijiangxiaoshi",
+   "pinyinSpaced": "wo men de xing qiu ji jiang xiao shi",
+   "freq": 1
+  },
+  {
+   "word": "无法违逆既定的轨道",
+   "pinyin": "wufaweinijidingdeguidao",
+   "pinyinSpaced": "wu fa wei ni ji ding de gui dao",
+   "freq": 1
+  },
+  {
+   "word": "玛蕾",
+   "pinyin": "malei",
+   "pinyinSpaced": "ma lei",
+   "freq": 1
+  },
+  {
+   "word": "怀默",
+   "pinyin": "huaimo",
+   "pinyinSpaced": "huai mo",
+   "freq": 1
+  },
+  {
+   "word": "乔尼",
+   "pinyin": "qiaoni",
+   "pinyinSpaced": "qiao ni",
+   "freq": 1
+  },
+  {
+   "word": "警备兵",
+   "pinyin": "jingbeibing",
+   "pinyinSpaced": "jing bei bing",
+   "freq": 1
+  },
+  {
+   "word": "万能帮手",
+   "pinyin": "wannengbangshou",
+   "pinyinSpaced": "wan neng bang shou",
+   "freq": 1
+  },
+  {
+   "word": "逗你的",
+   "pinyin": "dounide",
+   "pinyinSpaced": "dou ni de",
+   "freq": 1
+  },
+  {
+   "word": "陷入了困境",
+   "pinyin": "xianrulekunjing",
+   "pinyinSpaced": "xian ru le kun jing",
+   "freq": 1
+  },
+  {
+   "word": "瓦砾大街",
+   "pinyin": "walidajie",
+   "pinyinSpaced": "wa li da jie",
+   "freq": 1
+  },
+  {
+   "word": "第七天堂",
+   "pinyin": "diqitiantang",
+   "pinyinSpaced": "di qi tian tang",
+   "freq": 1
+  },
+  {
+   "word": "星殒峡谷",
+   "pinyin": "xingyunxiagu",
+   "pinyinSpaced": "xing yun xia gu",
+   "freq": 1
+  },
+  {
+   "word": "贫民窟生活守则",
+   "pinyin": "pinminkushenghuoshouze",
+   "pinyinSpaced": "pin min ku sheng huo shou ze",
+   "freq": 1
+  },
+  {
+   "word": "暴力是不对的",
+   "pinyin": "baolishibuduide",
+   "pinyinSpaced": "bao li shi bu dui de",
+   "freq": 1
+  },
+  {
+   "word": "爸爸欢迎回来",
+   "pinyin": "babahuanyinghuilai",
+   "pinyinSpaced": "ba ba huan ying hui lai",
+   "freq": 1
+  },
+  {
+   "word": "我们似乎特别走运呢",
+   "pinyin": "womensihutebiezouyunne",
+   "pinyinSpaced": "wo men si hu te bie zou yun ne",
+   "freq": 1
+  },
+  {
+   "word": "罗榭",
+   "pinyin": "luoxie",
+   "pinyinSpaced": "luo xie",
+   "freq": 1
+  },
+  {
+   "word": "五台",
+   "pinyin": "wutai",
+   "pinyinSpaced": "wu tai",
+   "freq": 1
+  },
+  {
+   "word": "米德加特制总汇",
+   "pinyin": "midejiatezhizonghui",
+   "pinyinSpaced": "mi de jia te zhi zong hui",
+   "freq": 1
+  },
+  {
+   "word": "你很大胆嘛我的朋友",
+   "pinyin": "nihendadanmawodepengyou",
+   "pinyinSpaced": "ni hen da dan ma wo de peng you",
+   "freq": 1
+  },
+  {
+   "word": "激光扫射机",
+   "pinyin": "jiguangsaosheji",
+   "pinyinSpaced": "ji guang sao she ji",
+   "freq": 1
+  },
+  {
+   "word": "暴风破坏者",
+   "pinyin": "baofengpohuaizhe",
+   "pinyinSpaced": "bao feng po huai zhe",
+   "freq": 1
+  },
+  {
+   "word": "全都讨厌得不得了",
+   "pinyin": "quandoutaoyandebudeliao",
+   "pinyinSpaced": "quan dou tao yan de bu de liao",
+   "freq": 1
+  },
+  {
+   "word": "可别忘了微笑啊",
+   "pinyin": "kebiewangleweixiaoa",
+   "pinyinSpaced": "ke bie wang le wei xiao a",
+   "freq": 1
+  },
+  {
+   "word": "肮脏的鼠辈欢迎你们",
+   "pinyin": "angzangdeshubeihuanyingnimen",
+   "pinyinSpaced": "ang zang de shu bei huan ying ni men",
+   "freq": 1
+  },
+  {
+   "word": "我们会立刻彻底铲除你们",
+   "pinyin": "womenhuilikechedichanchunimen",
+   "pinyinSpaced": "wo men hui li ke che di chan chu ni men",
+   "freq": 1
+  },
+  {
+   "word": "雷诺",
+   "pinyin": "leinuo",
+   "pinyinSpaced": "lei nuo",
+   "freq": 1
+  },
+  {
+   "word": "麦子",
+   "pinyin": "maizi",
+   "pinyinSpaced": "mai zi",
+   "freq": 1
+  },
+  {
+   "word": "路德",
+   "pinyin": "lude",
+   "pinyinSpaced": "lu de",
+   "freq": 1
+  },
+  {
+   "word": "塔克斯",
+   "pinyin": "takesi",
+   "pinyinSpaced": "ta ke si",
+   "freq": 1
+  },
+  {
+   "word": "艾米娜",
+   "pinyin": "aimina",
+   "pinyinSpaced": "ai mi na",
+   "freq": 1
+  },
+  {
+   "word": "再结合",
+   "pinyin": "zaijiehe",
+   "pinyinSpaced": "zai jie he",
+   "freq": 1
+  },
+  {
+   "word": "克劳蒂亚斯特莱夫",
+   "pinyin": "kelaodiyasitelaifu",
+   "pinyinSpaced": "ke lao di ya si te lai fu",
+   "freq": 1
+  },
+  {
+   "word": "史卡蕾特",
+   "pinyin": "shikaleite",
+   "pinyinSpaced": "shi ka lei te",
+   "freq": 1
+  },
+  {
+   "word": "绿叶之家",
+   "pinyin": "lvyezhijia",
+   "pinyinSpaced": "lv ye zhi jia",
+   "freq": 1
+  },
+  {
+   "word": "打扰了",
+   "pinyin": "daraole",
+   "pinyinSpaced": "da rao le",
+   "freq": 1
+  },
+  {
+   "word": "第伍区贫民窟",
+   "pinyin": "diwuqupinminku",
+   "pinyinSpaced": "di wu qu pin min ku",
+   "freq": 1
+  },
+  {
+   "word": "我想多跟你在一起嘛",
+   "pinyin": "woxiangduogennizaiyiqima",
+   "pinyinSpaced": "wo xiang duo gen ni zai yi qi ma",
+   "freq": 1
+  },
+  {
+   "word": "阿尼安",
+   "pinyin": "anian",
+   "pinyinSpaced": "a ni an",
+   "freq": 1
+  },
+  {
+   "word": "赭红猎犬",
+   "pinyin": "zhehongliequan",
+   "pinyinSpaced": "zhe hong lie quan",
+   "freq": 1
+  },
+  {
+   "word": "贝格",
+   "pinyin": "beige",
+   "pinyinSpaced": "bei ge",
+   "freq": 1
+  },
+  {
+   "word": "巴德",
+   "pinyin": "bade",
+   "pinyinSpaced": "ba de",
+   "freq": 1
+  },
+  {
+   "word": "索奇",
+   "pinyin": "suoqi",
+   "pinyinSpaced": "suo qi",
+   "freq": 1
+  },
+  {
+   "word": "柯奇",
+   "pinyin": "keqi",
+   "pinyinSpaced": "ke qi",
+   "freq": 1
+  },
+  {
+   "word": "陆行鸟",
+   "pinyin": "luxingniao",
+   "pinyinSpaced": "lu xing niao",
+   "freq": 1
+  },
+  {
+   "word": "雷兹利",
+   "pinyin": "leizili",
+   "pinyinSpaced": "lei zi li",
+   "freq": 1
+  },
+  {
+   "word": "普裘",
+   "pinyin": "puqiu",
+   "pinyinSpaced": "pu qiu",
+   "freq": 1
+  },
+  {
+   "word": "帕尔默",
+   "pinyin": "paermo",
+   "pinyinSpaced": "pa er mo",
+   "freq": 1
+  },
+  {
+   "word": "地狱屋",
+   "pinyin": "diyuwu",
+   "pinyinSpaced": "di yu wu",
+   "freq": 1
+  },
+  {
+   "word": "下流人渣",
+   "pinyin": "xialiurenzha",
+   "pinyinSpaced": "xia liu ren zha",
+   "freq": 1
+  },
+  {
+   "word": "就捏烂哦",
+   "pinyin": "jiunielano",
+   "pinyinSpaced": "jiu nie lan o",
+   "freq": 1
+  },
+  {
+   "word": "第陆区",
+   "pinyin": "diluqu",
+   "pinyinSpaced": "di lu qu",
+   "freq": 1
+  },
+  {
+   "word": "巨刀机械",
+   "pinyin": "judaojixie",
+   "pinyinSpaced": "ju dao ji xie",
+   "freq": 1
+  },
+  {
+   "word": "呵嘻呵嘻",
+   "pinyin": "hexihexi",
+   "pinyinSpaced": "he xi he xi",
+   "freq": 1
+  },
+  {
+   "word": "蜜蜂之馆",
+   "pinyin": "mifengzhiguan",
+   "pinyinSpaced": "mi feng zhi guan",
+   "freq": 1
+  },
+  {
+   "word": "围墙商店街",
+   "pinyin": "weiqiangshangdianjie",
+   "pinyinSpaced": "wei qiang shang dian jie",
+   "freq": 1
+  },
+  {
+   "word": "干脆扭断好了",
+   "pinyin": "gancuiniuduanhaole",
+   "pinyinSpaced": "gan cui niu duan hao le",
+   "freq": 1
+  },
+  {
+   "word": "不错我有点心动",
+   "pinyin": "bucuowoyoudianxindong",
+   "pinyinSpaced": "bu cuo wo you dian xin dong",
+   "freq": 1
+  },
+  {
+   "word": "我第一个喜欢上的人",
+   "pinyin": "wodiyigexihuanshangderen",
+   "pinyinSpaced": "wo di yi ge xi huan shang de ren",
+   "freq": 1
+  },
+  {
+   "word": "绿意公园",
+   "pinyin": "lvyigongyuan",
+   "pinyinSpaced": "lv yi gong yuan",
+   "freq": 1
+  },
+  {
+   "word": "来吧期待已久的表演时间到了",
+   "pinyin": "laibaqidaiyijiudebiaoyanshijiandaole",
+   "pinyinSpaced": "lai ba qi dai yi jiu de biao yan shi jian dao le",
+   "freq": 1
+  },
+  {
+   "word": "让你成为最棒的新娘",
+   "pinyin": "rangnichengweizuibangdexinniang",
+   "pinyinSpaced": "rang ni cheng wei zui bang de xin niang",
+   "freq": 1
+  },
+  {
+   "word": "克劳德我可以叫你大哥吗",
+   "pinyin": "kelaodewokeyijiaonidagema",
+   "pinyinSpaced": "ke lao de wo ke yi jiao ni da ge ma",
+   "freq": 1
+  },
+  {
+   "word": "克劳德我可以动粗吗",
+   "pinyin": "kelaodewokeyidongcuma",
+   "pinyinSpaced": "ke lao de wo ke yi dong cu ma",
+   "freq": 1
+  },
+  {
+   "word": "阿勃祖",
+   "pinyin": "abozu",
+   "pinyinSpaced": "a bo zu",
+   "freq": 1
+  },
+  {
+   "word": "鱼人",
+   "pinyin": "yuren",
+   "pinyinSpaced": "yu ren",
+   "freq": 1
+  },
+  {
+   "word": "里维",
+   "pinyin": "liwei",
+   "pinyinSpaced": "li wei",
+   "freq": 1
+  },
+  {
+   "word": "克里普歇",
+   "pinyin": "kelipuxie",
+   "pinyinSpaced": "ke li pu xie",
+   "freq": 1
+  },
+  {
+   "word": "埃力格",
+   "pinyin": "ailige",
+   "pinyinSpaced": "ai li ge",
+   "freq": 1
+  },
+  {
+   "word": "闪光鬼魂",
+   "pinyin": "shanguangguihun",
+   "pinyinSpaced": "shan guang gui hun",
+   "freq": 1
+  },
+  {
+   "word": "列车墓地",
+   "pinyin": "liechemudi",
+   "pinyinSpaced": "lie che mu di",
+   "freq": 1
+  },
+  {
+   "word": "对付鬼不是我的专长",
+   "pinyin": "duifuguibushiwodezhuanchang",
+   "pinyinSpaced": "dui fu gui bu shi wo de zhuan chang",
+   "freq": 1
+  },
+  {
+   "word": "它瞄准的敌人没有一个跑得掉",
+   "pinyin": "tamiaozhundedirenmeiyouyigepaodediao",
+   "pinyinSpaced": "ta miao zhun de di ren mei you yi ge pao de diao",
+   "freq": 1
+  },
+  {
+   "word": "捉迷藏就到此为止了",
+   "pinyin": "zhuomicangjiudaociweizhile",
+   "pinyinSpaced": "zhuo mi cang jiu dao ci wei zhi le",
+   "freq": 1
+  },
+  {
+   "word": "演技真是差劲",
+   "pinyin": "yanjizhenshichajin",
+   "pinyinSpaced": "yan ji zhen shi cha jin",
+   "freq": 1
+  },
+  {
+   "word": "强盗",
+   "pinyin": "qiangdao",
+   "pinyinSpaced": "qiang dao",
+   "freq": 1
+  },
+  {
+   "word": "幼年阿勃祖",
+   "pinyin": "younianabozu",
+   "pinyinSpaced": "you nian a bo zu",
+   "freq": 1
+  },
+  {
+   "word": "竟然搞错该回去的地方",
+   "pinyin": "jingrangaocuogaihuiqudedifang",
+   "pinyinSpaced": "jing ran gao cuo gai hui qu de di fang",
+   "freq": 1
+  },
+  {
+   "word": "琪里耶",
+   "pinyin": "qiliye",
+   "pinyinSpaced": "qi li ye",
+   "freq": 1
+  },
+  {
+   "word": "古代种",
+   "pinyin": "gudaizhong",
+   "pinyinSpaced": "gu dai zhong",
+   "freq": 1
+  },
+  {
+   "word": "但你不要喜欢上我哦",
+   "pinyin": "dannibuyaoxihuanshangwoo",
+   "pinyinSpaced": "dan ni bu yao xi huan shang wo o",
+   "freq": 1
+  },
+  {
+   "word": "失去会使你变强",
+   "pinyin": "shiquhuishinibianqiang",
+   "pinyinSpaced": "shi qu hui shi ni bian qiang",
+   "freq": 1
+  },
+  {
+   "word": "万事通琪里耶的特大新闻哦",
+   "pinyin": "wanshitongqiliyedetedaxinweno",
+   "pinyinSpaced": "wan shi tong qi li ye de te da xin wen o",
+   "freq": 1
+  },
+  {
+   "word": "螺旋飞行重炮",
+   "pinyin": "luoxuanfeixingzhongpao",
+   "pinyinSpaced": "luo xuan fei xing zhong pao",
+   "freq": 1
+  },
+  {
+   "word": "热身运动结束了",
+   "pinyin": "reshenyundongjieshule",
+   "pinyinSpaced": "re shen yun dong jie shu le",
+   "freq": 1
+  },
+  {
+   "word": "我会给你一个难忘的夜晚",
+   "pinyin": "wohuigeiniyigenanwangdeyewan",
+   "pinyinSpaced": "wo hui gei ni yi ge nan wang de ye wan",
+   "freq": 1
+  },
+  {
+   "word": "米德加的市长最棒了",
+   "pinyin": "midejiadeshizhangzuibangle",
+   "pinyinSpaced": "mi de jia de shi zhang zui bang le",
+   "freq": 1
+  },
+  {
+   "word": "哈特",
+   "pinyin": "hate",
+   "pinyinSpaced": "ha te",
+   "freq": 1
+  },
+  {
+   "word": "赛特拉",
+   "pinyin": "saitela",
+   "pinyinSpaced": "sai te la",
+   "freq": 1
+  },
+  {
+   "word": "杰诺瓦",
+   "pinyin": "jienuowa",
+   "pinyinSpaced": "jie nuo wa",
+   "freq": 1
+  },
+  {
+   "word": "神罗大厦",
+   "pinyin": "shenluodasha",
+   "pinyinSpaced": "shen luo da sha",
+   "freq": 1
+  },
+  {
+   "word": "宝条",
+   "pinyin": "baotiao",
+   "pinyinSpaced": "bao tiao",
+   "freq": 1
+  },
+  {
+   "word": "剑舞",
+   "pinyin": "jianwu",
+   "pinyinSpaced": "jian wu",
+   "freq": 1
+  },
+  {
+   "word": "路法斯",
+   "pinyin": "lufasi",
+   "pinyinSpaced": "lu fa si",
+   "freq": 1
+  },
+  {
+   "word": "应许之地",
+   "pinyin": "yingxuzhidi",
+   "pinyinSpaced": "ying xu zhi di",
+   "freq": 1
+  },
+  {
+   "word": "科学部门",
+   "pinyin": "kexuebumen",
+   "pinyinSpaced": "ke xue bu men",
+   "freq": 1
+  },
+  {
+   "word": "多米诺市长",
+   "pinyin": "duominuoshizhang",
+   "pinyinSpaced": "duo mi nuo shi zhang",
+   "freq": 1
+  },
+  {
+   "word": "贫民窟的卖花女",
+   "pinyin": "pinminkudemaihuanv",
+   "pinyinSpaced": "pin min ku de mai hua nv",
+   "freq": 1
+  },
+  {
+   "word": "都市开发部门",
+   "pinyin": "dushikaifabumen",
+   "pinyinSpaced": "du shi kai fa bu men",
+   "freq": 1
+  },
+  {
+   "word": "命运守望者",
+   "pinyin": "mingyunshouwangzhe",
+   "pinyinSpaced": "ming yun shou wang zhe",
+   "freq": 1
+  },
+  {
+   "word": "这是感人的重逢",
+   "pinyin": "zheshiganrendechongfeng",
+   "pinyinSpaced": "zhe shi gan ren de chong feng",
+   "freq": 1
+  },
+  {
+   "word": "兵器开发部门",
+   "pinyin": "bingqikaifabumen",
+   "pinyinSpaced": "bing qi kai fa bu men",
+   "freq": 1
+  },
+  {
+   "word": "宇宙开发部门",
+   "pinyin": "yuzhoukaifabumen",
+   "pinyinSpaced": "yu zhou kai fa bu men",
+   "freq": 1
+  },
+  {
+   "word": "然后回到应许之地",
+   "pinyin": "ranhouhuidaoyingxuzhidi",
+   "pinyinSpaced": "ran hou hui dao ying xu zhi di",
+   "freq": 1
+  },
+  {
+   "word": "我居然忘记猪油已经用完了",
+   "pinyin": "wojuranwangjizhuyouyijingyongwanle",
+   "pinyinSpaced": "wo ju ran wang ji zhu you yi jing yong wan le",
+   "freq": 1
+  },
+  {
+   "word": "来吧展现你华丽的姿态",
+   "pinyin": "laibazhanxiannihualidezitai",
+   "pinyinSpaced": "lai ba zhan xian ni hua li de zi tai",
+   "freq": 1
+  },
+  {
+   "word": "妈妈一起取回这个星球吧",
+   "pinyin": "mamayiqiquhuizhegexingqiuba",
+   "pinyinSpaced": "ma ma yi qi qu hui zhe ge xing qiu ba",
+   "freq": 1
+  },
+  {
+   "word": "神罗会在我手中脱胎换骨",
+   "pinyin": "shenluohuizaiwoshouzhongtuotaihuangu",
+   "pinyinSpaced": "shen luo hui zai wo shou zhong tuo tai huan gu",
+   "freq": 1
+  },
+  {
+   "word": "星球的未来",
+   "pinyin": "xingqiudeweilai",
+   "pinyinSpaced": "xing qiu de wei lai",
+   "freq": 1
+  },
+  {
+   "word": "拥抱梦想",
+   "pinyin": "yongbaomengxiang",
+   "pinyinSpaced": "yong bao meng xiang",
+   "freq": 1
+  },
+  {
+   "word": "天空感觉真不舒服",
+   "pinyin": "tiankongganjuezhenbushufu",
+   "pinyinSpaced": "tian kong gan jue zhen bu shu fu",
+   "freq": 1
+  },
+  {
+   "word": "快过来克劳德",
+   "pinyin": "kuaiguolaikelaode",
+   "pinyinSpaced": "kuai guo lai ke lao de",
+   "freq": 1
+  },
+  {
+   "word": "命运的分歧点",
+   "pinyin": "mingyundefenqidian",
+   "pinyinSpaced": "ming yun de fen qi dian",
+   "freq": 1
+  },
+  {
+   "word": "未来正掌握在你的手中",
+   "pinyin": "weilaizhengzhangwozainideshouzhong",
+   "pinyinSpaced": "wei lai zheng zhang wo zai ni de shou zhong",
+   "freq": 1
+  },
+  {
+   "word": "自由的代价果然很高",
+   "pinyin": "ziyoudedaijiaguoranhengao",
+   "pinyinSpaced": "zi you de dai jia guo ran hen gao",
+   "freq": 1
+  },
+  {
+   "word": "赞甘",
+   "pinyin": "zangan",
+   "pinyinSpaced": "zan gan",
+   "freq": 1
+  },
+  {
+   "word": "我克制不住我自己",
+   "pinyin": "wokezhibuzhuwoziji",
+   "pinyinSpaced": "wo ke zhi bu zhu wo zi ji",
+   "freq": 1
+  },
+  {
+   "word": "高等警备兵",
+   "pinyin": "gaodengjingbeibing",
+   "pinyinSpaced": "gao deng jing bei bing",
+   "freq": 1
+  },
+  {
+   "word": "女王蠕蛾",
+   "pinyin": "nvwangrue",
+   "pinyinSpaced": "nv wang ru e",
+   "freq": 1
+  },
+  {
+   "word": "娜瑶",
+   "pinyin": "nayao",
+   "pinyinSpaced": "na yao",
+   "freq": 1
+  },
+  {
+   "word": "尼禄",
+   "pinyin": "nilu",
+   "pinyinSpaced": "ni lu",
+   "freq": 1
+  },
+  {
+   "word": "拉姆",
+   "pinyin": "lamu",
+   "pinyinSpaced": "la mu",
+   "freq": 1
+  },
+  {
+   "word": "分会",
+   "pinyin": "fenhui",
+   "pinyinSpaced": "fen hui",
+   "freq": 1
+  },
+  {
+   "word": "莫古力",
+   "pinyin": "moguli",
+   "pinyinSpaced": "mo gu li",
+   "freq": 1
+  },
+  {
+   "word": "吉杰",
+   "pinyin": "jijie",
+   "pinyinSpaced": "ji jie",
+   "freq": 1
+  },
+  {
+   "word": "魏斯",
+   "pinyin": "weisi",
+   "pinyinSpaced": "wei si",
+   "freq": 1
+  },
+  {
+   "word": "五字辈",
+   "pinyin": "wuzibei",
+   "pinyinSpaced": "wu zi bei",
+   "freq": 1
+  },
+  {
+   "word": "不是莫古力",
+   "pinyin": "bushimoguli",
+   "pinyinSpaced": "bu shi mo gu li",
+   "freq": 1
+  },
+  {
+   "word": "龟大叔",
+   "pinyin": "guidashu",
+   "pinyinSpaced": "gui da shu",
+   "freq": 1
+  },
+  {
+   "word": "巨蜈蚣",
+   "pinyin": "juwugong",
+   "pinyinSpaced": "ju wu gong",
+   "freq": 1
+  },
+  {
+   "word": "大窍豆",
+   "pinyin": "daqiaodou",
+   "pinyinSpaced": "da qiao dou",
+   "freq": 1
+  },
+  {
+   "word": "龟纵乐",
+   "pinyin": "guizongle",
+   "pinyinSpaced": "gui zong le",
+   "freq": 1
+  },
+  {
+   "word": "绯红梦魇",
+   "pinyin": "feihongmengyan",
+   "pinyinSpaced": "fei hong meng yan",
+   "freq": 1
+  },
+  {
+   "word": "没错莫古力",
+   "pinyin": "meicuomoguli",
+   "pinyinSpaced": "mei cuo mo gu li",
+   "freq": 1
+  },
+  {
+   "word": "来自五台的使者",
+   "pinyin": "laiziwutaideshizhe",
+   "pinyinSpaced": "lai zi wu tai de shi zhe",
+   "freq": 1
+  },
+  {
+   "word": "夺取究极魔晶石",
+   "pinyin": "duoqujiujimojingshi",
+   "pinyinSpaced": "duo qu jiu ji mo jing shi",
+   "freq": 1
+  },
+  {
+   "word": "是谁在妨碍我",
+   "pinyin": "shishuizaifangaiwo",
+   "pinyinSpaced": "shi shui zai fang ai wo",
+   "freq": 1
+  },
+  {
+   "word": "波尔可",
+   "pinyin": "boerke",
+   "pinyinSpaced": "bo er ke",
+   "freq": 1
+  },
+  {
+   "word": "梅菲",
+   "pinyin": "meifei",
+   "pinyinSpaced": "mei fei",
+   "freq": 1
+  },
+  {
+   "word": "擦剑爆燃",
+   "pinyin": "cajianbaoran",
+   "pinyinSpaced": "ca jian bao ran",
+   "freq": 1
+  },
+  {
+   "word": "混沌星云",
+   "pinyin": "hundunxingyun",
+   "pinyinSpaced": "hun dun xing yun",
+   "freq": 1
+  },
+  {
+   "word": "五台的斗志",
+   "pinyin": "wutaidedouzhi",
+   "pinyinSpaced": "wu tai de dou zhi",
+   "freq": 1
+  },
+  {
+   "word": "人生是永无止境的迷宫",
+   "pinyin": "renshengshiyongwuzhijingdemigong",
+   "pinyinSpaced": "ren sheng shi yong wu zhi jing de mi gong",
+   "freq": 1
+  },
+  {
+   "word": "尤菲",
+   "pinyin": "youfei",
+   "pinyinSpaced": "you fei",
+   "freq": 1
+  },
+  {
+   "word": "索侬",
+   "pinyin": "suonong",
+   "pinyinSpaced": "suo nong",
+   "freq": 1
+  },
+  {
+   "word": "复活",
+   "pinyin": "fuhuo",
+   "pinyinSpaced": "fu huo",
+   "freq": 1
+  },
+  {
+   "word": "祈祷",
+   "pinyin": "qidao",
+   "pinyinSpaced": "qi dao",
+   "freq": 1
+  },
+  {
+   "word": "希瓦",
+   "pinyin": "xiwa",
+   "pinyinSpaced": "xi wa",
+   "freq": 1
+  },
+  {
+   "word": "杰涅涅",
+   "pinyin": "jienienie",
+   "pinyinSpaced": "jie nie nie",
+   "freq": 1
+  },
+  {
+   "word": "自爆",
+   "pinyin": "zibao",
+   "pinyinSpaced": "zi bao",
+   "freq": 1
+  },
+  {
+   "word": "解毒",
+   "pinyin": "jiedu",
+   "pinyinSpaced": "jie du",
+   "freq": 1
+  },
+  {
+   "word": "催眠",
+   "pinyin": "cuimian",
+   "pinyinSpaced": "cui mian",
+   "freq": 1
+  },
+  {
+   "word": "沉默",
+   "pinyin": "chenmo",
+   "pinyinSpaced": "chen mo",
+   "freq": 1
+  },
+  {
+   "word": "狂暴",
+   "pinyin": "kuangbao",
+   "pinyinSpaced": "kuang bao",
+   "freq": 1
+  },
+  {
+   "word": "停止",
+   "pinyin": "tingzhi",
+   "pinyinSpaced": "ting zhi",
+   "freq": 1
+  },
+  {
+   "word": "消除护盾",
+   "pinyin": "xiaochuhudun",
+   "pinyinSpaced": "xiao chu hu dun",
+   "freq": 1
+  },
+  {
+   "word": "驱魔",
+   "pinyin": "qumo",
+   "pinyinSpaced": "qu mo",
+   "freq": 1
+  },
+  {
+   "word": "无名者",
+   "pinyin": "wumingzhe",
+   "pinyinSpaced": "wu ming zhe",
+   "freq": 1
+  },
+  {
+   "word": "解毒药",
+   "pinyin": "jieduyao",
+   "pinyinSpaced": "jie du yao",
+   "freq": 1
+  },
+  {
+   "word": "玛姆女士",
+   "pinyin": "mamunvshi",
+   "pinyinSpaced": "ma mu nv shi",
+   "freq": 1
+  },
+  {
+   "word": "伊弗利特",
+   "pinyin": "yifulite",
+   "pinyinSpaced": "yi fu li te",
+   "freq": 1
+  },
+  {
+   "word": "巴哈姆特",
+   "pinyin": "bahamute",
+   "pinyinSpaced": "ba ha mu te",
+   "freq": 1
+  },
+  {
+   "word": "小陆行鸟",
+   "pinyin": "xiaoluxingniao",
+   "pinyinSpaced": "xiao lu xing niao",
+   "freq": 1
+  },
+  {
+   "word": "幻象",
+   "pinyin": "huanxiang",
+   "pinyinSpaced": "huan xiang",
+   "freq": 1
+  },
+  {
+   "word": "猛烈枪击",
+   "pinyin": "menglieqiangji",
+   "pinyinSpaced": "meng lie qiang ji",
+   "freq": 1
+  },
+  {
+   "word": "风暴扫击",
+   "pinyin": "fengbaosaoji",
+   "pinyinSpaced": "feng bao sao ji",
+   "freq": 1
+  },
+  {
+   "word": "怪鼠",
+   "pinyin": "guaishu",
+   "pinyinSpaced": "guai shu",
+   "freq": 1
+  },
+  {
+   "word": "小型翼蜥",
+   "pinyin": "xiaoxingyixi",
+   "pinyinSpaced": "xiao xing yi xi",
+   "freq": 1
+  },
+  {
+   "word": "魅影",
+   "pinyin": "meiying",
+   "pinyinSpaced": "mei ying",
+   "freq": 1
+  },
+  {
+   "word": "匿名者",
+   "pinyin": "nimingzhe",
+   "pinyinSpaced": "ni ming zhe",
+   "freq": 1
+  },
+  {
+   "word": "列伏利恐鸟",
+   "pinyin": "liefulikongniao",
+   "pinyinSpaced": "lie fu li kong niao",
+   "freq": 1
+  },
+  {
+   "word": "查德利",
+   "pinyin": "chadeli",
+   "pinyinSpaced": "cha de li",
+   "freq": 1
+  },
+  {
+   "word": "臭气",
+   "pinyin": "chouqi",
+   "pinyinSpaced": "chou qi",
+   "freq": 1
+  },
+  {
+   "word": "凶斩",
+   "pinyin": "xiongzhan",
+   "pinyinSpaced": "xiong zhan",
+   "freq": 1
+  },
+  {
+   "word": "五轮棍",
+   "pinyin": "wulungun",
+   "pinyinSpaced": "wu lun gun",
+   "freq": 1
+  },
+  {
+   "word": "陆行鸟山姆",
+   "pinyin": "luxingniaoshanmu",
+   "pinyinSpaced": "lu xing niao shan mu",
+   "freq": 1
+  },
+  {
+   "word": "冰晶冻结",
+   "pinyin": "bingjingdongjie",
+   "pinyinSpaced": "bing jing dong jie",
+   "freq": 1
+  },
+  {
+   "word": "胖陆行鸟",
+   "pinyin": "pangluxingniao",
+   "pinyinSpaced": "pang lu xing niao",
+   "freq": 1
+  },
+  {
+   "word": "加快节奏",
+   "pinyin": "jiakuaijiezou",
+   "pinyinSpaced": "jia kuai jie zou",
+   "freq": 1
+  },
+  {
+   "word": "变异鼠",
+   "pinyin": "bianyishu",
+   "pinyinSpaced": "bian yi shu",
+   "freq": 1
+  },
+  {
+   "word": "独眼权杖",
+   "pinyin": "duyanquanzhang",
+   "pinyinSpaced": "du yan quan zhang",
+   "freq": 1
+  },
+  {
+   "word": "公牛马达",
+   "pinyin": "gongniumada",
+   "pinyinSpaced": "gong niu ma da",
+   "freq": 1
+  },
+  {
+   "word": "生化鼠",
+   "pinyin": "shenghuashu",
+   "pinyinSpaced": "sheng hua shu",
+   "freq": 1
+  },
+  {
+   "word": "歪歪",
+   "pinyin": "waiwai",
+   "pinyinSpaced": "wai wai",
+   "freq": 1
+  },
+  {
+   "word": "防御长杖",
+   "pinyin": "fangyuchangzhang",
+   "pinyinSpaced": "fang yu chang zhang",
+   "freq": 1
+  },
+  {
+   "word": "提神剂",
+   "pinyin": "tishenji",
+   "pinyinSpaced": "ti shen ji",
+   "freq": 1
+  },
+  {
+   "word": "治愈微风",
+   "pinyin": "zhiyuweifeng",
+   "pinyinSpaced": "zhi yu wei feng",
+   "freq": 1
+  },
+  {
+   "word": "星辰守护",
+   "pinyin": "xingchenshouhu",
+   "pinyinSpaced": "xing chen shou hu",
+   "freq": 1
+  },
+  {
+   "word": "秘技解放",
+   "pinyin": "mijijiefang",
+   "pinyinSpaced": "mi ji jie fang",
+   "freq": 1
+  },
+  {
+   "word": "正拳",
+   "pinyin": "zhengquan",
+   "pinyinSpaced": "zheng quan",
+   "freq": 1
+  },
+  {
+   "word": "坚忍不拔",
+   "pinyin": "jianrenbuba",
+   "pinyinSpaced": "jian ren bu ba",
+   "freq": 1
+  },
+  {
+   "word": "光之盾",
+   "pinyin": "guangzhidun",
+   "pinyinSpaced": "guang zhi dun",
+   "freq": 1
+  },
+  {
+   "word": "爆裂拳",
+   "pinyin": "baoliequan",
+   "pinyinSpaced": "bao lie quan",
+   "freq": 1
+  },
+  {
+   "word": "重火力兵",
+   "pinyin": "zhonghuolibing",
+   "pinyinSpaced": "zhong huo li bing",
+   "freq": 1
+  },
+  {
+   "word": "掷弹兵",
+   "pinyin": "zhitanbing",
+   "pinyinSpaced": "zhi tan bing",
+   "freq": 1
+  },
+  {
+   "word": "镇压兵",
+   "pinyin": "zhenyabing",
+   "pinyinSpaced": "zhen ya bing",
+   "freq": 1
+  },
+  {
+   "word": "战斗员",
+   "pinyin": "zhandouyuan",
+   "pinyinSpaced": "zhan dou yuan",
+   "freq": 1
+  },
+  {
+   "word": "怪异虫",
+   "pinyin": "guaiyichong",
+   "pinyinSpaced": "guai yi chong",
+   "freq": 1
+  },
+  {
+   "word": "兴奋剂",
+   "pinyin": "xingfenji",
+   "pinyinSpaced": "xing fen ji",
+   "freq": 1
+  },
+  {
+   "word": "镇静剂",
+   "pinyin": "zhenjingji",
+   "pinyinSpaced": "zhen jing ji",
+   "freq": 1
+  },
+  {
+   "word": "万能药",
+   "pinyin": "wannengyao",
+   "pinyinSpaced": "wan neng yao",
+   "freq": 1
+  },
+  {
+   "word": "第柒区",
+   "pinyin": "diqiqu",
+   "pinyinSpaced": "di qi qu",
+   "freq": 1
+  },
+  {
+   "word": "星命学",
+   "pinyin": "xingmingxue",
+   "pinyinSpaced": "xing ming xue",
+   "freq": 1
+  },
+  {
+   "word": "琪里耶卡南",
+   "pinyin": "qiliyekanan",
+   "pinyinSpaced": "qi li ye ka nan",
+   "freq": 1
+  },
+  {
+   "word": "雷兹利凯尔",
+   "pinyin": "leizilikaier",
+   "pinyinSpaced": "lei zi li kai er",
+   "freq": 1
+  },
+  {
+   "word": "枪榴炸弹",
+   "pinyin": "qiangliuzhadan",
+   "pinyinSpaced": "qiang liu zha dan",
+   "freq": 1
+  },
+  {
+   "word": "混战",
+   "pinyin": "hunzhan",
+   "pinyinSpaced": "hun zhan",
+   "freq": 1
+  },
+  {
+   "word": "大地重击",
+   "pinyin": "dadizhongji",
+   "pinyinSpaced": "da di zhong ji",
+   "freq": 1
+  },
+  {
+   "word": "勇猛模式",
+   "pinyin": "yongmengmoshi",
+   "pinyinSpaced": "yong meng mo shi",
+   "freq": 1
+  },
+  {
+   "word": "进攻模式",
+   "pinyin": "jingongmoshi",
+   "pinyinSpaced": "jin gong mo shi",
+   "freq": 1
+  },
+  {
+   "word": "壹号激光炮",
+   "pinyin": "yihaojiguangpao",
+   "pinyinSpaced": "yi hao ji guang pao",
+   "freq": 1
+  },
+  {
+   "word": "瞬移诡锤",
+   "pinyin": "shunyiguichui",
+   "pinyinSpaced": "shun yi gui chui",
+   "freq": 1
+  },
+  {
+   "word": "电击扫射机",
+   "pinyin": "dianjisaosheji",
+   "pinyinSpaced": "dian ji sao she ji",
+   "freq": 1
+  },
+  {
+   "word": "狂怒猎犬",
+   "pinyin": "kuangnuliequan",
+   "pinyinSpaced": "kuang nu lie quan",
+   "freq": 1
+  },
+  {
+   "word": "棘刺蓝鱼",
+   "pinyin": "jicilanyu",
+   "pinyinSpaced": "ji ci lan yu",
+   "freq": 1
+  },
+  {
+   "word": "墨绿海马",
+   "pinyin": "molvhaima",
+   "pinyinSpaced": "mo lv hai ma",
+   "freq": 1
+  },
+  {
+   "word": "巨口噬蝎",
+   "pinyin": "jukoushixie",
+   "pinyinSpaced": "ju kou shi xie",
+   "freq": 1
+  },
+  {
+   "word": "榭札蟹",
+   "pinyin": "xiezhaxie",
+   "pinyinSpaced": "xie zha xie",
+   "freq": 1
+  },
+  {
+   "word": "翼蜥",
+   "pinyin": "yixi",
+   "pinyinSpaced": "yi xi",
+   "freq": 1
+  },
+  {
+   "word": "窃贼阿勃祖",
+   "pinyin": "qiezeiabozu",
+   "pinyinSpaced": "qie zei a bo zu",
+   "freq": 1
+  },
+  {
+   "word": "穿透狂眼",
+   "pinyin": "chuantoukuangyan",
+   "pinyinSpaced": "chuan tou kuang yan",
+   "freq": 1
+  },
+  {
+   "word": "尾针爆怪",
+   "pinyin": "weizhenbaoguai",
+   "pinyinSpaced": "wei zhen bao guai",
+   "freq": 1
+  },
+  {
+   "word": "飞天爆怪",
+   "pinyin": "feitianbaoguai",
+   "pinyinSpaced": "fei tian bao guai",
+   "freq": 1
+  },
+  {
+   "word": "堆尘机",
+   "pinyin": "duichenji",
+   "pinyinSpaced": "dui chen ji",
+   "freq": 1
+  },
+  {
+   "word": "失落之牙",
+   "pinyin": "shiluozhiya",
+   "pinyinSpaced": "shi luo zhi ya",
+   "freq": 1
+  },
+  {
+   "word": "姆姆",
+   "pinyin": "mumu",
+   "pinyinSpaced": "mu mu",
+   "freq": 1
+  },
+  {
+   "word": "加特林机枪",
+   "pinyin": "jiatelinjiqiang",
+   "pinyinSpaced": "jia te lin ji qiang",
+   "freq": 1
+  },
+  {
+   "word": "皮革手套",
+   "pinyin": "pigeshoutao",
+   "pinyinSpaced": "pi ge shou tao",
+   "freq": 1
+  },
+  {
+   "word": "忍者射击",
+   "pinyin": "renzhesheji",
+   "pinyinSpaced": "ren zhe she ji",
+   "freq": 1
+  },
+  {
+   "word": "斗气幻光球",
+   "pinyin": "douqihuanguangqiu",
+   "pinyinSpaced": "dou qi huan guang qiu",
+   "freq": 1
+  },
+  {
+   "word": "少女之吻",
+   "pinyin": "shaonvzhiwen",
+   "pinyinSpaced": "shao nv zhi wen",
+   "freq": 1
+  },
+  {
+   "word": "第肆圆盘",
+   "pinyin": "disiyuanpan",
+   "pinyinSpaced": "di si yuan pan",
+   "freq": 1
+  },
+  {
+   "word": "令人焦急的水路",
+   "pinyin": "lingrenjiaojideshuilu",
+   "pinyinSpaced": "ling ren jiao ji de shui lu",
+   "freq": 1
+  },
+  {
+   "word": "重逢之花",
+   "pinyin": "chongfengzhihua",
+   "pinyinSpaced": "chong feng zhi hua",
+   "freq": 1
+  },
+  {
+   "word": "欲望之地",
+   "pinyin": "yuwangzhidi",
+   "pinyinSpaced": "yu wang zhi di",
+   "freq": 1
+  },
+  {
+   "word": "落日之城",
+   "pinyin": "luorizhicheng",
+   "pinyinSpaced": "luo ri zhi cheng",
+   "freq": 1
+  },
+  {
+   "word": "空中兵",
+   "pinyin": "kongzhongbing",
+   "pinyinSpaced": "kong zhong bing",
+   "freq": 1
+  },
+  {
+   "word": "扎克斯菲尔",
+   "pinyin": "zhakesifeier",
+   "pinyinSpaced": "zha ke si fei er",
+   "freq": 1
+  },
+  {
+   "word": "尤菲如月",
+   "pinyin": "youfeiruyue",
+   "pinyinSpaced": "you fei ru yue",
+   "freq": 1
+  },
+  {
+   "word": "奋力快攻",
+   "pinyin": "fenlikuaigong",
+   "pinyinSpaced": "fen li kuai gong",
+   "freq": 1
+  },
+  {
+   "word": "凌空破",
+   "pinyin": "lingkongpo",
+   "pinyinSpaced": "ling kong po",
+   "freq": 1
+  },
+  {
+   "word": "海豚疾风",
+   "pinyin": "haitunjifeng",
+   "pinyinSpaced": "hai tun ji feng",
+   "freq": 1
+  },
+  {
+   "word": "高速连斩",
+   "pinyin": "gaosulianzhan",
+   "pinyinSpaced": "gao su lian zhan",
+   "freq": 1
+  },
+  {
+   "word": "爆燃射击",
+   "pinyin": "baoransheji",
+   "pinyinSpaced": "bao ran she ji",
+   "freq": 1
+  },
+  {
+   "word": "能量上钩拳",
+   "pinyin": "nengliangshanggouquan",
+   "pinyinSpaced": "neng liang shang gou quan",
+   "freq": 1
+  },
+  {
+   "word": "原型猎敌者",
+   "pinyin": "yuanxingliedizhe",
+   "pinyinSpaced": "yuan xing lie di zhe",
+   "freq": 1
+  },
+  {
+   "word": "原型机关枪",
+   "pinyin": "yuanxingjiguanqiang",
+   "pinyinSpaced": "yuan xing ji guan qiang",
+   "freq": 1
+  },
+  {
+   "word": "电能刽子手",
+   "pinyin": "diannengguizishou",
+   "pinyinSpaced": "dian neng gui zi shou",
+   "freq": 1
+  },
+  {
+   "word": "红蟆刺猬",
+   "pinyin": "hongmaciwei",
+   "pinyinSpaced": "hong ma ci wei",
+   "freq": 1
+  },
+  {
+   "word": "巨无霸噬蝎",
+   "pinyin": "juwubashixie",
+   "pinyinSpaced": "ju wu ba shi xie",
+   "freq": 1
+  },
+  {
+   "word": "镰足蠕蛾",
+   "pinyin": "lianzurue",
+   "pinyinSpaced": "lian zu ru e",
+   "freq": 1
+  },
+  {
+   "word": "废气制造机",
+   "pinyin": "feiqizhizaoji",
+   "pinyinSpaced": "fei qi zhi zao ji",
+   "freq": 1
+  },
+  {
+   "word": "毒气制造机",
+   "pinyin": "duqizhizaoji",
+   "pinyinSpaced": "du qi zhi zao ji",
+   "freq": 1
+  },
+  {
+   "word": "鱼人王子",
+   "pinyin": "yurenwangzi",
+   "pinyinSpaced": "yu ren wang zi",
+   "freq": 1
+  },
+  {
+   "word": "漆黑猎犬",
+   "pinyin": "qiheiliequan",
+   "pinyinSpaced": "qi hei lie quan",
+   "freq": 1
+  },
+  {
+   "word": "生命之流",
+   "pinyin": "shengmingzhiliu",
+   "pinyinSpaced": "sheng ming zhi liu",
+   "freq": 1
+  },
+  {
+   "word": "魔晶石猎人",
+   "pinyin": "mojingshilieren",
+   "pinyinSpaced": "mo jing shi lie ren",
+   "freq": 1
+  },
+  {
+   "word": "兀鹰堡垒",
+   "pinyin": "wuyingbaolei",
+   "pinyinSpaced": "wu ying bao lei",
+   "freq": 1
+  },
+  {
+   "word": "神罗公司",
+   "pinyin": "shenluogongsi",
+   "pinyinSpaced": "shen luo gong si",
+   "freq": 1
+  },
+  {
+   "word": "掌掴快攻",
+   "pinyin": "zhangguokuaigong",
+   "pinyinSpaced": "zhang guo kuai gong",
+   "freq": 1
+  },
+  {
+   "word": "贫民窟的太阳",
+   "pinyin": "pinminkudetaiyang",
+   "pinyinSpaced": "pin min ku de tai yang",
+   "freq": 1
+  },
+  {
+   "word": "寻求希望",
+   "pinyin": "xunqiuxiwang",
+   "pinyinSpaced": "xun qiu xi wang",
+   "freq": 1
+  },
+  {
+   "word": "治安维护部门",
+   "pinyin": "zhianweihubumen",
+   "pinyinSpaced": "zhi an wei hu bu men",
+   "freq": 1
+  },
+  {
+   "word": "反击架式",
+   "pinyin": "fanjijiashi",
+   "pinyinSpaced": "fan ji jia shi",
+   "freq": 1
+  },
+  {
+   "word": "驯兽师",
+   "pinyin": "xunshoushi",
+   "pinyinSpaced": "xun shou shi",
+   "freq": 1
+  },
+  {
+   "word": "迷宫之犬",
+   "pinyin": "migongzhiquan",
+   "pinyinSpaced": "mi gong zhi quan",
+   "freq": 1
+  },
+  {
+   "word": "玛琳华勒斯",
+   "pinyin": "malinhualesi",
+   "pinyinSpaced": "ma lin hua le si",
+   "freq": 1
+  },
+  {
+   "word": "阿尼安库尼昂",
+   "pinyin": "aniankuniang",
+   "pinyinSpaced": "a ni an ku ni ang",
+   "freq": 1
+  },
+  {
+   "word": "里维杜耶斯提",
+   "pinyin": "liweiduyesiti",
+   "pinyinSpaced": "li wei du ye si ti",
+   "freq": 1
+  },
+  {
+   "word": "零距离射击",
+   "pinyin": "lingjulisheji",
+   "pinyinSpaced": "ling ju li she ji",
+   "freq": 1
+  },
+  {
+   "word": "圣洁之力",
+   "pinyin": "shengjiezhili",
+   "pinyinSpaced": "sheng jie zhi li",
+   "freq": 1
+  },
+  {
+   "word": "审判光线",
+   "pinyin": "shenpanguangxian",
+   "pinyinSpaced": "shen pan guang xian",
+   "freq": 1
+  },
+  {
+   "word": "魔法使徒",
+   "pinyin": "mofashitu",
+   "pinyinSpaced": "mo fa shi tu",
+   "freq": 1
+  },
+  {
+   "word": "导弹发射器",
+   "pinyin": "daodanfasheqi",
+   "pinyinSpaced": "dao dan fa she qi",
+   "freq": 1
+  },
+  {
+   "word": "榴弹扫射机",
+   "pinyin": "liudansaosheji",
+   "pinyinSpaced": "liu dan sao she ji",
+   "freq": 1
+  },
+  {
+   "word": "红蟆刺猬王",
+   "pinyin": "hongmaciweiwang",
+   "pinyinSpaced": "hong ma ci wei wang",
+   "freq": 1
+  },
+  {
+   "word": "黄斑蠕蛾",
+   "pinyin": "huangbanrue",
+   "pinyinSpaced": "huang ban ru e",
+   "freq": 1
+  },
+  {
+   "word": "突变爆怪",
+   "pinyin": "tubianbaoguai",
+   "pinyinSpaced": "tu bian bao guai",
+   "freq": 1
+  },
+  {
+   "word": "巨角克里普歇",
+   "pinyin": "jujiaokelipuxie",
+   "pinyinSpaced": "ju jiao ke li pu xie",
+   "freq": 1
+  },
+  {
+   "word": "雪崩的殊死战斗",
+   "pinyin": "xuebengdeshusizhandou",
+   "pinyinSpaced": "xue beng de shu si zhan dou",
+   "freq": 1
+  },
+  {
+   "word": "雪崩精神",
+   "pinyin": "xuebengjingshen",
+   "pinyinSpaced": "xue beng jing shen",
+   "freq": 1
+  },
+  {
+   "word": "神圣魔法阵",
+   "pinyin": "shenshengmofazhen",
+   "pinyinSpaced": "shen sheng mo fa zhen",
+   "freq": 1
+  },
+  {
+   "word": "部队长贡嘉",
+   "pinyin": "buduizhanggongjia",
+   "pinyinSpaced": "bu dui zhang gong jia",
+   "freq": 1
+  },
+  {
+   "word": "深夜追逐战",
+   "pinyin": "shenyezhuizhuzhan",
+   "pinyinSpaced": "shen ye zhui zhu zhan",
+   "freq": 1
+  },
+  {
+   "word": "毁灭的世界",
+   "pinyin": "huimiedeshijie",
+   "pinyinSpaced": "hui mie de shi jie",
+   "freq": 1
+  },
+  {
+   "word": "亡灵的恶作剧",
+   "pinyin": "wanglingdeezuoju",
+   "pinyinSpaced": "wang ling de e zuo ju",
+   "freq": 1
+  },
+  {
+   "word": "十字手里剑",
+   "pinyin": "shizishoulijian",
+   "pinyinSpaced": "shi zi shou li jian",
+   "freq": 1
+  },
+  {
+   "word": "吸收灵气",
+   "pinyin": "xishoulingqi",
+   "pinyinSpaced": "xi shou ling qi",
+   "freq": 1
+  },
+  {
+   "word": "克劳德斯特莱夫",
+   "pinyin": "kelaodesitelaifu",
+   "pinyinSpaced": "ke lao de si te lai fu",
+   "freq": 1
+  },
+  {
+   "word": "巴雷特华勒斯",
+   "pinyin": "baleitehualesi",
+   "pinyinSpaced": "ba lei te hua le si",
+   "freq": 1
+  },
+  {
+   "word": "杰西莱兹贝利",
+   "pinyin": "jiexilaizibeili",
+   "pinyinSpaced": "jie xi lai zi bei li",
+   "freq": 1
+  },
+  {
+   "word": "查德利报告",
+   "pinyin": "chadelibaogao",
+   "pinyinSpaced": "cha de li bao gao",
+   "freq": 1
+  },
+  {
+   "word": "异端蕾莉",
+   "pinyin": "yiduanleili",
+   "pinyinSpaced": "yi duan lei li",
+   "freq": 1
+  },
+  {
+   "word": "米德加高速公路",
+   "pinyin": "midejiagaosugonglu",
+   "pinyinSpaced": "mi de jia gao su gong lu",
+   "freq": 1
+  },
+  {
+   "word": "无尽终结",
+   "pinyin": "wujinzhongjie",
+   "pinyinSpaced": "wu jin zhong jie",
+   "freq": 1
+  },
+  {
+   "word": "巨汉强盗",
+   "pinyin": "juhanqiangdao",
+   "pinyinSpaced": "ju han qiang dao",
+   "freq": 1
+  },
+  {
+   "word": "直纹叶翼蜥",
+   "pinyin": "zhiwenyeyixi",
+   "pinyinSpaced": "zhi wen ye yi xi",
+   "freq": 1
+  },
+  {
+   "word": "百炮战车",
+   "pinyin": "baipaozhanche",
+   "pinyinSpaced": "bai pao zhan che",
+   "freq": 1
+  },
+  {
+   "word": "第捌区的邂逅",
+   "pinyin": "dibaqudexiehou",
+   "pinyinSpaced": "di ba qu de xie hou",
+   "freq": 1
+  },
+  {
+   "word": "激励魔法阵",
+   "pinyin": "jilimofazhen",
+   "pinyinSpaced": "ji li mo fa zhen",
+   "freq": 1
+  },
+  {
+   "word": "潜入神罗大厦",
+   "pinyin": "qianrushenluodasha",
+   "pinyinSpaced": "qian ru shen luo da sha",
+   "freq": 1
+  },
+  {
+   "word": "命运的奇点",
+   "pinyin": "mingyundeqidian",
+   "pinyinSpaced": "ming yun de qi dian",
+   "freq": 1
+  },
+  {
+   "word": "究极魔晶石",
+   "pinyin": "jiujimojingshi",
+   "pinyinSpaced": "jiu ji mo jing shi",
+   "freq": 1
+  },
+  {
+   "word": "特殊战斗员",
+   "pinyin": "teshuzhandouyuan",
+   "pinyinSpaced": "te shu zhan dou yuan",
+   "freq": 1
+  },
+  {
+   "word": "强化战斗员",
+   "pinyin": "qianghuazhandouyuan",
+   "pinyinSpaced": "qiang hua zhan dou yuan",
+   "freq": 1
+  },
+  {
+   "word": "强魔战斗员",
+   "pinyin": "qiangmozhandouyuan",
+   "pinyinSpaced": "qiang mo zhan dou yuan",
+   "freq": 1
+  },
+  {
+   "word": "蒂法洛克哈特",
+   "pinyin": "difaluokehate",
+   "pinyinSpaced": "di fa luo ke ha te",
+   "freq": 1
+  },
+  {
+   "word": "五台临时政府",
+   "pinyin": "wutailinshizhengfu",
+   "pinyinSpaced": "wu tai lin shi zheng fu",
+   "freq": 1
+  },
+  {
+   "word": "特殊空中兵",
+   "pinyin": "teshukongzhongbing",
+   "pinyinSpaced": "te shu kong zhong bing",
+   "freq": 1
+  },
+  {
+   "word": "爱丽丝盖恩斯伯勒",
+   "pinyin": "ailisigaiensibole",
+   "pinyinSpaced": "ai li si gai en si bo le",
+   "freq": 1
+  },
+  {
+   "word": "逃离混沌",
+   "pinyin": "taolihundun",
+   "pinyinSpaced": "tao li hun dun",
+   "freq": 1
+  },
+  {
+   "word": "重魔装战斗员",
+   "pinyin": "zhongmozhuangzhandouyuan",
+   "pinyinSpaced": "zhong mo zhuang zhan dou yuan",
+   "freq": 1
+  },
+  {
+   "word": "高级掷弹兵",
+   "pinyin": "gaojizhitanbing",
+   "pinyinSpaced": "gao ji zhi tan bing",
+   "freq": 1
+  },
+  {
+   "word": "高等镇压兵",
+   "pinyin": "gaodengzhenyabing",
+   "pinyinSpaced": "gao deng zhen ya bing",
+   "freq": 1
+  },
+  {
+   "word": "重装甲战斗员",
+   "pinyin": "chongzhuangjiazhandouyuan",
+   "pinyinSpaced": "chong zhuang jia zhan dou yuan",
+   "freq": 1
+  },
+  {
+   "word": "特殊作战兵",
+   "pinyin": "teshuzuozhanbing",
+   "pinyinSpaced": "te shu zuo zhan bing",
+   "freq": 1
+  },
+  {
+   "word": "特装型猎敌者",
+   "pinyin": "tezhuangxingliedizhe",
+   "pinyinSpaced": "te zhuang xing lie di zhe",
+   "freq": 1
+  },
+  {
+   "word": "隐密步伐者",
+   "pinyin": "yinmibufazhe",
+   "pinyinSpaced": "yin mi bu fa zhe",
+   "freq": 1
+  },
+  {
+   "word": "变异蕾莉",
+   "pinyin": "bianyileili",
+   "pinyinSpaced": "bian yi lei li",
+   "freq": 1
+  },
+  {
+   "word": "贪婪者",
+   "pinyin": "tanlanzhe",
+   "pinyinSpaced": "tan lan zhe",
+   "freq": 1
+  },
+  {
+   "word": "恶魔乘具",
+   "pinyin": "emochengju",
+   "pinyinSpaced": "e mo cheng ju",
+   "freq": 1
+  },
+  {
+   "word": "蹦扎",
+   "pinyin": "bengzha",
+   "pinyinSpaced": "beng zha",
+   "freq": 1
+  },
+  {
+   "word": "卡姆之牙",
+   "pinyin": "kamuzhiya",
+   "pinyinSpaced": "ka mu zhi ya",
+   "freq": 1
+  },
+  {
+   "word": "电击之牙",
+   "pinyin": "dianjizhiya",
+   "pinyinSpaced": "dian ji zhi ya",
+   "freq": 1
+  },
+  {
+   "word": "白色之牙",
+   "pinyin": "baisezhiya",
+   "pinyinSpaced": "bai se zhi ya",
+   "freq": 1
+  },
+  {
+   "word": "尼福尔狼",
+   "pinyin": "nifuerlang",
+   "pinyinSpaced": "ni fu er lang",
+   "freq": 1
+  },
+  {
+   "word": "剧毒鼠",
+   "pinyin": "judushu",
+   "pinyinSpaced": "ju du shu",
+   "freq": 1
+  },
+  {
+   "word": "振翅翼蜥",
+   "pinyin": "zhenchiyixi",
+   "pinyinSpaced": "zhen chi yi xi",
+   "freq": 1
+  },
+  {
+   "word": "风暴翼蜥",
+   "pinyin": "fengbaoyixi",
+   "pinyinSpaced": "feng bao yi xi",
+   "freq": 1
+  },
+  {
+   "word": "热带棘刺蓝鱼",
+   "pinyin": "redaijicilanyu",
+   "pinyinSpaced": "re dai ji ci lan yu",
+   "freq": 1
+  },
+  {
+   "word": "棘刺蓝鱼指挥官",
+   "pinyin": "jicilanyuzhihuiguan",
+   "pinyinSpaced": "ji ci lan yu zhi hui guan",
+   "freq": 1
+  },
+  {
+   "word": "漂浮豚鱼",
+   "pinyin": "piaofutunyu",
+   "pinyinSpaced": "piao fu tun yu",
+   "freq": 1
+  },
+  {
+   "word": "普墨绿海马",
+   "pinyin": "pumolvhaima",
+   "pinyinSpaced": "pu mo lv hai ma",
+   "freq": 1
+  },
+  {
+   "word": "稀墨绿海马",
+   "pinyin": "ximolvhaima",
+   "pinyinSpaced": "xi mo lv hai ma",
+   "freq": 1
+  },
+  {
+   "word": "南瓜幽鬼刺猬",
+   "pinyin": "nanguayouguiciwei",
+   "pinyinSpaced": "nan gua you gui ci wei",
+   "freq": 1
+  },
+  {
+   "word": "响板蟹",
+   "pinyin": "xiangbanxie",
+   "pinyinSpaced": "xiang ban xie",
+   "freq": 1
+  },
+  {
+   "word": "锤钳陆蟹",
+   "pinyin": "chuiqianluxie",
+   "pinyinSpaced": "chui qian lu xie",
+   "freq": 1
+  },
+  {
+   "word": "砂鱼人",
+   "pinyin": "shayuren",
+   "pinyinSpaced": "sha yu ren",
+   "freq": 1
+  },
+  {
+   "word": "鱼人勇士",
+   "pinyin": "yurenyongshi",
+   "pinyinSpaced": "yu ren yong shi",
+   "freq": 1
+  },
+  {
+   "word": "有翼列伏利恐鸟",
+   "pinyin": "youyiliefulikongniao",
+   "pinyinSpaced": "you yi lie fu li kong niao",
+   "freq": 1
+  },
+  {
+   "word": "列伏利恫鸟",
+   "pinyin": "liefulidongniao",
+   "pinyinSpaced": "lie fu li dong niao",
+   "freq": 1
+  },
+  {
+   "word": "双脑者",
+   "pinyin": "shuangnaozhe",
+   "pinyinSpaced": "shuang nao zhe",
+   "freq": 1
+  },
+  {
+   "word": "龙旋鸟",
+   "pinyin": "longxuanniao",
+   "pinyinSpaced": "long xuan niao",
+   "freq": 1
+  },
+  {
+   "word": "音旋鸟",
+   "pinyin": "yinxuanniao",
+   "pinyinSpaced": "yin xuan niao",
+   "freq": 1
+  },
+  {
+   "word": "战机鸟",
+   "pinyin": "zhanjiniao",
+   "pinyinSpaced": "zhan ji niao",
+   "freq": 1
+  },
+  {
+   "word": "飓风鸟",
+   "pinyin": "jufengniao",
+   "pinyinSpaced": "ju feng niao",
+   "freq": 1
+  },
+  {
+   "word": "音速鸟",
+   "pinyin": "yinsuniao",
+   "pinyinSpaced": "yin su niao",
+   "freq": 1
+  },
+  {
+   "word": "海龙",
+   "pinyin": "hailong",
+   "pinyinSpaced": "hai long",
+   "freq": 1
+  },
+  {
+   "word": "丘比尔狄努斯",
+   "pinyin": "qiubierdinusi",
+   "pinyinSpaced": "qiu bi er di nu si",
+   "freq": 1
+  },
+  {
+   "word": "快刀处刑者",
+   "pinyin": "kuaidaochuxingzhe",
+   "pinyinSpaced": "kuai dao chu xing zhe",
+   "freq": 1
+  },
+  {
+   "word": "灌顶象怪",
+   "pinyin": "guandingxiangguai",
+   "pinyinSpaced": "guan ding xiang guai",
+   "freq": 1
+  },
+  {
+   "word": "凯泽尔科亚特尔",
+   "pinyin": "kaizeerkeyateer",
+   "pinyinSpaced": "kai ze er ke ya te er",
+   "freq": 1
+  },
+  {
+   "word": "瑟雅科亚特尔",
+   "pinyin": "seyakeyateer",
+   "pinyinSpaced": "se ya ke ya te er",
+   "freq": 1
+  },
+  {
+   "word": "狮鹫",
+   "pinyin": "shijiu",
+   "pinyinSpaced": "shi jiu",
+   "freq": 1
+  },
+  {
+   "word": "鹰头狮",
+   "pinyin": "yingtoushi",
+   "pinyinSpaced": "ying tou shi",
+   "freq": 1
+  },
+  {
+   "word": "尼德霍格",
+   "pinyin": "nidehuoge",
+   "pinyinSpaced": "ni de huo ge",
+   "freq": 1
+  },
+  {
+   "word": "圣柜龙",
+   "pinyin": "shengguilong",
+   "pinyinSpaced": "sheng gui long",
+   "freq": 1
+  },
+  {
+   "word": "神秘龙",
+   "pinyin": "shenmilong",
+   "pinyinSpaced": "shen mi long",
+   "freq": 1
+  },
+  {
+   "word": "上古龙",
+   "pinyin": "shanggulong",
+   "pinyinSpaced": "shang gu long",
+   "freq": 1
+  },
+  {
+   "word": "软糊怪",
+   "pinyin": "ruanhuguai",
+   "pinyinSpaced": "ruan hu guai",
+   "freq": 1
+  },
+  {
+   "word": "食人魔",
+   "pinyin": "shirenmo",
+   "pinyinSpaced": "shi ren mo",
+   "freq": 1
+  },
+  {
+   "word": "暴乱食人魔",
+   "pinyin": "baoluanshirenmo",
+   "pinyinSpaced": "bao luan shi ren mo",
+   "freq": 1
+  },
+  {
+   "word": "赛姆泽雷特巨枭",
+   "pinyin": "saimuzeleitejuxiao",
+   "pinyinSpaced": "sai mu ze lei te ju xiao",
+   "freq": 1
+  },
+  {
+   "word": "怀兹雷特巨枭",
+   "pinyin": "huaizileitejuxiao",
+   "pinyinSpaced": "huai zi lei te ju xiao",
+   "freq": 1
+  },
+  {
+   "word": "尖喙兽",
+   "pinyin": "jianhuishou",
+   "pinyinSpaced": "jian hui shou",
+   "freq": 1
+  },
+  {
+   "word": "考特尖喙兽",
+   "pinyin": "kaotejianhuishou",
+   "pinyinSpaced": "kao te jian hui shou",
+   "freq": 1
+  },
+  {
+   "word": "旋索草",
+   "pinyin": "xuansuocao",
+   "pinyinSpaced": "xuan suo cao",
+   "freq": 1
+  },
+  {
+   "word": "热炎旋索草",
+   "pinyin": "reyanxuansuocao",
+   "pinyinSpaced": "re yan xuan suo cao",
+   "freq": 1
+  },
+  {
+   "word": "精神吸取者",
+   "pinyin": "jingshenxiquzhe",
+   "pinyinSpaced": "jing shen xi qu zhe",
+   "freq": 1
+  },
+  {
+   "word": "古兰迦兰",
+   "pinyin": "gulanjialan",
+   "pinyinSpaced": "gu lan jia lan",
+   "freq": 1
+  },
+  {
+   "word": "小古兰迦兰",
+   "pinyin": "xiaogulanjialan",
+   "pinyinSpaced": "xiao gu lan jia lan",
+   "freq": 1
+  },
+  {
+   "word": "迷你古兰迦兰",
+   "pinyin": "minigulanjialan",
+   "pinyinSpaced": "mi ni gu lan jia lan",
+   "freq": 1
+  },
+  {
+   "word": "海滩插头怪",
+   "pinyin": "haitanchatouguai",
+   "pinyinSpaced": "hai tan cha tou guai",
+   "freq": 1
+  },
+  {
+   "word": "螺贝插头怪",
+   "pinyin": "luobeichatouguai",
+   "pinyinSpaced": "luo bei cha tou guai",
+   "freq": 1
+  },
+  {
+   "word": "冠帽长矛水母",
+   "pinyin": "guanmaochangmaoshuimu",
+   "pinyinSpaced": "guan mao chang mao shui mu",
+   "freq": 1
+  },
+  {
+   "word": "魔魂美杜莎",
+   "pinyin": "mohunmeidusha",
+   "pinyinSpaced": "mo hun mei du sha",
+   "freq": 1
+  },
+  {
+   "word": "针吻鸟",
+   "pinyin": "zhenwenniao",
+   "pinyinSpaced": "zhen wen niao",
+   "freq": 1
+  },
+  {
+   "word": "剑吻鸟",
+   "pinyin": "jianwenniao",
+   "pinyinSpaced": "jian wen niao",
+   "freq": 1
+  },
+  {
+   "word": "海魔鱼",
+   "pinyin": "haimoyu",
+   "pinyinSpaced": "hai mo yu",
+   "freq": 1
+  },
+  {
+   "word": "冠帽搜索者",
+   "pinyin": "guanmaosousuozhe",
+   "pinyinSpaced": "guan mao sou suo zhe",
+   "freq": 1
+  },
+  {
+   "word": "投捕帽妖",
+   "pinyin": "toubumaoyao",
+   "pinyinSpaced": "tou bu mao yao",
+   "freq": 1
+  },
+  {
+   "word": "毒帽妖",
+   "pinyin": "dumaoyao",
+   "pinyinSpaced": "du mao yao",
+   "freq": 1
+  },
+  {
+   "word": "虫型龟",
+   "pinyin": "chongxinggui",
+   "pinyinSpaced": "chong xing gui",
+   "freq": 1
+  },
+  {
+   "word": "机甲龟",
+   "pinyin": "jijiagui",
+   "pinyinSpaced": "ji jia gui",
+   "freq": 1
+  },
+  {
+   "word": "蛇鸡兽",
+   "pinyin": "shejishou",
+   "pinyinSpaced": "she ji shou",
+   "freq": 1
+  },
+  {
+   "word": "杀手烙印",
+   "pinyin": "shashoulaoyin",
+   "pinyinSpaced": "sha shou lao yin",
+   "freq": 1
+  },
+  {
+   "word": "双面相",
+   "pinyin": "shuangmianxiang",
+   "pinyinSpaced": "shuang mian xiang",
+   "freq": 1
+  },
+  {
+   "word": "沙丘蠕虫",
+   "pinyin": "shaqiuruchong",
+   "pinyinSpaced": "sha qiu ru chong",
+   "freq": 1
+  },
+  {
+   "word": "巨型蠕虫",
+   "pinyin": "juxingruchong",
+   "pinyinSpaced": "ju xing ru chong",
+   "freq": 1
+  },
+  {
+   "word": "史宾赛飞鱼",
+   "pinyin": "shibinsaifeiyu",
+   "pinyinSpaced": "shi bin sai fei yu",
+   "freq": 1
+  },
+  {
+   "word": "飞翔开膛手",
+   "pinyin": "feixiangkaitangshou",
+   "pinyinSpaced": "fei xiang kai tang shou",
+   "freq": 1
+  },
+  {
+   "word": "奇美拉",
+   "pinyin": "qimeila",
+   "pinyinSpaced": "qi mei la",
+   "freq": 1
+  },
+  {
+   "word": "银色奇美拉",
+   "pinyin": "yinseqimeila",
+   "pinyinSpaced": "yin se qi mei la",
+   "freq": 1
+  },
+  {
+   "word": "巨角兽",
+   "pinyin": "jujiaoshou",
+   "pinyinSpaced": "ju jiao shou",
+   "freq": 1
+  },
+  {
+   "word": "护角兽",
+   "pinyin": "hujiaoshou",
+   "pinyinSpaced": "hu jiao shou",
+   "freq": 1
+  },
+  {
+   "word": "狂暴巨角兽",
+   "pinyin": "kuangbaojujiaoshou",
+   "pinyinSpaced": "kuang bao ju jiao shou",
+   "freq": 1
+  },
+  {
+   "word": "石化蜥龙",
+   "pinyin": "shihuaxilong",
+   "pinyinSpaced": "shi hua xi long",
+   "freq": 1
+  },
+  {
+   "word": "黄褐巨蜥",
+   "pinyin": "huanghejuxi",
+   "pinyinSpaced": "huang he ju xi",
+   "freq": 1
+  },
+  {
+   "word": "下级蜥蜴",
+   "pinyin": "xiajixiyi",
+   "pinyinSpaced": "xia ji xi yi",
+   "freq": 1
+  },
+  {
+   "word": "触返蛙",
+   "pinyin": "chufanwa",
+   "pinyinSpaced": "chu fan wa",
+   "freq": 1
+  },
+  {
+   "word": "帕亚帕亚蛙",
+   "pinyin": "payapayawa",
+   "pinyinSpaced": "pa ya pa ya wa",
+   "freq": 1
+  },
+  {
+   "word": "岔枝花",
+   "pinyin": "chazhihua",
+   "pinyinSpaced": "cha zhi hua",
+   "freq": 1
+  },
+  {
+   "word": "盛开花",
+   "pinyin": "shengkaihua",
+   "pinyinSpaced": "sheng kai hua",
+   "freq": 1
+  },
+  {
+   "word": "巨蛙",
+   "pinyin": "juwa",
+   "pinyinSpaced": "ju wa",
+   "freq": 1
+  },
+  {
+   "word": "混成昆虫",
+   "pinyin": "hunchengkunchong",
+   "pinyinSpaced": "hun cheng kun chong",
+   "freq": 1
+  },
+  {
+   "word": "混成拟态怪",
+   "pinyin": "hunchengnitaiguai",
+   "pinyinSpaced": "hun cheng ni tai guai",
+   "freq": 1
+  },
+  {
+   "word": "混成恶魔",
+   "pinyin": "hunchengemo",
+   "pinyinSpaced": "hun cheng e mo",
+   "freq": 1
+  },
+  {
+   "word": "重型坦克",
+   "pinyin": "zhongxingtanke",
+   "pinyinSpaced": "zhong xing tan ke",
+   "freq": 1
+  },
+  {
+   "word": "憎恨号角",
+   "pinyin": "zenghenhaojiao",
+   "pinyinSpaced": "zeng hen hao jiao",
+   "freq": 1
+  },
+  {
+   "word": "奇奇奇亚秋",
+   "pinyin": "qiqiqiyaqiu",
+   "pinyinSpaced": "qi qi qi ya qiu",
+   "freq": 1
+  },
+  {
+   "word": "杜杜杜亚秋",
+   "pinyin": "dududuyaqiu",
+   "pinyinSpaced": "du du du ya qiu",
+   "freq": 1
+  },
+  {
+   "word": "巨岩魔像",
+   "pinyin": "juyanmoxiang",
+   "pinyinSpaced": "ju yan mo xiang",
+   "freq": 1
+  },
+  {
+   "word": "太古魔像",
+   "pinyin": "taigumoxiang",
+   "pinyinSpaced": "tai gu mo xiang",
+   "freq": 1
+  },
+  {
+   "word": "石化翼蜥",
+   "pinyin": "shihuayixi",
+   "pinyinSpaced": "shi hua yi xi",
+   "freq": 1
+  },
+  {
+   "word": "胆怯翼蜥",
+   "pinyin": "danqieyixi",
+   "pinyinSpaced": "dan qie yi xi",
+   "freq": 1
+  },
+  {
+   "word": "阿拉克兰",
+   "pinyin": "alakelan",
+   "pinyinSpaced": "a la ke lan",
+   "freq": 1
+  },
+  {
+   "word": "贾巴沃克",
+   "pinyin": "jiabawoke",
+   "pinyinSpaced": "jia ba wo ke",
+   "freq": 1
+  },
+  {
+   "word": "义族的亡灵",
+   "pinyin": "yizudewangling",
+   "pinyinSpaced": "yi zu de wang ling",
+   "freq": 1
+  },
+  {
+   "word": "刺针蜘蛛",
+   "pinyin": "cizhenzhizhu",
+   "pinyinSpaced": "ci zhen zhi zhu",
+   "freq": 1
+  },
+  {
+   "word": "瓦隆",
+   "pinyin": "walong",
+   "pinyinSpaced": "wa long",
+   "freq": 1
+  },
+  {
+   "word": "安托士",
+   "pinyin": "antuoshi",
+   "pinyinSpaced": "an tuo shi",
+   "freq": 1
+  },
+  {
+   "word": "海盗恶魔",
+   "pinyin": "haidaoemo",
+   "pinyinSpaced": "hai dao e mo",
+   "freq": 1
+  },
+  {
+   "word": "颈囊獠牙",
+   "pinyin": "jingnangliaoya",
+   "pinyinSpaced": "jing nang liao ya",
+   "freq": 1
+  },
+  {
+   "word": "森林獠牙",
+   "pinyin": "senlinliaoya",
+   "pinyinSpaced": "sen lin liao ya",
+   "freq": 1
+  },
+  {
+   "word": "杀人蜂",
+   "pinyin": "sharenfeng",
+   "pinyinSpaced": "sha ren feng",
+   "freq": 1
+  },
+  {
+   "word": "女王蜂",
+   "pinyin": "nvwangfeng",
+   "pinyinSpaced": "nv wang feng",
+   "freq": 1
+  },
+  {
+   "word": "巴拔维拉缪",
+   "pinyin": "babaweilamiu",
+   "pinyinSpaced": "ba ba wei la miu",
+   "freq": 1
+  },
+  {
+   "word": "黑蝙蝠",
+   "pinyin": "heibianfu",
+   "pinyinSpaced": "hei bian fu",
+   "freq": 1
+  },
+  {
+   "word": "虫团",
+   "pinyin": "chongtuan",
+   "pinyinSpaced": "chong tuan",
+   "freq": 1
+  },
+  {
+   "word": "盖修梅泽",
+   "pinyin": "gaixiumeize",
+   "pinyinSpaced": "gai xiu mei ze",
+   "freq": 1
+  },
+  {
+   "word": "百目怪",
+   "pinyin": "baimuguai",
+   "pinyinSpaced": "bai mu guai",
+   "freq": 1
+  },
+  {
+   "word": "铁金甲",
+   "pinyin": "tiejinjia",
+   "pinyinSpaced": "tie jin jia",
+   "freq": 1
+  },
+  {
+   "word": "赭红浮游死神",
+   "pinyin": "zhehongfuyousishen",
+   "pinyinSpaced": "zhe hong fu you si shen",
+   "freq": 1
+  },
+  {
+   "word": "浮游死神",
+   "pinyin": "fuyousishen",
+   "pinyinSpaced": "fu you si shen",
+   "freq": 1
+  },
+  {
+   "word": "尖叫者",
+   "pinyin": "jianjiaozhe",
+   "pinyinSpaced": "jian jiao zhe",
+   "freq": 1
+  },
+  {
+   "word": "探测眼",
+   "pinyin": "tanceyan",
+   "pinyinSpaced": "tan ce yan",
+   "freq": 1
+  },
+  {
+   "word": "新尾针爆怪",
+   "pinyin": "xinweizhenbaoguai",
+   "pinyinSpaced": "xin wei zhen bao guai",
+   "freq": 1
+  },
+  {
+   "word": "马杜万诛",
+   "pinyin": "maduwanzhu",
+   "pinyinSpaced": "ma du wan zhu",
+   "freq": 1
+  },
+  {
+   "word": "恶灵",
+   "pinyin": "eling",
+   "pinyinSpaced": "e ling",
+   "freq": 1
+  },
+  {
+   "word": "未知生命体",
+   "pinyin": "weizhishengmingti",
+   "pinyinSpaced": "wei zhi sheng ming ti",
+   "freq": 1
+  },
+  {
+   "word": "欢乐怪",
+   "pinyin": "huanleguai",
+   "pinyinSpaced": "huan le guai",
+   "freq": 1
+  },
+  {
+   "word": "审判者",
+   "pinyin": "shenpanzhe",
+   "pinyinSpaced": "shen pan zhe",
+   "freq": 1
+  },
+  {
+   "word": "伊莉娜",
+   "pinyin": "yilina",
+   "pinyinSpaced": "yi li na",
+   "freq": 1
+  },
+  {
+   "word": "戴因",
+   "pinyin": "daiyin",
+   "pinyinSpaced": "dai yin",
+   "freq": 1
+  },
+  {
+   "word": "迦瑞安野兽",
+   "pinyin": "jiaruianyeshou",
+   "pinyinSpaced": "jia rui an ye shou",
+   "freq": 1
+  },
+  {
+   "word": "星座蜗牛",
+   "pinyin": "xingzuowoniu",
+   "pinyinSpaced": "xing zuo wo niu",
+   "freq": 1
+  },
+  {
+   "word": "特装型螺旋飞行重炮",
+   "pinyin": "tezhuangxingluoxuanfeixingzhongpao",
+   "pinyinSpaced": "te zhuang xing luo xuan fei xing zhong pao",
+   "freq": 1
+  },
+  {
+   "word": "进化巨蛙",
+   "pinyin": "jinhuajuwa",
+   "pinyinSpaced": "jin hua ju wa",
+   "freq": 1
+  },
+  {
+   "word": "作废实验体",
+   "pinyin": "zuofeishiyanti",
+   "pinyinSpaced": "zuo fei shi yan ti",
+   "freq": 1
+  },
+  {
+   "word": "魔晶石看守者",
+   "pinyin": "mojingshikanshouzhe",
+   "pinyinSpaced": "mo jing shi kan shou zhe",
+   "freq": 1
+  },
+  {
+   "word": "秘银魔像",
+   "pinyin": "miyinmoxiang",
+   "pinyinSpaced": "mi yin mo xiang",
+   "freq": 1
+  },
+  {
+   "word": "摆尾龙鱼",
+   "pinyin": "baiweilongyu",
+   "pinyinSpaced": "bai wei long yu",
+   "freq": 1
+  },
+  {
+   "word": "义纳塔塔克",
+   "pinyin": "yinatatake",
+   "pinyinSpaced": "yi na ta ta ke",
+   "freq": 1
+  },
+  {
+   "word": "灵魂火焰",
+   "pinyin": "linghunhuoyan",
+   "pinyinSpaced": "ling hun huo yan",
+   "freq": 1
+  },
+  {
+   "word": "红龙",
+   "pinyin": "honglong",
+   "pinyinSpaced": "hong long",
+   "freq": 1
+  },
+  {
+   "word": "恶魔门",
+   "pinyin": "emomen",
+   "pinyinSpaced": "e mo men",
+   "freq": 1
+  },
+  {
+   "word": "泰坦",
+   "pinyin": "taitan",
+   "pinyinSpaced": "tai tan",
+   "freq": 1
+  },
+  {
+   "word": "亚历山大",
+   "pinyin": "yalishanda",
+   "pinyinSpaced": "ya li shan da",
+   "freq": 1
+  },
+  {
+   "word": "奥丁",
+   "pinyin": "aoding",
+   "pinyinSpaced": "ao ding",
+   "freq": 1
+  },
+  {
+   "word": "神秘剑豪",
+   "pinyin": "shenmijianhao",
+   "pinyinSpaced": "shen mi jian hao",
+   "freq": 1
+  },
+  {
+   "word": "英雄萨菲罗斯",
+   "pinyin": "yingxiongsafeiluosi",
+   "pinyinSpaced": "ying xiong sa fei luo si",
+   "freq": 1
+  },
+  {
+   "word": "广阔的世界",
+   "pinyin": "guangkuodeshijie",
+   "pinyinSpaced": "guang kuo de shi jie",
+   "freq": 1
+  },
+  {
+   "word": "黑斗篷的去向",
+   "pinyin": "heidoupengdequxiang",
+   "pinyinSpaced": "hei dou peng de qu xiang",
+   "freq": 1
+  },
+  {
+   "word": "新时代的号炮",
+   "pinyin": "xinshidaidehaopao",
+   "pinyinSpaced": "xin shi dai de hao pao",
+   "freq": 1
+  },
+  {
+   "word": "狂乱的海上旅行",
+   "pinyin": "kuangluandehaishanglvxing",
+   "pinyinSpaced": "kuang luan de hai shang lv xing",
+   "freq": 1
+  },
+  {
+   "word": "太阳乐园",
+   "pinyin": "taiyangleyuan",
+   "pinyinSpaced": "tai yang le yuan",
+   "freq": 1
+  },
+  {
+   "word": "充满懊悔的归乡",
+   "pinyin": "chongmanaohuideguixiang",
+   "pinyinSpaced": "chong man ao hui de gui xiang",
+   "freq": 1
+  },
+  {
+   "word": "星球守护者",
+   "pinyin": "xingqiushouhuzhe",
+   "pinyinSpaced": "xing qiu shou hu zhe",
+   "freq": 1
+  },
+  {
+   "word": "峡谷战士",
+   "pinyin": "xiaguzhanshi",
+   "pinyinSpaced": "xia gu zhan shi",
+   "freq": 1
+  },
+  {
+   "word": "陌生的故乡",
+   "pinyin": "moshengdeguxiang",
+   "pinyinSpaced": "mo sheng de gu xiang",
+   "freq": 1
+  },
+  {
+   "word": "寻找楔石",
+   "pinyin": "xunzhaoxieshi",
+   "pinyinSpaced": "xun zhao xie shi",
+   "freq": 1
+  },
+  {
+   "word": "迈向终结的世界",
+   "pinyin": "maixiangzhongjiedeshijie",
+   "pinyinSpaced": "mai xiang zhong jie de shi jie",
+   "freq": 1
+  },
+  {
+   "word": "我要替搭档找你们算账",
+   "pinyin": "woyaotidadangzhaonimensuanzhang",
+   "pinyinSpaced": "wo yao ti da dang zhao ni men suan zhang",
+   "freq": 1
+  },
+  {
+   "word": "召唤兽的祠堂",
+   "pinyin": "zhaohuanshoudecitang",
+   "pinyinSpaced": "zhao huan shou de ci tang",
+   "freq": 1
+  },
+  {
+   "word": "太阳海岸",
+   "pinyin": "taiyanghaian",
+   "pinyinSpaced": "tai yang hai an",
+   "freq": 1
+  },
+  {
+   "word": "海滨乔尼",
+   "pinyin": "haibinqiaoni",
+   "pinyinSpaced": "hai bin qiao ni",
+   "freq": 1
+  },
+  {
+   "word": "魔幻绽放",
+   "pinyin": "mohuanzhanfang",
+   "pinyinSpaced": "mo huan zhan fang",
+   "freq": 1
+  },
+  {
+   "word": "闹鬼酒店",
+   "pinyin": "naoguijiudian",
+   "pinyinSpaced": "nao gui jiu dian",
+   "freq": 1
+  },
+  {
+   "word": "奇迹广场",
+   "pinyin": "qijiguangchang",
+   "pinyinSpaced": "qi ji guang chang",
+   "freq": 1
+  },
+  {
+   "word": "战斗广场",
+   "pinyin": "zhandouguangchang",
+   "pinyinSpaced": "zhan dou guang chang",
+   "freq": 1
+  },
+  {
+   "word": "速度广场",
+   "pinyin": "suduguangchang",
+   "pinyinSpaced": "su du guang chang",
+   "freq": 1
+  },
+  {
+   "word": "燃烧弹",
+   "pinyin": "ranshaotan",
+   "pinyinSpaced": "ran shao tan",
+   "freq": 1
+  },
+  {
+   "word": "星殒地区",
+   "pinyin": "xingyundiqu",
+   "pinyinSpaced": "xing yun di qu",
+   "freq": 1
+  },
+  {
+   "word": "星殒天文台",
+   "pinyin": "xingyuntianwentai",
+   "pinyinSpaced": "xing yun tian wen tai",
+   "freq": 1
+  },
+  {
+   "word": "送星仪式",
+   "pinyin": "songxingyishi",
+   "pinyinSpaced": "song xing yi shi",
+   "freq": 1
+  },
+  {
+   "word": "义族的洞窟",
+   "pinyin": "yizudedongku",
+   "pinyinSpaced": "yi zu de dong ku",
+   "freq": 1
+  },
+  {
+   "word": "义族的村落",
+   "pinyin": "yizudecunluo",
+   "pinyinSpaced": "yi zu de cun luo",
+   "freq": 1
+  },
+  {
+   "word": "古代种的神殿",
+   "pinyin": "gudaizhongdeshendian",
+   "pinyinSpaced": "gu dai zhong de shen dian",
+   "freq": 1
+  },
+  {
+   "word": "青蛙跳跃",
+   "pinyin": "qingwatiaoyue",
+   "pinyinSpaced": "qing wa tiao yue",
+   "freq": 1
+  },
+  {
+   "word": "战略机兵",
+   "pinyin": "zhanluejibing",
+   "pinyinSpaced": "zhan lue ji bing",
+   "freq": 1
+  },
+  {
+   "word": "野兽战斗广场",
+   "pinyin": "yeshouzhandouguangchang",
+   "pinyinSpaced": "ye shou zhan dou guang chang",
+   "freq": 1
+  },
+  {
+   "word": "射击飞艇",
+   "pinyin": "shejifeiting",
+   "pinyinSpaced": "she ji fei ting",
+   "freq": 1
+  },
+  {
+   "word": "狂野奔驰",
+   "pinyin": "kuangyebenchi",
+   "pinyinSpaced": "kuang ye ben chi",
+   "freq": 1
+  },
+  {
+   "word": "卡片嘉年华",
+   "pinyin": "kapianjianianhua",
+   "pinyinSpaced": "ka pian jia nian hua",
+   "freq": 1
+  },
+  {
+   "word": "陆行鸟钻圈",
+   "pinyin": "luxingniaozuanquan",
+   "pinyinSpaced": "lu xing niao zuan quan",
+   "freq": 1
+  },
+  {
+   "word": "沙漠狂袭",
+   "pinyin": "shamokuangxi",
+   "pinyinSpaced": "sha mo kuang xi",
+   "freq": 1
+  },
+  {
+   "word": "矿车射击",
+   "pinyin": "kuangchesheji",
+   "pinyinSpaced": "kuang che she ji",
+   "freq": 1
+  },
+  {
+   "word": "平衡车约会",
+   "pinyin": "pinghengcheyuehui",
+   "pinyinSpaced": "ping heng che yue hui",
+   "freq": 1
+  },
+  {
+   "word": "莫古力追逐赛",
+   "pinyin": "mogulizhuizhusai",
+   "pinyinSpaced": "mo gu li zhui zhu sai",
+   "freq": 1
+  },
+  {
+   "word": "打击仙人掌",
+   "pinyin": "dajixianrenzhang",
+   "pinyinSpaced": "da ji xian ren zhang",
+   "freq": 1
+  },
+  {
+   "word": "肌肉竞技场",
+   "pinyin": "jiroujingjichang",
+   "pinyinSpaced": "ji rou jing ji chang",
+   "freq": 1
+  },
+  {
+   "word": "海盗暴乱",
+   "pinyin": "haidaobaoluan",
+   "pinyinSpaced": "hai dao bao luan",
+   "freq": 1
+  },
+  {
+   "word": "皇家演奏会",
+   "pinyin": "huangjiayanzouhui",
+   "pinyinSpaced": "huang jia yan zou hui",
+   "freq": 1
+  },
+  {
+   "word": "陆行鸟冲刺",
+   "pinyin": "luxingniaochongci",
+   "pinyinSpaced": "lu xing niao chong ci",
+   "freq": 1
+  },
+  {
+   "word": "彗星",
+   "pinyin": "huixing",
+   "pinyinSpaced": "hui xing",
+   "freq": 1
+  },
+  {
+   "word": "勇气",
+   "pinyin": "yongqi",
+   "pinyinSpaced": "yong qi",
+   "freq": 1
+  },
+  {
+   "word": "信心",
+   "pinyin": "xinxin",
+   "pinyinSpaced": "xin xin",
+   "freq": 1
+  },
+  {
+   "word": "阻勇气",
+   "pinyin": "zuyongqi",
+   "pinyinSpaced": "zu yong qi",
+   "freq": 1
+  },
+  {
+   "word": "阻信心",
+   "pinyin": "zuxinxin",
+   "pinyinSpaced": "zu xin xin",
+   "freq": 1
+  },
+  {
+   "word": "重力",
+   "pinyin": "zhongli",
+   "pinyinSpaced": "zhong li",
+   "freq": 1
+  },
+  {
+   "word": "回旋镖",
+   "pinyin": "huixuanbiao",
+   "pinyinSpaced": "hui xuan biao",
+   "freq": 1
+  },
+  {
+   "word": "风车镖",
+   "pinyin": "fengchebiao",
+   "pinyinSpaced": "feng che biao",
+   "freq": 1
+  },
+  {
+   "word": "仙人掌手里剑",
+   "pinyin": "xianrenzhangshoulijian",
+   "pinyinSpaced": "xian ren zhang shou li jian",
+   "freq": 1
+  },
+  {
+   "word": "金属棍",
+   "pinyin": "jinshugun",
+   "pinyinSpaced": "jin shu gun",
+   "freq": 1
+  },
+  {
+   "word": "魔人棍",
+   "pinyin": "morengun",
+   "pinyinSpaced": "mo ren gun",
+   "freq": 1
+  },
+  {
+   "word": "钢铁剑",
+   "pinyin": "gangtiejian",
+   "pinyinSpaced": "gang tie jian",
+   "freq": 1
+  },
+  {
+   "word": "秘银剑",
+   "pinyin": "miyinjian",
+   "pinyinSpaced": "mi yin jian",
+   "freq": 1
+  },
+  {
+   "word": "破甲大剑",
+   "pinyin": "pojiadajian",
+   "pinyinSpaced": "po jia da jian",
+   "freq": 1
+  },
+  {
+   "word": "狼牙棒",
+   "pinyin": "langyabang",
+   "pinyinSpaced": "lang ya bang",
+   "freq": 1
+  },
+  {
+   "word": "双刺剑",
+   "pinyin": "shuangcijian",
+   "pinyinSpaced": "shuang ci jian",
+   "freq": 1
+  },
+  {
+   "word": "突击炮",
+   "pinyin": "tujipao",
+   "pinyinSpaced": "tu ji pao",
+   "freq": 1
+  },
+  {
+   "word": "加农弹",
+   "pinyin": "jianongtan",
+   "pinyinSpaced": "jia nong tan",
+   "freq": 1
+  },
+  {
+   "word": "原子铁钳",
+   "pinyin": "yuanzitieqian",
+   "pinyinSpaced": "yuan zi tie qian",
+   "freq": 1
+  },
+  {
+   "word": "巨炮",
+   "pinyin": "jupao",
+   "pinyinSpaced": "ju pao",
+   "freq": 1
+  },
+  {
+   "word": "搏动炮",
+   "pinyin": "bodongpao",
+   "pinyinSpaced": "bo dong pao",
+   "freq": 1
+  },
+  {
+   "word": "软羽手套",
+   "pinyin": "ruanyushoutao",
+   "pinyinSpaced": "ruan yu shou tao",
+   "freq": 1
+  },
+  {
+   "word": "音速拳套",
+   "pinyin": "yinsuquantao",
+   "pinyinSpaced": "yin su quan tao",
+   "freq": 1
+  },
+  {
+   "word": "金属指虎",
+   "pinyin": "jinshuzhihu",
+   "pinyinSpaced": "jin shu zhi hu",
+   "freq": 1
+  },
+  {
+   "word": "高级手套",
+   "pinyin": "gaojishoutao",
+   "pinyinSpaced": "gao ji shou tao",
+   "freq": 1
+  },
+  {
+   "word": "全金属长杖",
+   "pinyin": "quanjinshuchangzhang",
+   "pinyinSpaced": "quan jin shu chang zhang",
+   "freq": 1
+  },
+  {
+   "word": "银制长杖",
+   "pinyin": "yinzhichangzhang",
+   "pinyinSpaced": "yin zhi chang zhang",
+   "freq": 1
+  },
+  {
+   "word": "魔法长杖",
+   "pinyin": "mofachangzhang",
+   "pinyinSpaced": "mo fa chang zhang",
+   "freq": 1
+  },
+  {
+   "word": "强击长杖",
+   "pinyin": "qiangjichangzhang",
+   "pinyinSpaced": "qiang ji chang zhang",
+   "freq": 1
+  },
+  {
+   "word": "丝滑剑",
+   "pinyin": "sihuajian",
+   "pinyinSpaced": "si hua jian",
+   "freq": 1
+  },
+  {
+   "word": "原力吞噬者",
+   "pinyin": "yuanlitunshizhe",
+   "pinyinSpaced": "yuan li tun shi zhe",
+   "freq": 1
+  },
+  {
+   "word": "水晶剑",
+   "pinyin": "shuijingjian",
+   "pinyinSpaced": "shui jing jian",
+   "freq": 1
+  },
+  {
+   "word": "火山剑",
+   "pinyin": "huoshanjian",
+   "pinyinSpaced": "huo shan jian",
+   "freq": 1
+  },
+  {
+   "word": "破流者",
+   "pinyin": "poliuzhe",
+   "pinyinSpaced": "po liu zhe",
+   "freq": 1
+  },
+  {
+   "word": "大口径枪",
+   "pinyin": "dakoujingqiang",
+   "pinyinSpaced": "da kou jing qiang",
+   "freq": 1
+  },
+  {
+   "word": "破敌发射器",
+   "pinyin": "podifasheqi",
+   "pinyinSpaced": "po di fa she qi",
+   "freq": 1
+  },
+  {
+   "word": "破甲机炮",
+   "pinyin": "pojiajipao",
+   "pinyinSpaced": "po jia ji pao",
+   "freq": 1
+  },
+  {
+   "word": "法夫纳枪",
+   "pinyin": "fafunaqiang",
+   "pinyinSpaced": "fa fu na qiang",
+   "freq": 1
+  },
+  {
+   "word": "坚实火箭炮",
+   "pinyin": "jianshihuojianpao",
+   "pinyinSpaced": "jian shi huo jian pao",
+   "freq": 1
+  },
+  {
+   "word": "高声嘶吼",
+   "pinyin": "gaoshengsihou",
+   "pinyinSpaced": "gao sheng si hou",
+   "freq": 1
+  },
+  {
+   "word": "风精手套",
+   "pinyin": "fengjingshoutao",
+   "pinyinSpaced": "feng jing shou tao",
+   "freq": 1
+  },
+  {
+   "word": "龙爪",
+   "pinyin": "longzhao",
+   "pinyinSpaced": "long zhao",
+   "freq": 1
+  },
+  {
+   "word": "水晶手套",
+   "pinyin": "shuijingshoutao",
+   "pinyinSpaced": "shui jing shou tao",
+   "freq": 1
+  },
+  {
+   "word": "雅恩格利佩尔",
+   "pinyin": "yaengelipeier",
+   "pinyinSpaced": "ya en ge li pei er",
+   "freq": 1
+  },
+  {
+   "word": "永恒长杖",
+   "pinyin": "yonghengchangzhang",
+   "pinyinSpaced": "yong heng chang zhang",
+   "freq": 1
+  },
+  {
+   "word": "女帝长杖",
+   "pinyin": "nvdichangzhang",
+   "pinyinSpaced": "nv di chang zhang",
+   "freq": 1
+  },
+  {
+   "word": "智者长杖",
+   "pinyin": "zhizhechangzhang",
+   "pinyinSpaced": "zhi zhe chang zhang",
+   "freq": 1
+  },
+  {
+   "word": "棱镜长杖",
+   "pinyin": "lengjingchangzhang",
+   "pinyinSpaced": "leng jing chang zhang",
+   "freq": 1
+  },
+  {
+   "word": "秘银项圈",
+   "pinyin": "miyinxiangquan",
+   "pinyinSpaced": "mi yin xiang quan",
+   "freq": 1
+  },
+  {
+   "word": "反叛项圈",
+   "pinyin": "fanpanxiangquan",
+   "pinyinSpaced": "fan pan xiang quan",
+   "freq": 1
+  },
+  {
+   "word": "银制项圈",
+   "pinyin": "yinzhixiangquan",
+   "pinyinSpaced": "yin zhi xiang quan",
+   "freq": 1
+  },
+  {
+   "word": "紫水晶项圈",
+   "pinyin": "zishuijingxiangquan",
+   "pinyinSpaced": "zi shui jing xiang quan",
+   "freq": 1
+  },
+  {
+   "word": "黄金项圈",
+   "pinyin": "huangjinxiangquan",
+   "pinyinSpaced": "huang jin xiang quan",
+   "freq": 1
+  },
+  {
+   "word": "布里希嘉曼",
+   "pinyin": "bulixijiaman",
+   "pinyinSpaced": "bu li xi jia man",
+   "freq": 1
+  },
+  {
+   "word": "魔法项圈",
+   "pinyin": "mofaxiangquan",
+   "pinyinSpaced": "mo fa xiang quan",
+   "freq": 1
+  },
+  {
+   "word": "回旋匕首",
+   "pinyin": "huixuanbishou",
+   "pinyinSpaced": "hui xuan bi shou",
+   "freq": 1
+  },
+  {
+   "word": "双生毒蛇",
+   "pinyin": "shuangshengdushe",
+   "pinyinSpaced": "shuang sheng du she",
+   "freq": 1
+  },
+  {
+   "word": "猎鹰人",
+   "pinyin": "lieyingren",
+   "pinyinSpaced": "lie ying ren",
+   "freq": 1
+  },
+  {
+   "word": "水晶十字剑",
+   "pinyin": "shuijingshizijian",
+   "pinyinSpaced": "shui jing shi zi jian",
+   "freq": 1
+  },
+  {
+   "word": "风魔手里剑",
+   "pinyin": "fengmoshoulijian",
+   "pinyinSpaced": "feng mo shou li jian",
+   "freq": 1
+  },
+  {
+   "word": "黄色扩音器",
+   "pinyin": "huangsekuoyinqi",
+   "pinyinSpaced": "huang se kuo yin qi",
+   "freq": 1
+  },
+  {
+   "word": "钢铁扩音器",
+   "pinyin": "gangtiekuoyinqi",
+   "pinyinSpaced": "gang tie kuo yin qi",
+   "freq": 1
+  },
+  {
+   "word": "水晶扩音器",
+   "pinyin": "shuijingkuoyinqi",
+   "pinyinSpaced": "shui jing kuo yin qi",
+   "freq": 1
+  },
+  {
+   "word": "红色扩音器",
+   "pinyin": "hongsekuoyinqi",
+   "pinyinSpaced": "hong se kuo yin qi",
+   "freq": 1
+  },
+  {
+   "word": "回声扩音器",
+   "pinyin": "huishengkuoyinqi",
+   "pinyinSpaced": "hui sheng kuo yin qi",
+   "freq": 1
+  },
+  {
+   "word": "黄金扩音器",
+   "pinyin": "huangjinkuoyinqi",
+   "pinyinSpaced": "huang jin kuo yin qi",
+   "freq": 1
+  },
+  {
+   "word": "加拉尔号角",
+   "pinyin": "jialaerhaojiao",
+   "pinyinSpaced": "jia la er hao jiao",
+   "freq": 1
+  },
+  {
+   "word": "青铜手镯",
+   "pinyin": "qingtongshouzhuo",
+   "pinyinSpaced": "qing tong shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "铁手镯",
+   "pinyin": "tieshouzhuo",
+   "pinyinSpaced": "tie shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "神秘护腕",
+   "pinyin": "shenmihuwan",
+   "pinyinSpaced": "shen mi hu wan",
+   "freq": 1
+  },
+  {
+   "word": "机械手镯",
+   "pinyin": "jixieshouzhuo",
+   "pinyinSpaced": "ji xie shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "力量手环",
+   "pinyin": "liliangshouhuan",
+   "pinyinSpaced": "li liang shou huan",
+   "freq": 1
+  },
+  {
+   "word": "哥特手镯",
+   "pinyin": "geteshouzhuo",
+   "pinyinSpaced": "ge te shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "星辰手环",
+   "pinyin": "xingchenshouhuan",
+   "pinyinSpaced": "xing chen shou huan",
+   "freq": 1
+  },
+  {
+   "word": "钛手镯",
+   "pinyin": "taishouzhuo",
+   "pinyinSpaced": "tai shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "皮革护腕",
+   "pinyin": "pigehuwan",
+   "pinyinSpaced": "pi ge hu wan",
+   "freq": 1
+  },
+  {
+   "word": "铆钉护腕",
+   "pinyin": "maodinghuwan",
+   "pinyinSpaced": "mao ding hu wan",
+   "freq": 1
+  },
+  {
+   "word": "漆黑手环",
+   "pinyin": "qiheishouhuan",
+   "pinyinSpaced": "qi hei shou huan",
+   "freq": 1
+  },
+  {
+   "word": "巫师手环",
+   "pinyin": "wushishouhuan",
+   "pinyinSpaced": "wu shi shou huan",
+   "freq": 1
+  },
+  {
+   "word": "魔力护腕",
+   "pinyin": "molihuwan",
+   "pinyinSpaced": "mo li hu wan",
+   "freq": 1
+  },
+  {
+   "word": "法师护腕",
+   "pinyin": "fashihuwan",
+   "pinyinSpaced": "fa shi hu wan",
+   "freq": 1
+  },
+  {
+   "word": "钢板护腕",
+   "pinyin": "gangbanhuwan",
+   "pinyinSpaced": "gang ban hu wan",
+   "freq": 1
+  },
+  {
+   "word": "重金属护腕",
+   "pinyin": "zhongjinshuhuwan",
+   "pinyinSpaced": "zhong jin shu hu wan",
+   "freq": 1
+  },
+  {
+   "word": "高级护腕",
+   "pinyin": "gaojihuwan",
+   "pinyinSpaced": "gao ji hu wan",
+   "freq": 1
+  },
+  {
+   "word": "几何手环",
+   "pinyin": "jiheshouhuan",
+   "pinyinSpaced": "ji he shou huan",
+   "freq": 1
+  },
+  {
+   "word": "符文护腕",
+   "pinyin": "fuwenhuwan",
+   "pinyinSpaced": "fu wen hu wan",
+   "freq": 1
+  },
+  {
+   "word": "链接手镯",
+   "pinyin": "lianjieshouzhuo",
+   "pinyinSpaced": "lian jie shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "米德加手镯",
+   "pinyin": "midejiashouzhuo",
+   "pinyinSpaced": "mi de jia shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "神罗手镯",
+   "pinyin": "shenluoshouzhuo",
+   "pinyinSpaced": "shen luo shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "忍者护腕",
+   "pinyin": "renzhehuwan",
+   "pinyinSpaced": "ren zhe hu wan",
+   "freq": 1
+  },
+  {
+   "word": "魔翔护腕",
+   "pinyin": "moxianghuwan",
+   "pinyinSpaced": "mo xiang hu wan",
+   "freq": 1
+  },
+  {
+   "word": "鬼神护腕",
+   "pinyin": "guishenhuwan",
+   "pinyinSpaced": "gui shen hu wan",
+   "freq": 1
+  },
+  {
+   "word": "凤凰护腕",
+   "pinyin": "fenghuanghuwan",
+   "pinyinSpaced": "feng huang hu wan",
+   "freq": 1
+  },
+  {
+   "word": "金属护臂",
+   "pinyin": "jinshuhubi",
+   "pinyinSpaced": "jin shu hu bi",
+   "freq": 1
+  },
+  {
+   "word": "皮革手镯",
+   "pinyin": "pigeshouzhuo",
+   "pinyinSpaced": "pi ge shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "铜制护臂",
+   "pinyin": "tongzhihubi",
+   "pinyinSpaced": "tong zhi hu bi",
+   "freq": 1
+  },
+  {
+   "word": "木灵护身符",
+   "pinyin": "mulinghushenfu",
+   "pinyinSpaced": "mu ling hu shen fu",
+   "freq": 1
+  },
+  {
+   "word": "坚硬手镯",
+   "pinyin": "jianyingshouzhuo",
+   "pinyinSpaced": "jian ying shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "骨制手环",
+   "pinyin": "guzhishouhuan",
+   "pinyinSpaced": "gu zhi shou huan",
+   "freq": 1
+  },
+  {
+   "word": "猫头鹰护臂",
+   "pinyin": "maotouyinghubi",
+   "pinyinSpaced": "mao tou ying hu bi",
+   "freq": 1
+  },
+  {
+   "word": "兽人护腕",
+   "pinyin": "shourenhuwan",
+   "pinyinSpaced": "shou ren hu wan",
+   "freq": 1
+  },
+  {
+   "word": "水手护臂",
+   "pinyin": "shuishouhubi",
+   "pinyinSpaced": "shui shou hu bi",
+   "freq": 1
+  },
+  {
+   "word": "象皮手镯",
+   "pinyin": "xiangpishouzhuo",
+   "pinyinSpaced": "xiang pi shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "野性手环",
+   "pinyin": "yexingshouhuan",
+   "pinyinSpaced": "ye xing shou huan",
+   "freq": 1
+  },
+  {
+   "word": "女王手镯",
+   "pinyin": "nvwangshouzhuo",
+   "pinyinSpaced": "nv wang shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "堡垒护臂",
+   "pinyin": "baoleihubi",
+   "pinyinSpaced": "bao lei hu bi",
+   "freq": 1
+  },
+  {
+   "word": "幻惑护身符",
+   "pinyin": "huanhuohushenfu",
+   "pinyinSpaced": "huan huo hu shen fu",
+   "freq": 1
+  },
+  {
+   "word": "深渊手镯",
+   "pinyin": "shenyuanshouzhuo",
+   "pinyinSpaced": "shen yuan shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "巨兽手环",
+   "pinyin": "jushoushouhuan",
+   "pinyinSpaced": "ju shou shou huan",
+   "freq": 1
+  },
+  {
+   "word": "奇术护腕",
+   "pinyin": "qishuhuwan",
+   "pinyinSpaced": "qi shu hu wan",
+   "freq": 1
+  },
+  {
+   "word": "飞燕护臂",
+   "pinyin": "feiyanhubi",
+   "pinyinSpaced": "fei yan hu bi",
+   "freq": 1
+  },
+  {
+   "word": "合金护臂",
+   "pinyin": "hejinhubi",
+   "pinyinSpaced": "he jin hu bi",
+   "freq": 1
+  },
+  {
+   "word": "魔女护身符",
+   "pinyin": "monvhushenfu",
+   "pinyinSpaced": "mo nv hu shen fu",
+   "freq": 1
+  },
+  {
+   "word": "法外之徒手镯",
+   "pinyin": "fawaizhitushouzhuo",
+   "pinyinSpaced": "fa wai zhi tu shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "鳄鱼手环",
+   "pinyin": "eyushouhuan",
+   "pinyinSpaced": "e yu shou huan",
+   "freq": 1
+  },
+  {
+   "word": "贤者护腕",
+   "pinyin": "xianzhehuwan",
+   "pinyinSpaced": "xian zhe hu wan",
+   "freq": 1
+  },
+  {
+   "word": "大角手环",
+   "pinyin": "dajiaoshouhuan",
+   "pinyinSpaced": "da jiao shou huan",
+   "freq": 1
+  },
+  {
+   "word": "陆行鸟护腕",
+   "pinyin": "luxingniaohuwan",
+   "pinyinSpaced": "lu xing niao hu wan",
+   "freq": 1
+  },
+  {
+   "word": "司令护臂",
+   "pinyin": "silinghubi",
+   "pinyinSpaced": "si ling hu bi",
+   "freq": 1
+  },
+  {
+   "word": "冥界护身符",
+   "pinyin": "mingjiehushenfu",
+   "pinyinSpaced": "ming jie hu shen fu",
+   "freq": 1
+  },
+  {
+   "word": "道路之星手镯",
+   "pinyin": "daoluzhixingshouzhuo",
+   "pinyinSpaced": "dao lu zhi xing shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "螺纹手环",
+   "pinyin": "luowenshouhuan",
+   "pinyinSpaced": "luo wen shou huan",
+   "freq": 1
+  },
+  {
+   "word": "谷神星手镯",
+   "pinyin": "gushenxingshouzhuo",
+   "pinyinSpaced": "gu shen xing shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "脊骨手环",
+   "pinyin": "jigushouhuan",
+   "pinyinSpaced": "ji gu shou huan",
+   "freq": 1
+  },
+  {
+   "word": "荣耀护臂",
+   "pinyin": "rongyaohubi",
+   "pinyinSpaced": "rong yao hu bi",
+   "freq": 1
+  },
+  {
+   "word": "世界之树护身符",
+   "pinyin": "shijiezhishuhushenfu",
+   "pinyinSpaced": "shi jie zhi shu hu shen fu",
+   "freq": 1
+  },
+  {
+   "word": "迦姆手镯",
+   "pinyin": "jiamushouzhuo",
+   "pinyinSpaced": "jia mu shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "沃瓦道斯手环",
+   "pinyin": "wowadaosishouhuan",
+   "pinyinSpaced": "wo wa dao si shou huan",
+   "freq": 1
+  },
+  {
+   "word": "女武神手镯",
+   "pinyin": "nvwushenshouzhuo",
+   "pinyinSpaced": "nv wu shen shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "哈迪斯护身符",
+   "pinyin": "hadisihushenfu",
+   "pinyinSpaced": "ha di si hu shen fu",
+   "freq": 1
+  },
+  {
+   "word": "赛特拉护臂",
+   "pinyin": "saitelahubi",
+   "pinyinSpaced": "sai te la hu bi",
+   "freq": 1
+  },
+  {
+   "word": "赛特拉护身符",
+   "pinyin": "saitelahushenfu",
+   "pinyinSpaced": "sai te la hu shen fu",
+   "freq": 1
+  },
+  {
+   "word": "赛特拉手镯",
+   "pinyin": "saitelashouzhuo",
+   "pinyinSpaced": "sai te la shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "赛特拉护腕",
+   "pinyin": "saitelahuwan",
+   "pinyinSpaced": "sai te la hu wan",
+   "freq": 1
+  },
+  {
+   "word": "威力护腕",
+   "pinyin": "weilihuwan",
+   "pinyinSpaced": "wei li hu wan",
+   "freq": 1
+  },
+  {
+   "word": "疗愈颈链",
+   "pinyin": "liaoyujinglian",
+   "pinyinSpaced": "liao yu jing lian",
+   "freq": 1
+  },
+  {
+   "word": "全力护腕",
+   "pinyin": "quanlihuwan",
+   "pinyinSpaced": "quan li hu wan",
+   "freq": 1
+  },
+  {
+   "word": "精灵耳环",
+   "pinyin": "jinglingerhuan",
+   "pinyinSpaced": "jing ling er huan",
+   "freq": 1
+  },
+  {
+   "word": "辟邪护符",
+   "pinyin": "pixiehufu",
+   "pinyinSpaced": "pi xie hu fu",
+   "freq": 1
+  },
+  {
+   "word": "耳环",
+   "pinyin": "erhuan",
+   "pinyinSpaced": "er huan",
+   "freq": 1
+  },
+  {
+   "word": "防弹背心",
+   "pinyin": "fangdanbeixin",
+   "pinyinSpaced": "fang dan bei xin",
+   "freq": 1
+  },
+  {
+   "word": "白金耳环",
+   "pinyin": "baijinerhuan",
+   "pinyinSpaced": "bai jin er huan",
+   "freq": 1
+  },
+  {
+   "word": "远古护身符",
+   "pinyin": "yuanguhushenfu",
+   "pinyinSpaced": "yuan gu hu shen fu",
+   "freq": 1
+  },
+  {
+   "word": "野外求生背心",
+   "pinyin": "yewaiqiushengbeixin",
+   "pinyinSpaced": "ye wai qiu sheng bei xin",
+   "freq": 1
+  },
+  {
+   "word": "头巾",
+   "pinyin": "toujin",
+   "pinyinSpaced": "tou jin",
+   "freq": 1
+  },
+  {
+   "word": "星之坠饰",
+   "pinyin": "xingzhizhuishi",
+   "pinyinSpaced": "xing zhi zhui shi",
+   "freq": 1
+  },
+  {
+   "word": "青蛙戒指",
+   "pinyin": "qingwajiezhi",
+   "pinyinSpaced": "qing wa jie zhi",
+   "freq": 1
+  },
+  {
+   "word": "疾风领巾",
+   "pinyin": "jifenglingjin",
+   "pinyinSpaced": "ji feng ling jin",
+   "freq": 1
+  },
+  {
+   "word": "救赎徽章",
+   "pinyin": "jiushuhuizhang",
+   "pinyinSpaced": "jiu shu hui zhang",
+   "freq": 1
+  },
+  {
+   "word": "新月幸运符",
+   "pinyin": "xinyuexingyunfu",
+   "pinyinSpaced": "xin yue xing yun fu",
+   "freq": 1
+  },
+  {
+   "word": "防御长靴",
+   "pinyin": "fangyuchangxue",
+   "pinyinSpaced": "fang yu chang xue",
+   "freq": 1
+  },
+  {
+   "word": "诸神黄昏",
+   "pinyin": "zhushenhuanghun",
+   "pinyinSpaced": "zhu shen huang hun",
+   "freq": 1
+  },
+  {
+   "word": "头冠",
+   "pinyin": "touguan",
+   "pinyinSpaced": "tou guan",
+   "freq": 1
+  },
+  {
+   "word": "冠军腰带",
+   "pinyin": "guanjunyaodai",
+   "pinyinSpaced": "guan jun yao dai",
+   "freq": 1
+  },
+  {
+   "word": "慧眼",
+   "pinyin": "huiyan",
+   "pinyinSpaced": "hui yan",
+   "freq": 1
+  },
+  {
+   "word": "莫古力护符",
+   "pinyin": "mogulihufu",
+   "pinyinSpaced": "mo gu li hu fu",
+   "freq": 1
+  },
+  {
+   "word": "塔罗牌",
+   "pinyin": "taluopai",
+   "pinyinSpaced": "ta luo pai",
+   "freq": 1
+  },
+  {
+   "word": "神奇水晶",
+   "pinyin": "shenqishuijing",
+   "pinyinSpaced": "shen qi shui jing",
+   "freq": 1
+  },
+  {
+   "word": "愤怒戒指",
+   "pinyin": "fennujiezhi",
+   "pinyinSpaced": "fen nu jie zhi",
+   "freq": 1
+  },
+  {
+   "word": "魔法戒指",
+   "pinyin": "mofajiezhi",
+   "pinyinSpaced": "mo fa jie zhi",
+   "freq": 1
+  },
+  {
+   "word": "魔法齿轮",
+   "pinyin": "mofachilun",
+   "pinyinSpaced": "mo fa chi lun",
+   "freq": 1
+  },
+  {
+   "word": "怒气传导器",
+   "pinyin": "nuqichuandaoqi",
+   "pinyinSpaced": "nu qi chuan dao qi",
+   "freq": 1
+  },
+  {
+   "word": "幻兽护符",
+   "pinyin": "huanshouhufu",
+   "pinyinSpaced": "huan shou hu fu",
+   "freq": 1
+  },
+  {
+   "word": "明星腰带",
+   "pinyin": "mingxingyaodai",
+   "pinyinSpaced": "ming xing yao dai",
+   "freq": 1
+  },
+  {
+   "word": "自动重生耳环",
+   "pinyin": "zidongchongshengerhuan",
+   "pinyinSpaced": "zi dong chong sheng er huan",
+   "freq": 1
+  },
+  {
+   "word": "赤鬼内存",
+   "pinyin": "chiguineicun",
+   "pinyinSpaced": "chi gui nei cun",
+   "freq": 1
+  },
+  {
+   "word": "青鬼内存",
+   "pinyin": "qingguineicun",
+   "pinyinSpaced": "qing gui nei cun",
+   "freq": 1
+  },
+  {
+   "word": "缎带",
+   "pinyin": "duandai",
+   "pinyinSpaced": "duan dai",
+   "freq": 1
+  },
+  {
+   "word": "强力辟邪护符",
+   "pinyin": "qianglipixiehufu",
+   "pinyinSpaced": "qiang li pi xie hu fu",
+   "freq": 1
+  },
+  {
+   "word": "魔力耳环",
+   "pinyin": "molierhuan",
+   "pinyinSpaced": "mo li er huan",
+   "freq": 1
+  },
+  {
+   "word": "高威力护腕",
+   "pinyin": "gaoweilihuwan",
+   "pinyinSpaced": "gao wei li hu wan",
+   "freq": 1
+  },
+  {
+   "word": "精神幸运符",
+   "pinyin": "jingshenxingyunfu",
+   "pinyinSpaced": "jing shen xing yun fu",
+   "freq": 1
+  },
+  {
+   "word": "友爱耳环",
+   "pinyin": "youaierhuan",
+   "pinyinSpaced": "you ai er huan",
+   "freq": 1
+  },
+  {
+   "word": "行人徽章",
+   "pinyin": "xingrenhuizhang",
+   "pinyinSpaced": "xing ren hui zhang",
+   "freq": 1
+  },
+  {
+   "word": "罗榭钥匙圈",
+   "pinyin": "luoxieyaoshiquan",
+   "pinyinSpaced": "luo xie yao shi quan",
+   "freq": 1
+  },
+  {
+   "word": "宇宙骑士团从军勋章",
+   "pinyin": "yuzhouqishituancongjunxunzhang",
+   "pinyinSpaced": "yu zhou qi shi tuan cong jun xun zhang",
+   "freq": 1
+  },
+  {
+   "word": "邪龙戒指",
+   "pinyin": "xielongjiezhi",
+   "pinyinSpaced": "xie long jie zhi",
+   "freq": 1
+  },
+  {
+   "word": "祈安珠",
+   "pinyin": "qianzhu",
+   "pinyinSpaced": "qi an zhu",
+   "freq": 1
+  },
+  {
+   "word": "海盗王的罗盘",
+   "pinyin": "haidaowangdeluopan",
+   "pinyinSpaced": "hai dao wang de luo pan",
+   "freq": 1
+  },
+  {
+   "word": "源氏护手",
+   "pinyin": "yuanshihushou",
+   "pinyinSpaced": "yuan shi hu shou",
+   "freq": 1
+  },
+  {
+   "word": "义族护符",
+   "pinyin": "yizuhufu",
+   "pinyinSpaced": "yi zu hu fu",
+   "freq": 1
+  },
+  {
+   "word": "怨恨围巾",
+   "pinyin": "yuanhenweijin",
+   "pinyinSpaced": "yuan hen wei jin",
+   "freq": 1
+  },
+  {
+   "word": "幸运护符",
+   "pinyin": "xingyunhufu",
+   "pinyinSpaced": "xing yun hu fu",
+   "freq": 1
+  },
+  {
+   "word": "宝石戒指",
+   "pinyin": "baoshijiezhi",
+   "pinyinSpaced": "bao shi jie zhi",
+   "freq": 1
+  },
+  {
+   "word": "雪白披肩",
+   "pinyin": "xuebaipijian",
+   "pinyinSpaced": "xue bai pi jian",
+   "freq": 1
+  },
+  {
+   "word": "全劲护腕",
+   "pinyin": "quanjinhuwan",
+   "pinyinSpaced": "quan jin hu wan",
+   "freq": 1
+  },
+  {
+   "word": "战斗装甲",
+   "pinyin": "zhandouzhuangjia",
+   "pinyinSpaced": "zhan dou zhuang jia",
+   "freq": 1
+  },
+  {
+   "word": "法师耳环",
+   "pinyin": "fashierhuan",
+   "pinyinSpaced": "fa shi er huan",
+   "freq": 1
+  },
+  {
+   "word": "赛特拉护符",
+   "pinyin": "saitelahufu",
+   "pinyinSpaced": "sai te la hu fu",
+   "freq": 1
+  },
+  {
+   "word": "极限增幅器",
+   "pinyin": "jixianzengfuqi",
+   "pinyinSpaced": "ji xian zeng fu qi",
+   "freq": 1
+  },
+  {
+   "word": "不屈之戒",
+   "pinyin": "buquzhijie",
+   "pinyinSpaced": "bu qu zhi jie",
+   "freq": 1
+  },
+  {
+   "word": "盗贼护手",
+   "pinyin": "daozeihushou",
+   "pinyinSpaced": "dao zei hu shou",
+   "freq": 1
+  },
+  {
+   "word": "破坏专家钥匙圈",
+   "pinyin": "pohuaizhuanjiayaoshiquan",
+   "pinyinSpaced": "po huai zhuan jia yao shi quan",
+   "freq": 1
+  },
+  {
+   "word": "陆行鸟王的斗篷",
+   "pinyin": "luxingniaowangdedoupeng",
+   "pinyinSpaced": "lu xing niao wang de dou peng",
+   "freq": 1
+  },
+  {
+   "word": "金针",
+   "pinyin": "jinzhen",
+   "pinyinSpaced": "jin zhen",
+   "freq": 1
+  },
+  {
+   "word": "坐垫",
+   "pinyin": "zuodian",
+   "pinyinSpaced": "zuo dian",
+   "freq": 1
+  },
+  {
+   "word": "彻甲手榴弹",
+   "pinyin": "chejiashouliudan",
+   "pinyinSpaced": "che jia shou liu dan",
+   "freq": 1
+  },
+  {
+   "word": "草地钛",
+   "pinyin": "caoditai",
+   "pinyinSpaced": "cao di tai",
+   "freq": 1
+  },
+  {
+   "word": "苔纹玛瑙",
+   "pinyin": "taiwenmanao",
+   "pinyinSpaced": "tai wen ma nao",
+   "freq": 1
+  },
+  {
+   "word": "绯红石",
+   "pinyin": "feihongshi",
+   "pinyinSpaced": "fei hong shi",
+   "freq": 1
+  },
+  {
+   "word": "月长石",
+   "pinyin": "yuechangshi",
+   "pinyinSpaced": "yue chang shi",
+   "freq": 1
+  },
+  {
+   "word": "秘银矿石",
+   "pinyin": "miyinkuangshi",
+   "pinyinSpaced": "mi yin kuang shi",
+   "freq": 1
+  },
+  {
+   "word": "魔法粉末",
+   "pinyin": "mofafenmo",
+   "pinyinSpaced": "mo fa fen mo",
+   "freq": 1
+  },
+  {
+   "word": "星魔石",
+   "pinyin": "xingmoshi",
+   "pinyinSpaced": "xing mo shi",
+   "freq": 1
+  },
+  {
+   "word": "木材",
+   "pinyin": "mucai",
+   "pinyinSpaced": "mu cai",
+   "freq": 1
+  },
+  {
+   "word": "芳醇橡木",
+   "pinyin": "fangchunxiangmu",
+   "pinyinSpaced": "fang chun xiang mu",
+   "freq": 1
+  },
+  {
+   "word": "兀鹰杉木",
+   "pinyin": "wuyingshanmu",
+   "pinyinSpaced": "wu ying shan mu",
+   "freq": 1
+  },
+  {
+   "word": "岩槭木",
+   "pinyin": "yanqimu",
+   "pinyinSpaced": "yan qi mu",
+   "freq": 1
+  },
+  {
+   "word": "贡加松木",
+   "pinyin": "gongjiasongmu",
+   "pinyinSpaced": "gong jia song mu",
+   "freq": 1
+  },
+  {
+   "word": "猢狲木",
+   "pinyin": "husunmu",
+   "pinyinSpaced": "hu sun mu",
+   "freq": 1
+  },
+  {
+   "word": "梣木",
+   "pinyin": "cenmu",
+   "pinyinSpaced": "cen mu",
+   "freq": 1
+  },
+  {
+   "word": "魔雾种子",
+   "pinyin": "mowuzhongzi",
+   "pinyinSpaced": "mo wu zhong zi",
+   "freq": 1
+  },
+  {
+   "word": "圣露榭",
+   "pinyin": "shengluxie",
+   "pinyinSpaced": "sheng lu xie",
+   "freq": 1
+  },
+  {
+   "word": "珍珠姜",
+   "pinyin": "zhenzhujiang",
+   "pinyinSpaced": "zhen zhu jiang",
+   "freq": 1
+  },
+  {
+   "word": "墨角兰",
+   "pinyin": "mojiaolan",
+   "pinyinSpaced": "mo jiao lan",
+   "freq": 1
+  },
+  {
+   "word": "星星碎片",
+   "pinyin": "xingxingsuipian",
+   "pinyinSpaced": "xing xing sui pian",
+   "freq": 1
+  },
+  {
+   "word": "海盗遗物",
+   "pinyin": "haidaoyiwu",
+   "pinyinSpaced": "hai dao yi wu",
+   "freq": 1
+  },
+  {
+   "word": "星之恩赐",
+   "pinyin": "xingzhienci",
+   "pinyinSpaced": "xing zhi en ci",
+   "freq": 1
+  },
+  {
+   "word": "星之果实",
+   "pinyin": "xingzhiguoshi",
+   "pinyinSpaced": "xing zhi guo shi",
+   "freq": 1
+  },
+  {
+   "word": "星之恩惠",
+   "pinyin": "xingzhienhui",
+   "pinyinSpaced": "xing zhi en hui",
+   "freq": 1
+  },
+  {
+   "word": "星之奥秘",
+   "pinyin": "xingzhiaomi",
+   "pinyinSpaced": "xing zhi ao mi",
+   "freq": 1
+  },
+  {
+   "word": "星之祝福",
+   "pinyin": "xingzhizhufu",
+   "pinyinSpaced": "xing zhi zhu fu",
+   "freq": 1
+  },
+  {
+   "word": "星之启示",
+   "pinyin": "xingzhiqishi",
+   "pinyinSpaced": "xing zhi qi shi",
+   "freq": 1
+  },
+  {
+   "word": "恢复",
+   "pinyin": "huifu",
+   "pinyinSpaced": "hui fu",
+   "freq": 1
+  },
+  {
+   "word": "时间",
+   "pinyin": "shijian",
+   "pinyinSpaced": "shi jian",
+   "freq": 1
+  },
+  {
+   "word": "消灭",
+   "pinyin": "xiaomie",
+   "pinyinSpaced": "xiao mie",
+   "freq": 1
+  },
+  {
+   "word": "治疗",
+   "pinyin": "zhiliao",
+   "pinyinSpaced": "zhi liao",
+   "freq": 1
+  },
+  {
+   "word": "中毒",
+   "pinyin": "zhongdu",
+   "pinyinSpaced": "zhong du",
+   "freq": 1
+  },
+  {
+   "word": "属性",
+   "pinyin": "shuxing",
+   "pinyinSpaced": "shu xing",
+   "freq": 1
+  },
+  {
+   "word": "范围化",
+   "pinyin": "fanweihua",
+   "pinyinSpaced": "fan wei hua",
+   "freq": 1
+  },
+  {
+   "word": "魔法追击",
+   "pinyin": "mofazhuiji",
+   "pinyinSpaced": "mo fa zhui ji",
+   "freq": 1
+  },
+  {
+   "word": "敌方招式",
+   "pinyin": "difangzhaoshi",
+   "pinyinSpaced": "di fang zhao shi",
+   "freq": 1
+  },
+  {
+   "word": "道具高手",
+   "pinyin": "daojugaoshou",
+   "pinyinSpaced": "dao ju gao shou",
+   "freq": 1
+  },
+  {
+   "word": "计步",
+   "pinyin": "jibu",
+   "pinyinSpaced": "ji bu",
+   "freq": 1
+  },
+  {
+   "word": "自动疗伤",
+   "pinyin": "zidongliaoshang",
+   "pinyinSpaced": "zi dong liao shang",
+   "freq": 1
+  },
+  {
+   "word": "强化防御",
+   "pinyin": "qianghuafangyu",
+   "pinyinSpaced": "qiang hua fang yu",
+   "freq": 1
+  },
+  {
+   "word": "闪避斩",
+   "pinyin": "shanbizhan",
+   "pinyinSpaced": "shan bi zhan",
+   "freq": 1
+  },
+  {
+   "word": "提升经验值",
+   "pinyin": "tishengjingyanzhi",
+   "pinyinSpaced": "ti sheng jing yan zhi",
+   "freq": 1
+  },
+  {
+   "word": "先发制人",
+   "pinyin": "xianfazhiren",
+   "pinyinSpaced": "xian fa zhi ren",
+   "freq": 1
+  },
+  {
+   "word": "挑衅",
+   "pinyin": "tiaoxin",
+   "pinyinSpaced": "tiao xin",
+   "freq": 1
+  },
+  {
+   "word": "幸运",
+   "pinyin": "xingyun",
+   "pinyinSpaced": "xing yun",
+   "freq": 1
+  },
+  {
+   "word": "招式高手",
+   "pinyin": "zhaoshigaoshou",
+   "pinyinSpaced": "zhao shi gao shou",
+   "freq": 1
+  },
+  {
+   "word": "魔晶石跃升",
+   "pinyin": "mojingshiyuesheng",
+   "pinyinSpaced": "mo jing shi yue sheng",
+   "freq": 1
+  },
+  {
+   "word": "自动魔法",
+   "pinyin": "zidongmofa",
+   "pinyinSpaced": "zi dong mo fa",
+   "freq": 1
+  },
+  {
+   "word": "强化魔法",
+   "pinyin": "qianghuamofa",
+   "pinyinSpaced": "qiang hua mo fa",
+   "freq": 1
+  },
+  {
+   "word": "快速咏唱",
+   "pinyin": "kuaisuyongchang",
+   "pinyinSpaced": "kuai su yong chang",
+   "freq": 1
+  },
+  {
+   "word": "变化",
+   "pinyin": "bianhua",
+   "pinyinSpaced": "bian hua",
+   "freq": 1
+  },
+  {
+   "word": "道具大师",
+   "pinyin": "daojudashi",
+   "pinyinSpaced": "dao ju da shi",
+   "freq": 1
+  },
+  {
+   "word": "极限结合",
+   "pinyin": "jixianjiehe",
+   "pinyinSpaced": "ji xian jie he",
+   "freq": 1
+  },
+  {
+   "word": "跳跃",
+   "pinyin": "tiaoyue",
+   "pinyinSpaced": "tiao yue",
+   "freq": 1
+  },
+  {
+   "word": "暗黑",
+   "pinyin": "anhei",
+   "pinyinSpaced": "an hei",
+   "freq": 1
+  },
+  {
+   "word": "扔钱",
+   "pinyin": "rengqian",
+   "pinyinSpaced": "reng qian",
+   "freq": 1
+  },
+  {
+   "word": "强化精准防御",
+   "pinyin": "qianghuajingzhunfangyu",
+   "pinyinSpaced": "qiang hua jing zhun fang yu",
+   "freq": 1
+  },
+  {
+   "word": "联手连锁",
+   "pinyin": "lianshouliansuo",
+   "pinyinSpaced": "lian shou lian suo",
+   "freq": 1
+  },
+  {
+   "word": "极限共享",
+   "pinyin": "jixiangongxiang",
+   "pinyinSpaced": "ji xian gong xiang",
+   "freq": 1
+  },
+  {
+   "word": "吉尔伽美什",
+   "pinyin": "jierjiameishen",
+   "pinyinSpaced": "ji er jia mei shen",
+   "freq": 1
+  },
+  {
+   "word": "莫古力团",
+   "pinyin": "mogulituan",
+   "pinyinSpaced": "mo gu li tuan",
+   "freq": 1
+  },
+  {
+   "word": "花俏陆行鸟",
+   "pinyin": "huaqiaoluxingniao",
+   "pinyinSpaced": "hua qiao lu xing niao",
+   "freq": 1
+  },
+  {
+   "word": "惩戒串联",
+   "pinyin": "chengjiechuanlian",
+   "pinyinSpaced": "cheng jie chuan lian",
+   "freq": 1
+  },
+  {
+   "word": "追击之友",
+   "pinyin": "zhuijizhiyou",
+   "pinyinSpaced": "zhui ji zhi you",
+   "freq": 1
+  },
+  {
+   "word": "迅雷风烈",
+   "pinyin": "xunleifenglie",
+   "pinyinSpaced": "xun lei feng lie",
+   "freq": 1
+  },
+  {
+   "word": "背猫之刑",
+   "pinyin": "beimaozhixing",
+   "pinyinSpaced": "bei mao zhi xing",
+   "freq": 1
+  },
+  {
+   "word": "甜蜜匪徒",
+   "pinyin": "tianmifeitu",
+   "pinyinSpaced": "tian mi fei tu",
+   "freq": 1
+  },
+  {
+   "word": "天堂弹珠台",
+   "pinyin": "tiantangtanzhutai",
+   "pinyinSpaced": "tian tang tan zhu tai",
+   "freq": 1
+  },
+  {
+   "word": "行星咆哮",
+   "pinyin": "xingxingpaoxiao",
+   "pinyinSpaced": "xing xing pao xiao",
+   "freq": 1
+  },
+  {
+   "word": "轰隆轰隆炮",
+   "pinyin": "honglonghonglongpao",
+   "pinyinSpaced": "hong long hong long pao",
+   "freq": 1
+  },
+  {
+   "word": "热情搏动炮",
+   "pinyin": "reqingbodongpao",
+   "pinyinSpaced": "re qing bo dong pao",
+   "freq": 1
+  },
+  {
+   "word": "雪崩混战",
+   "pinyin": "xuebenghunzhan",
+   "pinyinSpaced": "xue beng hun zhan",
+   "freq": 1
+  },
+  {
+   "word": "猫咪加农炮",
+   "pinyin": "maomijianongpao",
+   "pinyinSpaced": "mao mi jia nong pao",
+   "freq": 1
+  },
+  {
+   "word": "忍者机关枪",
+   "pinyin": "renzhejiguanqiang",
+   "pinyinSpaced": "ren zhe ji guan qiang",
+   "freq": 1
+  },
+  {
+   "word": "和谐回旋",
+   "pinyin": "hexiehuixuan",
+   "pinyinSpaced": "he xie hui xuan",
+   "freq": 1
+  },
+  {
+   "word": "猛虎快攻",
+   "pinyin": "menghukuaigong",
+   "pinyinSpaced": "meng hu kuai gong",
+   "freq": 1
+  },
+  {
+   "word": "莫古力灌顶",
+   "pinyin": "moguliguanding",
+   "pinyinSpaced": "mo gu li guan ding",
+   "freq": 1
+  },
+  {
+   "word": "联合狂暴",
+   "pinyin": "lianhekuangbao",
+   "pinyinSpaced": "lian he kuang bao",
+   "freq": 1
+  },
+  {
+   "word": "傀儡马戏团",
+   "pinyin": "kuileimaxituan",
+   "pinyinSpaced": "kui lei ma xi tuan",
+   "freq": 1
+  },
+  {
+   "word": "飞跃野兽",
+   "pinyin": "feiyueyeshou",
+   "pinyinSpaced": "fei yue ye shou",
+   "freq": 1
+  },
+  {
+   "word": "野蛮搭档",
+   "pinyin": "yemandadang",
+   "pinyinSpaced": "ye man da dang",
+   "freq": 1
+  },
+  {
+   "word": "猫咪冲撞",
+   "pinyin": "maomichongzhuang",
+   "pinyinSpaced": "mao mi chong zhuang",
+   "freq": 1
+  },
+  {
+   "word": "云外苍天",
+   "pinyin": "yunwaicangtian",
+   "pinyinSpaced": "yun wai cang tian",
+   "freq": 1
+  },
+  {
+   "word": "超绝分身术",
+   "pinyin": "chaojuefenshenshu",
+   "pinyinSpaced": "chao jue fen shen shu",
+   "freq": 1
+  },
+  {
+   "word": "螺旋台风",
+   "pinyin": "luoxuantaifeng",
+   "pinyinSpaced": "luo xuan tai feng",
+   "freq": 1
+  },
+  {
+   "word": "巨大莫古力",
+   "pinyin": "judamoguli",
+   "pinyinSpaced": "ju da mo gu li",
+   "freq": 1
+  },
+  {
+   "word": "转转木马",
+   "pinyin": "zhuanzhuanmuma",
+   "pinyinSpaced": "zhuan zhuan mu ma",
+   "freq": 1
+  },
+  {
+   "word": "嚼嚼弹跳",
+   "pinyin": "jiaojiaotantiao",
+   "pinyinSpaced": "jiao jiao tan tiao",
+   "freq": 1
+  },
+  {
+   "word": "神罗战士的尊严",
+   "pinyin": "shenluozhanshidezunyan",
+   "pinyinSpaced": "shen luo zhan shi de zun yan",
+   "freq": 1
+  },
+  {
+   "word": "交叉螺旋",
+   "pinyin": "jiaochaluoxuan",
+   "pinyinSpaced": "jiao cha luo xuan",
+   "freq": 1
+  },
+  {
+   "word": "空洞爆发",
+   "pinyin": "kongdongbaofa",
+   "pinyinSpaced": "kong dong bao fa",
+   "freq": 1
+  },
+  {
+   "word": "连打重击",
+   "pinyin": "liandazhongji",
+   "pinyinSpaced": "lian da zhong ji",
+   "freq": 1
+  },
+  {
+   "word": "反击射击",
+   "pinyin": "fanjisheji",
+   "pinyinSpaced": "fan ji she ji",
+   "freq": 1
+  },
+  {
+   "word": "猛烈爆发",
+   "pinyin": "mengliebaofa",
+   "pinyinSpaced": "meng lie bao fa",
+   "freq": 1
+  },
+  {
+   "word": "魔法爆发",
+   "pinyin": "mofabaofa",
+   "pinyinSpaced": "mo fa bao fa",
+   "freq": 1
+  },
+  {
+   "word": "变换防御",
+   "pinyin": "bianhuanfangyu",
+   "pinyinSpaced": "bian huan fang yu",
+   "freq": 1
+  },
+  {
+   "word": "知音支援",
+   "pinyin": "zhiyinzhiyuan",
+   "pinyinSpaced": "zhi yin zhi yuan",
+   "freq": 1
+  },
+  {
+   "word": "光耀爆发",
+   "pinyin": "guangyaobaofa",
+   "pinyinSpaced": "guang yao bao fa",
+   "freq": 1
+  },
+  {
+   "word": "双重防御",
+   "pinyin": "shuangchongfangyu",
+   "pinyinSpaced": "shuang chong fang yu",
+   "freq": 1
+  },
+  {
+   "word": "超级冲撞",
+   "pinyin": "chaojichongzhuang",
+   "pinyinSpaced": "chao ji chong zhuang",
+   "freq": 1
+  },
+  {
+   "word": "友谊射击",
+   "pinyin": "youyisheji",
+   "pinyinSpaced": "you yi she ji",
+   "freq": 1
+  },
+  {
+   "word": "摩天翔",
+   "pinyin": "motianxiang",
+   "pinyinSpaced": "mo tian xiang",
+   "freq": 1
+  },
+  {
+   "word": "天升击",
+   "pinyin": "tianshengji",
+   "pinyinSpaced": "tian sheng ji",
+   "freq": 1
+  },
+  {
+   "word": "摇摆捷舞",
+   "pinyin": "yaobaijiewu",
+   "pinyinSpaced": "yao bai jie wu",
+   "freq": 1
+  },
+  {
+   "word": "狂野驰骋",
+   "pinyin": "kuangyechicheng",
+   "pinyinSpaced": "kuang ye chi cheng",
+   "freq": 1
+  },
+  {
+   "word": "魅影撕咬",
+   "pinyin": "meiyingsiyao",
+   "pinyinSpaced": "mei ying si yao",
+   "freq": 1
+  },
+  {
+   "word": "锁定手里剑",
+   "pinyin": "suodingshoulijian",
+   "pinyinSpaced": "suo ding shou li jian",
+   "freq": 1
+  },
+  {
+   "word": "狐火",
+   "pinyin": "huhuo",
+   "pinyinSpaced": "hu huo",
+   "freq": 1
+  },
+  {
+   "word": "突击喇叭",
+   "pinyin": "tujilaba",
+   "pinyinSpaced": "tu ji la ba",
+   "freq": 1
+  },
+  {
+   "word": "围剿",
+   "pinyin": "weijiao",
+   "pinyinSpaced": "wei jiao",
+   "freq": 1
+  },
+  {
+   "word": "进攻冲刺",
+   "pinyin": "jingongchongci",
+   "pinyinSpaced": "jin gong chong ci",
+   "freq": 1
+  },
+  {
+   "word": "双剑乱舞",
+   "pinyin": "shuangjianluanwu",
+   "pinyinSpaced": "shuang jian luan wu",
+   "freq": 1
+  },
+  {
+   "word": "闪光烈焰",
+   "pinyin": "shanguanglieyan",
+   "pinyinSpaced": "shan guang lie yan",
+   "freq": 1
+  },
+  {
+   "word": "真勇猛解放",
+   "pinyin": "zhenyongmengjiefang",
+   "pinyinSpaced": "zhen yong meng jie fang",
+   "freq": 1
+  },
+  {
+   "word": "空中驱动",
+   "pinyin": "kongzhongqudong",
+   "pinyinSpaced": "kong zhong qu dong",
+   "freq": 1
+  },
+  {
+   "word": "画龙点睛",
+   "pinyin": "hualongdianjing",
+   "pinyinSpaced": "hua long dian jing",
+   "freq": 1
+  },
+  {
+   "word": "招架反击",
+   "pinyin": "zhaojiafanji",
+   "pinyinSpaced": "zhao jia fan ji",
+   "freq": 1
+  },
+  {
+   "word": "蓄积气场",
+   "pinyin": "xujiqichang",
+   "pinyinSpaced": "xu ji qi chang",
+   "freq": 1
+  },
+  {
+   "word": "狱门",
+   "pinyin": "yumen",
+   "pinyinSpaced": "yu men",
+   "freq": 1
+  },
+  {
+   "word": "残心",
+   "pinyin": "canxin",
+   "pinyinSpaced": "can xin",
+   "freq": 1
+  },
+  {
+   "word": "八刀一闪",
+   "pinyin": "badaoyishan",
+   "pinyinSpaced": "ba dao yi shan",
+   "freq": 1
+  },
+  {
+   "word": "反击之刃",
+   "pinyin": "fanjizhiren",
+   "pinyinSpaced": "fan ji zhi ren",
+   "freq": 1
+  },
+  {
+   "word": "时间之力",
+   "pinyin": "shijianzhili",
+   "pinyinSpaced": "shi jian zhi li",
+   "freq": 1
+  },
+  {
+   "word": "闪光魔法阵",
+   "pinyin": "shanguangmofazhen",
+   "pinyinSpaced": "shan guang mo fa zhen",
+   "freq": 1
+  },
+  {
+   "word": "神圣蓄积",
+   "pinyin": "shenshengxuji",
+   "pinyinSpaced": "shen sheng xu ji",
+   "freq": 1
+  },
+  {
+   "word": "愤怒烙印",
+   "pinyin": "fennulaoyin",
+   "pinyinSpaced": "fen nu lao yin",
+   "freq": 1
+  },
+  {
+   "word": "旋风俯冲",
+   "pinyin": "xuanfengfuchong",
+   "pinyinSpaced": "xuan feng fu chong",
+   "freq": 1
+  },
+  {
+   "word": "天堂部落",
+   "pinyin": "tiantangbuluo",
+   "pinyinSpaced": "tian tang bu luo",
+   "freq": 1
+  },
+  {
+   "word": "连续斩",
+   "pinyin": "lianxuzhan",
+   "pinyinSpaced": "lian xu zhan",
+   "freq": 1
+  },
+  {
+   "word": "陨石乱击",
+   "pinyin": "yunshiluanji",
+   "pinyinSpaced": "yun shi luan ji",
+   "freq": 1
+  },
+  {
+   "word": "额外弹药",
+   "pinyin": "ewaidanyao",
+   "pinyinSpaced": "e wai dan yao",
+   "freq": 1
+  },
+  {
+   "word": "灵魂爆发",
+   "pinyin": "linghunbaofa",
+   "pinyinSpaced": "ling hun bao fa",
+   "freq": 1
+  },
+  {
+   "word": "血腥轰炸",
+   "pinyin": "xuexinghongzha",
+   "pinyinSpaced": "xue xing hong zha",
+   "freq": 1
+  },
+  {
+   "word": "回旋利牙",
+   "pinyin": "huixuanliya",
+   "pinyinSpaced": "hui xuan li ya",
+   "freq": 1
+  },
+  {
+   "word": "超级防御",
+   "pinyin": "chaojifangyu",
+   "pinyinSpaced": "chao ji fang yu",
+   "freq": 1
+  },
+  {
+   "word": "星尘射线",
+   "pinyin": "xingchenshexian",
+   "pinyinSpaced": "xing chen she xian",
+   "freq": 1
+  },
+  {
+   "word": "月牙爪击",
+   "pinyin": "yueyazhaoji",
+   "pinyinSpaced": "yue ya zhao ji",
+   "freq": 1
+  },
+  {
+   "word": "冰柱咆哮",
+   "pinyin": "bingzhupaoxiao",
+   "pinyinSpaced": "bing zhu pao xiao",
+   "freq": 1
+  },
+  {
+   "word": "癫狂快感",
+   "pinyin": "diankuangkuaigan",
+   "pinyinSpaced": "dian kuang kuai gan",
+   "freq": 1
+  },
+  {
+   "word": "战士疗愈",
+   "pinyin": "zhanshiliaoyu",
+   "pinyinSpaced": "zhan shi liao yu",
+   "freq": 1
+  },
+  {
+   "word": "战士鼓舞",
+   "pinyin": "zhanshiguwu",
+   "pinyinSpaced": "zhan shi gu wu",
+   "freq": 1
+  },
+  {
+   "word": "致命挥击",
+   "pinyin": "zhiminghuiji",
+   "pinyinSpaced": "zhi ming hui ji",
+   "freq": 1
+  },
+  {
+   "word": "穿刺獠牙",
+   "pinyin": "chuanciliaoya",
+   "pinyinSpaced": "chuan ci liao ya",
+   "freq": 1
+  },
+  {
+   "word": "血腥獠牙",
+   "pinyin": "xuexingliaoya",
+   "pinyinSpaced": "xue xing liao ya",
+   "freq": 1
+  },
+  {
+   "word": "大地狂啸",
+   "pinyin": "dadikuangxiao",
+   "pinyinSpaced": "da di kuang xiao",
+   "freq": 1
+  },
+  {
+   "word": "投掷手里剑",
+   "pinyin": "touzhishoulijian",
+   "pinyinSpaced": "tou zhi shou li jian",
+   "freq": 1
+  },
+  {
+   "word": "忍术",
+   "pinyin": "renshu",
+   "pinyinSpaced": "ren shu",
+   "freq": 1
+  },
+  {
+   "word": "风林火山",
+   "pinyin": "fenglinhuoshan",
+   "pinyinSpaced": "feng lin huo shan",
+   "freq": 1
+  },
+  {
+   "word": "雾锁云埋",
+   "pinyin": "wusuoyunmai",
+   "pinyinSpaced": "wu suo yun mai",
+   "freq": 1
+  },
+  {
+   "word": "忍术变化",
+   "pinyin": "renshubianhua",
+   "pinyinSpaced": "ren shu bian hua",
+   "freq": 1
+  },
+  {
+   "word": "出其不意",
+   "pinyin": "chuqibuyi",
+   "pinyinSpaced": "chu qi bu yi",
+   "freq": 1
+  },
+  {
+   "word": "旋风",
+   "pinyin": "xuanfeng",
+   "pinyinSpaced": "xuan feng",
+   "freq": 1
+  },
+  {
+   "word": "飞毛腿功",
+   "pinyin": "feimaotuigong",
+   "pinyinSpaced": "fei mao tui gong",
+   "freq": 1
+  },
+  {
+   "word": "邪鬼退散",
+   "pinyin": "xieguituisan",
+   "pinyinSpaced": "xie gui tui san",
+   "freq": 1
+  },
+  {
+   "word": "吸收邪气",
+   "pinyin": "xishouxieqi",
+   "pinyinSpaced": "xi shou xie qi",
+   "freq": 1
+  },
+  {
+   "word": "疾风迅雷",
+   "pinyin": "jifengxunlei",
+   "pinyinSpaced": "ji feng xun lei",
+   "freq": 1
+  },
+  {
+   "word": "血祭",
+   "pinyin": "xueji",
+   "pinyinSpaced": "xue ji",
+   "freq": 1
+  },
+  {
+   "word": "生者必灭",
+   "pinyin": "shengzhebimie",
+   "pinyinSpaced": "sheng zhe bi mie",
+   "freq": 1
+  },
+  {
+   "word": "头奖杀戮",
+   "pinyin": "toujiangshalu",
+   "pinyinSpaced": "tou jiang sha lu",
+   "freq": 1
+  },
+  {
+   "word": "抚猫光束",
+   "pinyin": "fumaoguangshu",
+   "pinyinSpaced": "fu mao guang shu",
+   "freq": 1
+  },
+  {
+   "word": "全体破坏",
+   "pinyin": "quantipohuai",
+   "pinyinSpaced": "quan ti po huai",
+   "freq": 1
+  },
+  {
+   "word": "猫盆攻击",
+   "pinyin": "maopengongji",
+   "pinyinSpaced": "mao pen gong ji",
+   "freq": 1
+  },
+  {
+   "word": "猫咪攻击",
+   "pinyin": "maomigongji",
+   "pinyinSpaced": "mao mi gong ji",
+   "freq": 1
+  },
+  {
+   "word": "呼叫莫古力",
+   "pinyin": "hujiaomoguli",
+   "pinyinSpaced": "hu jiao mo gu li",
+   "freq": 1
+  },
+  {
+   "word": "骰子",
+   "pinyin": "touzi",
+   "pinyinSpaced": "tou zi",
+   "freq": 1
+  },
+  {
+   "word": "运势攻击",
+   "pinyin": "yunshigongji",
+   "pinyinSpaced": "yun shi gong ji",
+   "freq": 1
+  },
+  {
+   "word": "莫古力爆炸",
+   "pinyin": "mogulibaozha",
+   "pinyinSpaced": "mo gu li bao zha",
+   "freq": 1
+  },
+  {
+   "word": "莫古力地雷",
+   "pinyin": "mogulidilei",
+   "pinyinSpaced": "mo gu li di lei",
+   "freq": 1
+  },
+  {
+   "word": "莫古力召唤术",
+   "pinyin": "mogulizhaohuanshu",
+   "pinyinSpaced": "mo gu li zhao huan shu",
+   "freq": 1
+  },
+  {
+   "word": "莫古力拳击",
+   "pinyin": "moguliquanji",
+   "pinyinSpaced": "mo gu li quan ji",
+   "freq": 1
+  },
+  {
+   "word": "莫古力突击",
+   "pinyin": "mogulituji",
+   "pinyinSpaced": "mo gu li tu ji",
+   "freq": 1
+  },
+  {
+   "word": "莫古箱",
+   "pinyin": "moguxiang",
+   "pinyinSpaced": "mo gu xiang",
+   "freq": 1
+  },
+  {
+   "word": "百万莫古箱",
+   "pinyin": "baiwanmoguxiang",
+   "pinyinSpaced": "bai wan mo gu xiang",
+   "freq": 1
+  },
+  {
+   "word": "十亿莫古箱",
+   "pinyin": "shiyimoguxiang",
+   "pinyinSpaced": "shi yi mo gu xiang",
+   "freq": 1
+  },
+  {
+   "word": "前坠踢",
+   "pinyin": "qianzhuiti",
+   "pinyinSpaced": "qian zhui ti",
+   "freq": 1
+  },
+  {
+   "word": "打气鼓舞",
+   "pinyin": "daqiguwu",
+   "pinyinSpaced": "da qi gu wu",
+   "freq": 1
+  },
+  {
+   "word": "守护鼓舞",
+   "pinyin": "shouhuguwu",
+   "pinyinSpaced": "shou hu gu wu",
+   "freq": 1
+  },
+  {
+   "word": "狂暴鼓舞",
+   "pinyin": "kuangbaoguwu",
+   "pinyinSpaced": "kuang bao gu wu",
+   "freq": 1
+  },
+  {
+   "word": "沉默撞击",
+   "pinyin": "chenmozhuangji",
+   "pinyinSpaced": "chen mo zhuang ji",
+   "freq": 1
+  },
+  {
+   "word": "时间撞击",
+   "pinyin": "shijianzhuangji",
+   "pinyinSpaced": "shi jian zhuang ji",
+   "freq": 1
+  },
+  {
+   "word": "中毒撞击",
+   "pinyin": "zhongduzhuangji",
+   "pinyinSpaced": "zhong du zhuang ji",
+   "freq": 1
+  },
+  {
+   "word": "石化撞击",
+   "pinyin": "shihuazhuangji",
+   "pinyinSpaced": "shi hua zhuang ji",
+   "freq": 1
+  },
+  {
+   "word": "蓄力",
+   "pinyin": "xuli",
+   "pinyinSpaced": "xu li",
+   "freq": 1
+  },
+  {
+   "word": "快速蓄力",
+   "pinyin": "kuaisuxuli",
+   "pinyinSpaced": "kuai su xu li",
+   "freq": 1
+  },
+  {
+   "word": "攻击蓄力",
+   "pinyin": "gongjixuli",
+   "pinyinSpaced": "gong ji xu li",
+   "freq": 1
+  },
+  {
+   "word": "高度英勇斩击",
+   "pinyin": "gaoduyingyongzhanji",
+   "pinyinSpaced": "gao du ying yong zhan ji",
+   "freq": 1
+  },
+  {
+   "word": "猛爆快攻",
+   "pinyin": "mengbaokuaigong",
+   "pinyinSpaced": "meng bao kuai gong",
+   "freq": 1
+  },
+  {
+   "word": "疗愈之风",
+   "pinyin": "liaoyuzhifeng",
+   "pinyinSpaced": "liao yu zhi feng",
+   "freq": 1
+  },
+  {
+   "word": "最后轮盘",
+   "pinyin": "zuihoulunpan",
+   "pinyinSpaced": "zui hou lun pan",
+   "freq": 1
+  },
+  {
+   "word": "仙人掌炸弹",
+   "pinyin": "xianrenzhangzhadan",
+   "pinyinSpaced": "xian ren zhang zha dan",
+   "freq": 1
+  },
+  {
+   "word": "仙人掌魔法护盾",
+   "pinyin": "xianrenzhangmofahudun",
+   "pinyinSpaced": "xian ren zhang mo fa hu dun",
+   "freq": 1
+  },
+  {
+   "word": "超电磁幻光球",
+   "pinyin": "chaodiancihuanguangqiu",
+   "pinyinSpaced": "chao dian ci huan guang qiu",
+   "freq": 1
+  },
+  {
+   "word": "超级臭气",
+   "pinyin": "chaojichouqi",
+   "pinyinSpaced": "chao ji chou qi",
+   "freq": 1
+  },
+  {
+   "word": "怒发冲冠爆击",
+   "pinyin": "nufachongguanbaoji",
+   "pinyinSpaced": "nu fa chong guan bao ji",
+   "freq": 1
+  },
+  {
+   "word": "大家的怨恨",
+   "pinyin": "dajiadeyuanhen",
+   "pinyinSpaced": "da jia de yuan hen",
+   "freq": 1
+  },
+  {
+   "word": "怨恨爆炸",
+   "pinyin": "yuanhenbaozha",
+   "pinyinSpaced": "yuan hen bao zha",
+   "freq": 1
+  },
+  {
+   "word": "阳露出了笑容",
+   "pinyin": "yanglouchulexiaorong",
+   "pinyinSpaced": "yang lou chu le xiao rong",
+   "freq": 1
+  },
+  {
+   "word": "阴生气了",
+   "pinyin": "yinshengqile",
+   "pinyinSpaced": "yin sheng qi le",
+   "freq": 1
+  },
+  {
+   "word": "莫古炸弹",
+   "pinyin": "moguzhadan",
+   "pinyinSpaced": "mo gu zha dan",
+   "freq": 1
+  },
+  {
+   "word": "陆行鸟踢",
+   "pinyin": "luxingniaoti",
+   "pinyinSpaced": "lu xing niao ti",
+   "freq": 1
+  },
+  {
+   "word": "制裁之雷",
+   "pinyin": "zhicaizhilei",
+   "pinyinSpaced": "zhi cai zhi lei",
+   "freq": 1
+  },
+  {
+   "word": "塔克斯俯冲",
+   "pinyin": "takesifuchong",
+   "pinyinSpaced": "ta ke si fu chong",
+   "freq": 1
+  },
+  {
+   "word": "绝空",
+   "pinyin": "juekong",
+   "pinyinSpaced": "jue kong",
+   "freq": 1
+  },
+  {
+   "word": "命运宣告",
+   "pinyin": "mingyunxuangao",
+   "pinyinSpaced": "ming yun xuan gao",
+   "freq": 1
+  },
+  {
+   "word": "无心天使",
+   "pinyin": "wuxintianshi",
+   "pinyinSpaced": "wu xin tian shi",
+   "freq": 1
+  },
+  {
+   "word": "斩铁剑",
+   "pinyin": "zhantiejian",
+   "pinyinSpaced": "zhan tie jian",
+   "freq": 1
+  },
+  {
+   "word": "吉尔伽美什光束",
+   "pinyin": "jierjiameishenguangshu",
+   "pinyinSpaced": "ji er jia mei shen guang shu",
+   "freq": 1
+  },
+  {
+   "word": "莫古力紧急出动",
+   "pinyin": "mogulijinjichudong",
+   "pinyinSpaced": "mo gu li jin ji chu dong",
+   "freq": 1
+  },
+  {
+   "word": "钻石星尘",
+   "pinyin": "zuanshixingchen",
+   "pinyinSpaced": "zuan shi xing chen",
+   "freq": 1
+  },
+  {
+   "word": "大地之怒",
+   "pinyin": "dadizhinu",
+   "pinyinSpaced": "da di zhi nu",
+   "freq": 1
+  },
+  {
+   "word": "转生之炎",
+   "pinyin": "zhuanshengzhiyan",
+   "pinyinSpaced": "zhuan sheng zhi yan",
+   "freq": 1
+  },
+  {
+   "word": "神圣审判",
+   "pinyin": "shenshengshenpan",
+   "pinyinSpaced": "shen sheng shen pan",
+   "freq": 1
+  },
+  {
+   "word": "三重灾祸",
+   "pinyin": "sanzhongzaihuo",
+   "pinyinSpaced": "san zhong zai huo",
+   "freq": 1
+  },
+  {
+   "word": "魔晶耳环",
+   "pinyin": "mojingerhuan",
+   "pinyinSpaced": "mo jing er huan",
+   "freq": 1
+  },
+  {
+   "word": "尼福尔海姆是我的故乡",
+   "pinyin": "nifuerhaimushiwodeguxiang",
+   "pinyinSpaced": "ni fu er hai mu shi wo de gu xiang",
+   "freq": 1
+  },
+  {
+   "word": "水塔广场",
+   "pinyin": "shuitaguangchang",
+   "pinyinSpaced": "shui ta guang chang",
+   "freq": 1
+  },
+  {
+   "word": "尼福尔山",
+   "pinyin": "nifuershan",
+   "pinyinSpaced": "ni fu er shan",
+   "freq": 1
+  },
+  {
+   "word": "我一直认为自己是特别的",
+   "pinyin": "woyizhirenweizijishitebiede",
+   "pinyinSpaced": "wo yi zhi ren wei zi ji shi te bie de",
+   "freq": 1
+  },
+  {
+   "word": "神罗公馆",
+   "pinyin": "shenluogongguan",
+   "pinyinSpaced": "shen luo gong guan",
+   "freq": 1
+  },
+  {
+   "word": "贾斯德博士",
+   "pinyin": "jiasideboshi",
+   "pinyinSpaced": "jia si de bo shi",
+   "freq": 1
+  },
+  {
+   "word": "杰诺瓦计划",
+   "pinyin": "jienuowajihua",
+   "pinyinSpaced": "jie nuo wa ji hua",
+   "freq": 1
+  },
+  {
+   "word": "时代变了啊克劳德",
+   "pinyin": "shidaibianleakelaode",
+   "pinyinSpaced": "shi dai bian le a ke lao de",
+   "freq": 1
+  },
+  {
+   "word": "罗夏赞甘",
+   "pinyin": "luoxiazangan",
+   "pinyinSpaced": "luo xia zan gan",
+   "freq": 1
+  },
+  {
+   "word": "继承了伟大科学家工作的凡人",
+   "pinyin": "jichengleweidakexuejiagongzuodefanren",
+   "pinyinSpaced": "ji cheng le wei da ke xue jia gong zuo de fan ren",
+   "freq": 1
+  },
+  {
+   "word": "要对剑祈祷就趁现在",
+   "pinyin": "yaoduijianqidaojiuchenxianzai",
+   "pinyinSpaced": "yao dui jian qi dao jiu chen xian zai",
+   "freq": 1
+  },
+  {
+   "word": "是你喜欢的发展呢",
+   "pinyin": "shinixihuandefazhanne",
+   "pinyinSpaced": "shi ni xi huan de fa zhan ne",
+   "freq": 1
+  },
+  {
+   "word": "宝条那家伙居然真这么做",
+   "pinyin": "baotiaonajiahuojuranzhenzhemezuo",
+   "pinyinSpaced": "bao tiao na jia huo ju ran zhen zhe me zuo",
+   "freq": 1
+  },
+  {
+   "word": "我要去见母亲",
+   "pinyin": "woyaoqujianmuqin",
+   "pinyinSpaced": "wo yao qu jian mu qin",
+   "freq": 1
+  },
+  {
+   "word": "我现在就去接你",
+   "pinyin": "woxianzaijiuqujieni",
+   "pinyinSpaced": "wo xian zai jiu qu jie ni",
+   "freq": 1
+  },
+  {
+   "word": "我是天选之人",
+   "pinyin": "woshitianxuanzhiren",
+   "pinyinSpaced": "wo shi tian xuan zhi ren",
+   "freq": 1
+  },
+  {
+   "word": "日后将成为星球的支配者",
+   "pinyin": "rihoujiangchengweixingqiudezhipeizhe",
+   "pinyinSpaced": "ri hou jiang cheng wei xing qiu de zhi pei zhe",
+   "freq": 1
+  },
+  {
+   "word": "卡姆",
+   "pinyin": "kamu",
+   "pinyinSpaced": "ka mu",
+   "freq": 1
+  },
+  {
+   "word": "布洛德",
+   "pinyin": "buluode",
+   "pinyinSpaced": "bu luo de",
+   "freq": 1
+  },
+  {
+   "word": "技能书",
+   "pinyin": "jinengshu",
+   "pinyinSpaced": "ji neng shu",
+   "freq": 1
+  },
+  {
+   "word": "制作终端机",
+   "pinyin": "zhizuozhongduanji",
+   "pinyinSpaced": "zhi zuo zhong duan ji",
+   "freq": 1
+  },
+  {
+   "word": "快速移动",
+   "pinyin": "kuaisuyidong",
+   "pinyinSpaced": "kuai su yi dong",
+   "freq": 1
+  },
+  {
+   "word": "秘银矿坑",
+   "pinyin": "miyinkuangkeng",
+   "pinyinSpaced": "mi yin kuang keng",
+   "freq": 1
+  },
+  {
+   "word": "奥利弗牧场",
+   "pinyin": "aolifumuchang",
+   "pinyinSpaced": "ao li fu mu chang",
+   "freq": 1
+  },
+  {
+   "word": "格林",
+   "pinyin": "gelin",
+   "pinyinSpaced": "ge lin",
+   "freq": 1
+  },
+  {
+   "word": "格林牧场",
+   "pinyin": "gelinmuchang",
+   "pinyinSpaced": "ge lin mu chang",
+   "freq": 1
+  },
+  {
+   "word": "格林葛林",
+   "pinyin": "gelingelin",
+   "pinyinSpaced": "ge lin ge lin",
+   "freq": 1
+  },
+  {
+   "word": "哔可",
+   "pinyin": "bike",
+   "pinyinSpaced": "bi ke",
+   "freq": 1
+  },
+  {
+   "word": "可琳",
+   "pinyin": "kelin",
+   "pinyinSpaced": "ke lin",
+   "freq": 1
+  },
+  {
+   "word": "黄金羽毛",
+   "pinyin": "huangjinyumao",
+   "pinyinSpaced": "huang jin yu mao",
+   "freq": 1
+  },
+  {
+   "word": "格拉斯兰",
+   "pinyin": "gelasilan",
+   "pinyinSpaced": "ge la si lan",
+   "freq": 1
+  },
+  {
+   "word": "世界报告",
+   "pinyin": "shijiebaogao",
+   "pinyinSpaced": "shi jie bao gao",
+   "freq": 1
+  },
+  {
+   "word": "莫古力奖牌",
+   "pinyin": "mogulijiangpai",
+   "pinyinSpaced": "mo gu li jiang pai",
+   "freq": 1
+  },
+  {
+   "word": "黄金点数",
+   "pinyin": "huangjindianshu",
+   "pinyinSpaced": "huang jin dian shu",
+   "freq": 1
+  },
+  {
+   "word": "战斗报告",
+   "pinyin": "zhandoubaogao",
+   "pinyinSpaced": "zhan dou bao gao",
+   "freq": 1
+  },
+  {
+   "word": "生命点",
+   "pinyin": "shengmingdian",
+   "pinyinSpaced": "sheng ming dian",
+   "freq": 1
+  },
+  {
+   "word": "古代物质",
+   "pinyin": "gudaiwuzhi",
+   "pinyinSpaced": "gu dai wu zhi",
+   "freq": 1
+  },
+  {
+   "word": "陆行鸟笛",
+   "pinyin": "luxingniaodi",
+   "pinyinSpaced": "lu xing niao di",
+   "freq": 1
+  },
+  {
+   "word": "雷诺前辈不在就由我来补上",
+   "pinyin": "leinuoqianbeibuzaijiuyouwolaibushang",
+   "pinyinSpaced": "lei nuo qian bei bu zai jiu you wo lai bu shang",
+   "freq": 1
+  },
+  {
+   "word": "让人梦寐以求的休假",
+   "pinyin": "rangrenmengmeiyiqiudexiujia",
+   "pinyinSpaced": "rang ren meng mei yi qiu de xiu jia",
+   "freq": 1
+  },
+  {
+   "word": "爱丽丝就拜托你们了",
+   "pinyin": "ailisijiubaituonimenle",
+   "pinyinSpaced": "ai li si jiu bai tuo ni men le",
+   "freq": 1
+  },
+  {
+   "word": "这是上级的命令",
+   "pinyin": "zheshishangjidemingling",
+   "pinyinSpaced": "zhe shi shang ji de ming ling",
+   "freq": 1
+  },
+  {
+   "word": "是你们挑起战争的",
+   "pinyin": "shinimentiaoqizhanzhengde",
+   "pinyinSpaced": "shi ni men tiao qi zhan zheng de",
+   "freq": 1
+  },
+  {
+   "word": "罗德娜",
+   "pinyin": "luodena",
+   "pinyinSpaced": "luo de na",
+   "freq": 1
+  },
+  {
+   "word": "普莉希拉",
+   "pinyin": "pulixila",
+   "pinyinSpaced": "pu li xi la",
+   "freq": 1
+  },
+  {
+   "word": "咻咻咻咻",
+   "pinyin": "xiuxiuxiuxiu",
+   "pinyinSpaced": "xiu xiu xiu xiu",
+   "freq": 1
+  },
+  {
+   "word": "喂你干什么啊",
+   "pinyin": "weiniganshenmea",
+   "pinyinSpaced": "wei ni gan shen me a",
+   "freq": 1
+  },
+  {
+   "word": "艾米利欧",
+   "pinyin": "aimiliou",
+   "pinyinSpaced": "ai mi li ou",
+   "freq": 1
+  },
+  {
+   "word": "下次就推心置腹地聊聊吧",
+   "pinyin": "xiacijiutuixinzhifudiliaoliaoba",
+   "pinyinSpaced": "xia ci jiu tui xin zhi fu di liao liao ba",
+   "freq": 1
+  },
+  {
+   "word": "要比腹肌我是不会输的",
+   "pinyin": "yaobifujiwoshibuhuishude",
+   "pinyinSpaced": "yao bi fu ji wo shi bu hui shu de",
+   "freq": 1
+  },
+  {
+   "word": "丧尽天良的神罗公司",
+   "pinyin": "sangjintianliangdeshenluogongsi",
+   "pinyinSpaced": "sang jin tian liang de shen luo gong si",
+   "freq": 1
+  },
+  {
+   "word": "格伦洛斯布鲁克上校",
+   "pinyin": "gelunluosibulukeshangxiao",
+   "pinyinSpaced": "ge lun luo si bu lu ke shang xiao",
+   "freq": 1
+  },
+  {
+   "word": "格伦",
+   "pinyin": "gelun",
+   "pinyinSpaced": "ge lun",
+   "freq": 1
+  },
+  {
+   "word": "季托夫",
+   "pinyin": "jituofu",
+   "pinyinSpaced": "ji tuo fu",
+   "freq": 1
+  },
+  {
+   "word": "海温德",
+   "pinyin": "haiwende",
+   "pinyinSpaced": "hai wen de",
+   "freq": 1
+  },
+  {
+   "word": "巨型魔晶石之争",
+   "pinyin": "juxingmojingshizhizheng",
+   "pinyinSpaced": "ju xing mo jing shi zhi zheng",
+   "freq": 1
+  },
+  {
+   "word": "史夫尔总督",
+   "pinyin": "shifuerzongdu",
+   "pinyinSpaced": "shi fu er zong du",
+   "freq": 1
+  },
+  {
+   "word": "兴致勃勃",
+   "pinyin": "xingzhibobo",
+   "pinyinSpaced": "xing zhi bo bo",
+   "freq": 1
+  },
+  {
+   "word": "干劲十足",
+   "pinyin": "ganjinshizu",
+   "pinyinSpaced": "gan jin shi zu",
+   "freq": 1
+  },
+  {
+   "word": "闪耀吧磨亮吧我的太阳",
+   "pinyin": "shanyaobamoliangbawodetaiyang",
+   "pinyinSpaced": "shan yao ba mo liang ba wo de tai yang",
+   "freq": 1
+  },
+  {
+   "word": "来吧新时代即将揭开序幕",
+   "pinyin": "laibaxinshidaijijiangjiekaixumu",
+   "pinyinSpaced": "lai ba xin shi dai ji jiang jie kai xu mu",
+   "freq": 1
+  },
+  {
+   "word": "伊弗利特阵形",
+   "pinyin": "yifulitezhenxing",
+   "pinyinSpaced": "yi fu li te zhen xing",
+   "freq": 1
+  },
+  {
+   "word": "巴哈姆特阵形",
+   "pinyin": "bahamutezhenxing",
+   "pinyinSpaced": "ba ha mu te zhen xing",
+   "freq": 1
+  },
+  {
+   "word": "拉姆阵形",
+   "pinyin": "lamuzhenxing",
+   "pinyinSpaced": "la mu zhen xing",
+   "freq": 1
+  },
+  {
+   "word": "希瓦阵形",
+   "pinyin": "xiwazhenxing",
+   "pinyinSpaced": "xi wa zhen xing",
+   "freq": 1
+  },
+  {
+   "word": "米德加第七步兵连队",
+   "pinyin": "midejiadiqibubingliandui",
+   "pinyinSpaced": "mi de jia di qi bu bing lian dui",
+   "freq": 1
+  },
+  {
+   "word": "新总裁就任庆祝游行",
+   "pinyin": "xinzongcaijiurenqingzhuyouxing",
+   "pinyinSpaced": "xin zong cai jiu ren qing zhu you xing",
+   "freq": 1
+  },
+  {
+   "word": "巨型魔晶石",
+   "pinyin": "juxingmojingshi",
+   "pinyinSpaced": "ju xing mo jing shi",
+   "freq": 1
+  },
+  {
+   "word": "蕾吉",
+   "pinyin": "leiji",
+   "pinyinSpaced": "lei ji",
+   "freq": 1
+  },
+  {
+   "word": "法兹",
+   "pinyin": "fazi",
+   "pinyinSpaced": "fa zi",
+   "freq": 1
+  },
+  {
+   "word": "第八神罗丸",
+   "pinyin": "dibashenluowan",
+   "pinyinSpaced": "di ba shen luo wan",
+   "freq": 1
+  },
+  {
+   "word": "未来的最强卡片对战者",
+   "pinyin": "weilaidezuiqiangkapianduizhanzhe",
+   "pinyinSpaced": "wei lai de zui qiang ka pian dui zhan zhe",
+   "freq": 1
+  },
+  {
+   "word": "怀兹",
+   "pinyin": "huaizi",
+   "pinyinSpaced": "huai zi",
+   "freq": 1
+  },
+  {
+   "word": "开始卡片对战",
+   "pinyin": "kaishikapianduizhan",
+   "pinyinSpaced": "kai shi ka pian dui zhan",
+   "freq": 1
+  },
+  {
+   "word": "弗雷沙",
+   "pinyin": "fuleisha",
+   "pinyinSpaced": "fu lei sha",
+   "freq": 1
+  },
+  {
+   "word": "来比一场吧",
+   "pinyin": "laibiyichangba",
+   "pinyinSpaced": "lai bi yi chang ba",
+   "freq": 1
+  },
+  {
+   "word": "来吧表演时间到了",
+   "pinyin": "laibabiaoyanshijiandaole",
+   "pinyinSpaced": "lai ba biao yan shi jian dao le",
+   "freq": 1
+  },
+  {
+   "word": "蕾吉肯尼金",
+   "pinyin": "leijikennijin",
+   "pinyinSpaced": "lei ji ken ni jin",
+   "freq": 1
+  },
+  {
+   "word": "神罗度假村",
+   "pinyin": "shenluodujiacun",
+   "pinyinSpaced": "shen luo du jia cun",
+   "freq": 1
+  },
+  {
+   "word": "用两只脚站立还真难啊",
+   "pinyin": "yongliangzhijiaozhanlihaizhennana",
+   "pinyinSpaced": "yong liang zhi jiao zhan li hai zhen nan a",
+   "freq": 1
+  },
+  {
+   "word": "黑斗篷",
+   "pinyin": "heidoupeng",
+   "pinyinSpaced": "hei dou peng",
+   "freq": 1
+  },
+  {
+   "word": "卡波诺",
+   "pinyin": "kabonuo",
+   "pinyinSpaced": "ka bo nuo",
+   "freq": 1
+  },
+  {
+   "word": "太阳海岸度假村",
+   "pinyin": "taiyanghaiandujiacun",
+   "pinyinSpaced": "tai yang hai an du jia cun",
+   "freq": 1
+  },
+  {
+   "word": "纳纳奇",
+   "pinyin": "nanaqi",
+   "pinyinSpaced": "na na qi",
+   "freq": 1
+  },
+  {
+   "word": "芙兰",
+   "pinyin": "fulan",
+   "pinyinSpaced": "fu lan",
+   "freq": 1
+  },
+  {
+   "word": "诺艾米",
+   "pinyin": "nuoaimi",
+   "pinyinSpaced": "nuo ai mi",
+   "freq": 1
+  },
+  {
+   "word": "约达",
+   "pinyin": "yueda",
+   "pinyinSpaced": "yue da",
+   "freq": 1
+  },
+  {
+   "word": "像海螺一样卷卷的",
+   "pinyin": "xianghailuoyiyangjuanjuande",
+   "pinyinSpaced": "xiang hai luo yi yang juan juan de",
+   "freq": 1
+  },
+  {
+   "word": "火辣辣痒痒的对吧",
+   "pinyin": "huolalayangyangdeduiba",
+   "pinyinSpaced": "huo la la yang yang de dui ba",
+   "freq": 1
+  },
+  {
+   "word": "实验秀要揭开序幕了",
+   "pinyin": "shiyanxiuyaojiekaixumule",
+   "pinyinSpaced": "shi yan xiu yao jie kai xu mu le",
+   "freq": 1
+  },
+  {
+   "word": "忍法晴天霹雳",
+   "pinyin": "renfaqingtianpili",
+   "pinyinSpaced": "ren fa qing tian pi li",
+   "freq": 1
+  },
+  {
+   "word": "招待不周",
+   "pinyin": "zhaodaibuzhou",
+   "pinyinSpaced": "zhao dai bu zhou",
+   "freq": 1
+  },
+  {
+   "word": "海岸的英雄乔尼",
+   "pinyin": "haiandeyingxiongqiaoni",
+   "pinyinSpaced": "hai an de ying xiong qiao ni",
+   "freq": 1
+  },
+  {
+   "word": "有时是高超的魔晶石猎人",
+   "pinyin": "youshishigaochaodemojingshilieren",
+   "pinyinSpaced": "you shi shi gao chao de mo jing shi lie ren",
+   "freq": 1
+  },
+  {
+   "word": "有时是华丽的刺客",
+   "pinyin": "youshishihualidecike",
+   "pinyinSpaced": "you shi shi hua li de ci ke",
+   "freq": 1
+  },
+  {
+   "word": "有时是出手相助的美少女忍者",
+   "pinyin": "youshishichushouxiangzhudemeishaonvrenzhe",
+   "pinyinSpaced": "you shi shi chu shou xiang zhu de mei shao nv ren zhe",
+   "freq": 1
+  },
+  {
+   "word": "就是大家最喜欢的尤菲哦",
+   "pinyin": "jiushidajiazuixihuandeyoufeio",
+   "pinyinSpaced": "jiu shi da jia zui xi huan de you fei o",
+   "freq": 1
+  },
+  {
+   "word": "刺猬头",
+   "pinyin": "ciweitou",
+   "pinyinSpaced": "ci wei tou",
+   "freq": 1
+  },
+  {
+   "word": "在海岸遇见爱",
+   "pinyin": "zaihaianyujianai",
+   "pinyinSpaced": "zai hai an yu jian ai",
+   "freq": 1
+  },
+  {
+   "word": "爱之卡",
+   "pinyin": "aizhika",
+   "pinyinSpaced": "ai zhi ka",
+   "freq": 1
+  },
+  {
+   "word": "平衡车",
+   "pinyin": "pinghengche",
+   "pinyinSpaced": "ping heng che",
+   "freq": 1
+  },
+  {
+   "word": "太阳海岸海滩",
+   "pinyin": "taiyanghaianhaitan",
+   "pinyinSpaced": "tai yang hai an hai tan",
+   "freq": 1
+  },
+  {
+   "word": "席隆医生",
+   "pinyin": "xilongyisheng",
+   "pinyinSpaced": "xi long yi sheng",
+   "freq": 1
+  },
+  {
+   "word": "下次就是雪耻之战了",
+   "pinyin": "xiacijiushixuechizhizhanle",
+   "pinyinSpaced": "xia ci jiu shi xue chi zhi zhan le",
+   "freq": 1
+  },
+  {
+   "word": "巨型魔晶石计划",
+   "pinyin": "juxingmojingshijihua",
+   "pinyinSpaced": "ju xing mo jing shi ji hua",
+   "freq": 1
+  },
+  {
+   "word": "克劳啾",
+   "pinyin": "kelaojiu",
+   "pinyinSpaced": "ke lao jiu",
+   "freq": 1
+  },
+  {
+   "word": "能和家人在一起是最好的",
+   "pinyin": "nenghejiarenzaiyiqishizuihaode",
+   "pinyinSpaced": "neng he jia ren zai yi qi shi zui hao de",
+   "freq": 1
+  },
+  {
+   "word": "迪欧",
+   "pinyin": "diou",
+   "pinyinSpaced": "di ou",
+   "freq": 1
+  },
+  {
+   "word": "活动广场",
+   "pinyin": "huodongguangchang",
+   "pinyinSpaced": "huo dong guang chang",
+   "freq": 1
+  },
+  {
+   "word": "摩天轮广场",
+   "pinyin": "motianlunguangchang",
+   "pinyinSpaced": "mo tian lun guang chang",
+   "freq": 1
+  },
+  {
+   "word": "陆行鸟广场",
+   "pinyin": "luxingniaoguangchang",
+   "pinyinSpaced": "lu xing niao guang chang",
+   "freq": 1
+  },
+  {
+   "word": "鬼魂广场",
+   "pinyin": "guihunguangchang",
+   "pinyinSpaced": "gui hun guang chang",
+   "freq": 1
+  },
+  {
+   "word": "乐园中心",
+   "pinyin": "leyuanzhongxin",
+   "pinyinSpaced": "le yuan zhong xin",
+   "freq": 1
+  },
+  {
+   "word": "碟下区",
+   "pinyin": "diexiaqu",
+   "pinyinSpaced": "die xia qu",
+   "freq": 1
+  },
+  {
+   "word": "黄金剧场",
+   "pinyin": "huangjinjuchang",
+   "pinyinSpaced": "huang jin ju chang",
+   "freq": 1
+  },
+  {
+   "word": "劲歌热舞吧",
+   "pinyin": "jingerewuba",
+   "pinyinSpaced": "jin ge re wu ba",
+   "freq": 1
+  },
+  {
+   "word": "黄金乐园",
+   "pinyin": "huangjinleyuan",
+   "pinyinSpaced": "huang jin le yuan",
+   "freq": 1
+  },
+  {
+   "word": "超越极限",
+   "pinyin": "chaoyuejixian",
+   "pinyinSpaced": "chao yue ji xian",
+   "freq": 1
+  },
+  {
+   "word": "别怨我",
+   "pinyin": "bieyuanwo",
+   "pinyinSpaced": "bie yuan wo",
+   "freq": 1
+  },
+  {
+   "word": "黄金护照",
+   "pinyin": "huangjinhuzhao",
+   "pinyinSpaced": "huang jin hu zhao",
+   "freq": 1
+  },
+  {
+   "word": "星球的血液",
+   "pinyin": "xingqiudexueye",
+   "pinyinSpaced": "xing qiu de xue ye",
+   "freq": 1
+  },
+  {
+   "word": "真的很抱歉",
+   "pinyin": "zhendehenbaoqian",
+   "pinyinSpaced": "zhen de hen bao qian",
+   "freq": 1
+  },
+  {
+   "word": "不香草不行",
+   "pinyin": "buxiangcaobuxing",
+   "pinyinSpaced": "bu xiang cao bu xing",
+   "freq": 1
+  },
+  {
+   "word": "双人是指那种双人吗",
+   "pinyin": "shuangrenshizhinazhongshuangrenma",
+   "pinyinSpaced": "shuang ren shi zhi na zhong shuang ren ma",
+   "freq": 1
+  },
+  {
+   "word": "这是我的我们之间的问题",
+   "pinyin": "zheshiwodewomenzhijiandewenti",
+   "pinyinSpaced": "zhe shi wo de wo men zhi jian de wen ti",
+   "freq": 1
+  },
+  {
+   "word": "我的手已经沾满鲜血了啊",
+   "pinyin": "wodeshouyijingzhanmanxianxuelea",
+   "pinyinSpaced": "wo de shou yi jing zhan man xian xue le a",
+   "freq": 1
+  },
+  {
+   "word": "越野车",
+   "pinyin": "yueyeche",
+   "pinyinSpaced": "yue ye che",
+   "freq": 1
+  },
+  {
+   "word": "幸运食物是蘑菇",
+   "pinyin": "xingyunshiwushimogu",
+   "pinyinSpaced": "xing yun shi wu shi mo gu",
+   "freq": 1
+  },
+  {
+   "word": "钩索枪",
+   "pinyin": "gousuoqiang",
+   "pinyinSpaced": "gou suo qiang",
+   "freq": 1
+  },
+  {
+   "word": "西斯妮",
+   "pinyin": "xisini",
+   "pinyinSpaced": "xi si ni",
+   "freq": 1
+  },
+  {
+   "word": "贡加加村",
+   "pinyin": "gongjiajiacun",
+   "pinyinSpaced": "gong jia jia cun",
+   "freq": 1
+  },
+  {
+   "word": "贡加菇",
+   "pinyin": "gongjiagu",
+   "pinyinSpaced": "gong jia gu",
+   "freq": 1
+  },
+  {
+   "word": "黑迷利翁或红溪里",
+   "pinyin": "heimiliwenghuohongxili",
+   "pinyinSpaced": "hei mi li weng huo hong xi li",
+   "freq": 1
+  },
+  {
+   "word": "毕竟我没有讨厌他的理由嘛",
+   "pinyin": "bijingwomeiyoutaoyantadeliyouma",
+   "pinyinSpaced": "bi jing wo mei you tao yan ta de li you ma",
+   "freq": 1
+  },
+  {
+   "word": "格尔尼卡",
+   "pinyin": "geernika",
+   "pinyinSpaced": "ge er ni ka",
+   "freq": 1
+  },
+  {
+   "word": "陷入困境时得到英雄拯救",
+   "pinyin": "xianrukunjingshidedaoyingxiongzhengjiu",
+   "pinyinSpaced": "xian ru kun jing shi de dao ying xiong zheng jiu",
+   "freq": 1
+  },
+  {
+   "word": "这次我会保护你",
+   "pinyin": "zheciwohuibaohuni",
+   "pinyinSpaced": "zhe ci wo hui bao hu ni",
+   "freq": 1
+  },
+  {
+   "word": "芳格",
+   "pinyin": "fangge",
+   "pinyinSpaced": "fang ge",
+   "freq": 1
+  },
+  {
+   "word": "小野马",
+   "pinyin": "xiaoyema",
+   "pinyinSpaced": "xiao ye ma",
+   "freq": 1
+  },
+  {
+   "word": "野马航空",
+   "pinyin": "yemahangkong",
+   "pinyinSpaced": "ye ma hang kong",
+   "freq": 1
+  },
+  {
+   "word": "盖泽尔布根哈根",
+   "pinyin": "gaizeerbugenhagen",
+   "pinyinSpaced": "gai ze er bu gen ha gen",
+   "freq": 1
+  },
+  {
+   "word": "布根哈根",
+   "pinyin": "bugenhagen",
+   "pinyinSpaced": "bu gen ha gen",
+   "freq": 1
+  },
+  {
+   "word": "天空不属于任何人",
+   "pinyin": "tiankongbushuyurenheren",
+   "pinyinSpaced": "tian kong bu shu yu ren he ren",
+   "freq": 1
+  },
+  {
+   "word": "神罗去吃屎吧",
+   "pinyin": "shenluoquchishiba",
+   "pinyinSpaced": "shen luo qu chi shi ba",
+   "freq": 1
+  },
+  {
+   "word": "处以撸猫之刑",
+   "pinyin": "chuyilumaozhixing",
+   "pinyinSpaced": "chu yi lu mao zhi xing",
+   "freq": 1
+  },
+  {
+   "word": "星命学的圣地星殒峡谷",
+   "pinyin": "xingmingxuedeshengdixingyunxiagu",
+   "pinyinSpaced": "xing ming xue de sheng di xing yun xia gu",
+   "freq": 1
+  },
+  {
+   "word": "愿星球与各位同在",
+   "pinyin": "yuanxingqiuyugeweitongzai",
+   "pinyinSpaced": "yuan xing qiu yu ge wei tong zai",
+   "freq": 1
+  },
+  {
+   "word": "星球的子民",
+   "pinyin": "xingqiudezimin",
+   "pinyinSpaced": "xing qiu de zi min",
+   "freq": 1
+  },
+  {
+   "word": "星命学习器",
+   "pinyin": "xingmingxuexiqi",
+   "pinyinSpaced": "xing ming xue xi qi",
+   "freq": 1
+  },
+  {
+   "word": "义族",
+   "pinyin": "yizu",
+   "pinyinSpaced": "yi zu",
+   "freq": 1
+  },
+  {
+   "word": "因为我是来自星殒峡谷的纳纳奇",
+   "pinyin": "yinweiwoshilaizixingyunxiagudenanaqi",
+   "pinyinSpaced": "yin wei wo shi lai zi xing yun xia gu de na na qi",
+   "freq": 1
+  },
+  {
+   "word": "漆黑的宝珠",
+   "pinyin": "qiheidebaozhu",
+   "pinyinSpaced": "qi hei de bao zhu",
+   "freq": 1
+  },
+  {
+   "word": "文森特",
+   "pinyin": "wensente",
+   "pinyinSpaced": "wen sen te",
+   "freq": 1
+  },
+  {
+   "word": "文森特瓦伦丁",
+   "pinyin": "wensentewalunding",
+   "pinyinSpaced": "wen sen te wa lun ding",
+   "freq": 1
+  },
+  {
+   "word": "村崎",
+   "pinyin": "cunqi",
+   "pinyinSpaced": "cun qi",
+   "freq": 1
+  },
+  {
+   "word": "忍者",
+   "pinyin": "renzhe",
+   "pinyinSpaced": "ren zhe",
+   "freq": 1
+  },
+  {
+   "word": "看来我的罪行又增加了一条",
+   "pinyin": "kanlaiwodezuixingyouzengjialeyitiao",
+   "pinyinSpaced": "kan lai wo de zui xing you zeng jia le yi tiao",
+   "freq": 1
+  },
+  {
+   "word": "楔石",
+   "pinyin": "xieshi",
+   "pinyinSpaced": "xie shi",
+   "freq": 1
+  },
+  {
+   "word": "克劳德我想得到黑魔晶石",
+   "pinyin": "kelaodewoxiangdedaoheimojingshi",
+   "pinyinSpaced": "ke lao de wo xiang de dao hei mo jing shi",
+   "freq": 1
+  },
+  {
+   "word": "过去被称为英雄的男人",
+   "pinyin": "guoqubeichengweiyingxiongdenanren",
+   "pinyinSpaced": "guo qu bei cheng wei ying xiong de nan ren",
+   "freq": 1
+  },
+  {
+   "word": "迦尔帝亚",
+   "pinyin": "jiaerdiya",
+   "pinyinSpaced": "jia er di ya",
+   "freq": 1
+  },
+  {
+   "word": "阿尔弗雷德",
+   "pinyin": "aerfuleide",
+   "pinyinSpaced": "a er fu lei de",
+   "freq": 1
+  },
+  {
+   "word": "露莎",
+   "pinyin": "lusha",
+   "pinyinSpaced": "lu sha",
+   "freq": 1
+  },
+  {
+   "word": "小丑",
+   "pinyin": "xiaochou",
+   "pinyinSpaced": "xiao chou",
+   "freq": 1
+  },
+  {
+   "word": "沃瓦道斯",
+   "pinyin": "wowadaosi",
+   "pinyinSpaced": "wo wa dao si",
+   "freq": 1
+  },
+  {
+   "word": "遵命",
+   "pinyin": "zunming",
+   "pinyinSpaced": "zun ming",
+   "freq": 1
+  },
+  {
+   "word": "我今天不加班",
+   "pinyin": "wojintianbujiaban",
+   "pinyinSpaced": "wo jin tian bu jia ban",
+   "freq": 1
+  },
+  {
+   "word": "搭档说一下平常那句",
+   "pinyin": "dadangshuoyixiapingchangnaju",
+   "pinyinSpaced": "da dang shuo yi xia ping chang na ju",
+   "freq": 1
+  },
+  {
+   "word": "你可别小看塔克斯",
+   "pinyin": "nikebiexiaokantakesi",
+   "pinyinSpaced": "ni ke bie xiao kan ta ke si",
+   "freq": 1
+  },
+  {
+   "word": "我得狠狠揍你这家伙一下才行",
+   "pinyin": "wodeihenhenzounizhejiahuoyixiacaixing",
+   "pinyinSpaced": "wo dei hen hen zou ni zhe jia huo yi xia cai xing",
+   "freq": 1
+  },
+  {
+   "word": "得活着才能是塔克斯",
+   "pinyin": "dehuozhecainengshitakesi",
+   "pinyinSpaced": "de huo zhe cai neng shi ta ke si",
+   "freq": 1
+  },
+  {
+   "word": "陨石",
+   "pinyin": "yunshi",
+   "pinyinSpaced": "yun shi",
+   "freq": 1
+  },
+  {
+   "word": "不管发生什么都要在一起哦",
+   "pinyin": "buguanfashengshenmedouyaozaiyiqio",
+   "pinyinSpaced": "bu guan fa sheng shen me dou yao zai yi qi o",
+   "freq": 1
+  },
+  {
+   "word": "我可爱的空壳人偶",
+   "pinyin": "wokeaidekongkerenou",
+   "pinyinSpaced": "wo ke ai de kong ke ren ou",
+   "freq": 1
+  },
+  {
+   "word": "用愤怒填满你空虚的心",
+   "pinyin": "yongfennutianmannikongxudexin",
+   "pinyinSpaced": "yong fen nu tian man ni kong xu de xin",
+   "freq": 1
+  },
+  {
+   "word": "不必悲伤",
+   "pinyin": "bubibeishang",
+   "pinyinSpaced": "bu bi bei shang",
+   "freq": 1
+  },
+  {
+   "word": "充满回忆的地方",
+   "pinyin": "chongmanhuiyidedifang",
+   "pinyinSpaced": "chong man hui yi de di fang",
+   "freq": 1
+  },
+  {
+   "word": "选择之后就会出现新世界",
+   "pinyin": "xuanzezhihoujiuhuichuxianxinshijie",
+   "pinyinSpaced": "xuan ze zhi hou jiu hui chu xian xin shi jie",
+   "freq": 1
+  },
+  {
+   "word": "我想重拾我的人生",
+   "pinyin": "woxiangzhongshiwoderensheng",
+   "pinyinSpaced": "wo xiang zhong shi wo de ren sheng",
+   "freq": 1
+  },
+  {
+   "word": "让我把祝福送给你吧",
+   "pinyin": "rangwobazhufusonggeiniba",
+   "pinyinSpaced": "rang wo ba zhu fu song gei ni ba",
+   "freq": 1
+  },
+  {
+   "word": "生命循环于这颗星球",
+   "pinyin": "shengmingxunhuanyuzhekexingqiu",
+   "pinyinSpaced": "sheng ming xun huan yu zhe ke xing qiu",
+   "freq": 1
+  },
+  {
+   "word": "忘却之都",
+   "pinyin": "wangquezhidou",
+   "pinyinSpaced": "wang que zhi dou",
+   "freq": 1
+  },
+  {
+   "word": "于我们的世界再结合",
+   "pinyin": "yuwomendeshijiezaijiehe",
+   "pinyinSpaced": "yu wo men de shi jie zai jie he",
+   "freq": 1
+  },
+  {
+   "word": "正宗",
+   "pinyin": "zhengzong",
+   "pinyinSpaced": "zheng zong",
+   "freq": 1
+  },
+  {
+   "word": "坠落的英雄",
+   "pinyin": "zhuiluodeyingxiong",
+   "pinyinSpaced": "zhui luo de ying xiong",
+   "freq": 1
+  },
+  {
+   "word": "杰诺瓦再临",
+   "pinyin": "jienuowazailin",
+   "pinyinSpaced": "jie nuo wa zai lin",
+   "freq": 1
+  },
+  {
+   "word": "片刻假期",
+   "pinyin": "piankejiaqi",
+   "pinyinSpaced": "pian ke jia qi",
+   "freq": 1
+  },
+  {
+   "word": "逃离乐园",
+   "pinyin": "taolileyuan",
+   "pinyinSpaced": "tao li le yuan",
+   "freq": 1
+  },
+  {
+   "word": "劣化的神罗战士",
+   "pinyin": "liehuadeshenluozhanshi",
+   "pinyinSpaced": "lie hua de shen luo zhan shi",
+   "freq": 1
+  },
+  {
+   "word": "充满回忆的约会",
+   "pinyin": "chongmanhuiyideyuehui",
+   "pinyinSpaced": "chong man hui yi de yue hui",
+   "freq": 1
+  },
+  {
+   "word": "查德利计算溢出",
+   "pinyin": "chadelijisuanyichu",
+   "pinyinSpaced": "cha de li ji suan yi chu",
+   "freq": 1
+  },
+  {
+   "word": "星球的悲鸣",
+   "pinyin": "xingqiudebeiming",
+   "pinyinSpaced": "xing qiu de bei ming",
+   "freq": 1
+  },
+  {
+   "word": "钟爱莫古力的神罗战士",
+   "pinyin": "zhongaimogulideshenluozhanshi",
+   "pinyinSpaced": "zhong ai mo gu li de shen luo zhan shi",
+   "freq": 1
+  },
+  {
+   "word": "钢琴巨匠",
+   "pinyin": "gangqinjujiang",
+   "pinyinSpaced": "gang qin ju jiang",
+   "freq": 1
+  },
+  {
+   "word": "星球涌泉的战略大师",
+   "pinyin": "xingqiuyongquandezhanluedashi",
+   "pinyinSpaced": "xing qiu yong quan de zhan lue da shi",
+   "freq": 1
+  },
+  {
+   "word": "兀鹰堡垒名将",
+   "pinyin": "wuyingbaoleimingjiang",
+   "pinyinSpaced": "wu ying bao lei ming jiang",
+   "freq": 1
+  },
+  {
+   "word": "第七步兵连队全体集合",
+   "pinyin": "diqibubinglianduiquantijihe",
+   "pinyinSpaced": "di qi bu bing lian dui quan ti ji he",
+   "freq": 1
+  },
+  {
+   "word": "获得最优秀表演奖",
+   "pinyin": "huodezuiyouxiubiaoyanjiang",
+   "pinyinSpaced": "huo de zui you xiu biao yan jiang",
+   "freq": 1
+  },
+  {
+   "word": "超越一切者",
+   "pinyin": "chaoyueyiqiezhe",
+   "pinyinSpaced": "chao yue yi qie zhe",
+   "freq": 1
+  },
+  {
+   "word": "复仇之旅启程",
+   "pinyin": "fuchouzhilvqicheng",
+   "pinyinSpaced": "fu chou zhi lv qi cheng",
+   "freq": 1
+  },
+  {
+   "word": "逃离第捌区",
+   "pinyin": "taolidibaqu",
+   "pinyinSpaced": "tao li di ba qu",
+   "freq": 1
+  },
+  {
+   "word": "万能帮手的工作",
+   "pinyin": "wannengbangshoudegongzuo",
+   "pinyinSpaced": "wan neng bang shou de gong zuo",
+   "freq": 1
+  },
+  {
+   "word": "瓮中之鳖",
+   "pinyin": "wengzhongzhibie",
+   "pinyinSpaced": "weng zhong zhi bie",
+   "freq": 1
+  },
+  {
+   "word": "神罗战士的热身",
+   "pinyin": "shenluozhanshidereshen",
+   "pinyinSpaced": "shen luo zhan shi de re shen",
+   "freq": 1
+  },
+  {
+   "word": "飞镖高手",
+   "pinyin": "feibiaogaoshou",
+   "pinyinSpaced": "fei biao gao shou",
+   "freq": 1
+  },
+  {
+   "word": "神罗摩托车骑手",
+   "pinyin": "shenluomotuocheqishou",
+   "pinyinSpaced": "shen luo mo tuo che qi shou",
+   "freq": 1
+  },
+  {
+   "word": "乔尼的超级死党",
+   "pinyin": "qiaonidechaojisidang",
+   "pinyinSpaced": "qiao ni de chao ji si dang",
+   "freq": 1
+  },
+  {
+   "word": "舞蹈皇后",
+   "pinyin": "wudaohuanghou",
+   "pinyinSpaced": "wu dao huang hou",
+   "freq": 1
+  },
+  {
+   "word": "传说剑豪",
+   "pinyin": "chuanshuojianhao",
+   "pinyinSpaced": "chuan shuo jian hao",
+   "freq": 1
+  },
+  {
+   "word": "我高薪聘请你你可别让我失望",
+   "pinyin": "wogaoxinpinqingninikebierangwoshiwang",
+   "pinyinSpaced": "wo gao xin pin qing ni ni ke bie rang wo shi wang",
+   "freq": 1
+  },
+  {
+   "word": "洛克哈特",
+   "pinyin": "luokehate",
+   "pinyinSpaced": "luo ke ha te",
+   "freq": 1
+  },
+  {
+   "word": "斯特莱夫",
+   "pinyin": "sitelaifu",
+   "pinyinSpaced": "si te lai fu",
+   "freq": 1
+  },
+  {
+   "word": "华勒斯",
+   "pinyin": "hualesi",
+   "pinyinSpaced": "hua le si",
+   "freq": 1
+  },
+  {
+   "word": "卖花女",
+   "pinyin": "maihuanv",
+   "pinyinSpaced": "mai hua nv",
+   "freq": 1
+  },
+  {
+   "word": "盖恩斯伯勒",
+   "pinyin": "gaiensibole",
+   "pinyinSpaced": "gai en si bo le",
+   "freq": 1
+  },
+  {
+   "word": "菲尔",
+   "pinyin": "feier",
+   "pinyinSpaced": "fei er",
+   "freq": 1
+  },
+  {
+   "word": "杜耶斯提",
+   "pinyin": "duyesiti",
+   "pinyinSpaced": "du ye si ti",
+   "freq": 1
+  },
+  {
+   "word": "放马过来吧",
+   "pinyin": "fangmaguolaiba",
+   "pinyinSpaced": "fang ma guo lai ba",
+   "freq": 1
+  },
+  {
+   "word": "宗达村长",
+   "pinyin": "zongdacunzhang",
+   "pinyinSpaced": "zong da cun zhang",
+   "freq": 1
+  },
+  {
+   "word": "小心翼翼忍耐安静",
+   "pinyin": "xiaoxinyiyirennaianjing",
+   "pinyinSpaced": "xiao xin yi yi ren nai an jing",
+   "freq": 1
+  },
+  {
+   "word": "忍者后裔",
+   "pinyin": "renzhehouyi",
+   "pinyinSpaced": "ren zhe hou yi",
+   "freq": 1
+  },
+  {
+   "word": "如月",
+   "pinyin": "ruyue",
+   "pinyinSpaced": "ru yue",
+   "freq": 1
+  },
+  {
+   "word": "立刻停止抵抗并投降",
+   "pinyin": "liketingzhidikangbingtouxiang",
+   "pinyinSpaced": "li ke ting zhi di kang bing tou xiang",
+   "freq": 1
+  },
+  {
+   "word": "给我技能书",
+   "pinyin": "geiwojinengshu",
+   "pinyinSpaced": "gei wo ji neng shu",
+   "freq": 1
+  },
+  {
+   "word": "美丽是不分男女的",
+   "pinyin": "meilishibufennannvde",
+   "pinyinSpaced": "mei li shi bu fen nan nv de",
+   "freq": 1
+  },
+  {
+   "word": "只是回归星球而已",
+   "pinyin": "zhishihuiguixingqiueryi",
+   "pinyinSpaced": "zhi shi hui gui xing qiu er yi",
+   "freq": 1
+  },
+  {
+   "word": "给我祈安珠",
+   "pinyin": "geiwoqianzhu",
+   "pinyinSpaced": "gei wo qi an zhu",
+   "freq": 1
+  },
+  {
+   "word": "把握当下",
+   "pinyin": "bawodangxia",
+   "pinyinSpaced": "ba wo dang xia",
+   "freq": 1
+  },
+  {
+   "word": "好好享受吧克劳德",
+   "pinyin": "haohaoxiangshoubakelaode",
+   "pinyinSpaced": "hao hao xiang shou ba ke lao de",
+   "freq": 1
+  },
+  {
+   "word": "给我正宗",
+   "pinyin": "geiwozhengzong",
+   "pinyinSpaced": "gei wo zheng zong",
+   "freq": 1
+  },
+  {
+   "word": "给我铁手镯",
+   "pinyin": "geiwotieshouzhuo",
+   "pinyinSpaced": "gei wo tie shou zhuo",
+   "freq": 1
+  },
+  {
+   "word": "给我手榴弹",
+   "pinyin": "geiwoshouliudan",
+   "pinyinSpaced": "gei wo shou liu dan",
+   "freq": 1
+  },
+  {
+   "word": "给我提神剂",
+   "pinyin": "geiwotishenji",
+   "pinyinSpaced": "gei wo ti shen ji",
+   "freq": 1
+  },
+  {
+   "word": "给我治疗",
+   "pinyin": "geiwozhiliao",
+   "pinyinSpaced": "gei wo zhi liao",
+   "freq": 1
+  },
+  {
+   "word": "给我凌空破",
+   "pinyin": "geiwolingkongpo",
+   "pinyinSpaced": "gei wo ling kong po",
+   "freq": 1
+  },
+  {
+   "word": "给我正拳",
+   "pinyin": "geiwozhengquan",
+   "pinyinSpaced": "gei wo zheng quan",
+   "freq": 1
+  },
+  {
+   "word": "给我红宝石",
+   "pinyin": "geiwohongbaoshi",
+   "pinyinSpaced": "gei wo hong bao shi",
+   "freq": 1
+  },
+  {
+   "word": "给我小野马",
+   "pinyin": "geiwoxiaoyema",
+   "pinyinSpaced": "gei wo xiao ye ma",
+   "freq": 1
+  },
+  {
+   "word": "给我飞空艇",
+   "pinyin": "geiwofeikongting",
+   "pinyinSpaced": "gei wo fei kong ting",
+   "freq": 1
+  },
+  {
+   "word": "给我大窍豆",
+   "pinyin": "geiwodaqiaodou",
+   "pinyinSpaced": "gei wo da qiao dou",
+   "freq": 1
+  },
+  {
+   "word": "来吧小猫咪投入我的怀抱",
+   "pinyin": "laibaxiaomaomitouruwodehuaibao",
+   "pinyinSpaced": "lai ba xiao mao mi tou ru wo de huai bao",
+   "freq": 1
+  },
+  {
+   "word": "宇宙不是我的对口专业",
+   "pinyin": "yuzhoubushiwodeduikouzhuanye",
+   "pinyinSpaced": "yu zhou bu shi wo de dui kou zhuan ye",
+   "freq": 1
+  }
+ ]
+}
