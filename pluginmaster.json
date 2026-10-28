@@ -20,12 +20,12 @@
     "DalamudApiLevel":  15,
     "IsHide":  false,
     "IsTestingExclusive":  false,
-    "DownloadLink":  "https://github.com/SiGeoMa/ff14-keybound-brawler/releases/download/v0.3.0/KeyboundBrawler.zip",
-    "DownloadLinkInstall":  "https://github.com/SiGeoMa/ff14-keybound-brawler/releases/download/v0.3.0/KeyboundBrawler.zip",
-    "DownloadLinkUpdate":  "https://github.com/SiGeoMa/ff14-keybound-brawler/releases/download/v0.3.0/KeyboundBrawler.zip",
+    "DownloadLink":  "https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-keybound-brawler@main/dist/KeyboundBrawler.zip",
+    "DownloadLinkInstall":  "https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-keybound-brawler@main/dist/KeyboundBrawler.zip",
+    "DownloadLinkUpdate":  "https://cdn.jsdelivr.net/gh/SiGeoMa/ff14-keybound-brawler@main/dist/KeyboundBrawler.zip",
     "DownloadLinkTesting":  null,
     "IconUrl":  "",
-    "LastUpdate":  1793179708,
+    "LastUpdate":  1793180125,
     "DownloadCount":  0,
     "LoadPriority":  0
 }]
