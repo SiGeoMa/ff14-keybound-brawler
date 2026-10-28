@@ -135,9 +135,9 @@ public sealed class AutoTyper
     }
 
     /// <summary>
-    /// 防 AFK 心跳：发送游戏里没有绑定的按键（F13 / 左右 Shift 单键），
-    /// 让客户端的输入检测认为玩家在操作，避免被判定挂机踢出副本。
-    /// 不会触发技能、移动或打开界面。
+    /// 防 AFK 心跳：发送游戏里没有绑定的按键（F13 / 左右 Shift 单键）+ 方向键短按，
+    /// 让客户端输入检测和角色动作检测都认为玩家在操作，避免被判定挂机踢出副本。
+    /// 方向键在输入框聚焦时只移动光标，在游戏里会产生极小的移动/转向（不触发技能）。
     /// </summary>
     public void SendAfkWiggle()
     {
@@ -146,13 +146,15 @@ public sealed class AutoTyper
 
         try
         {
-            // F13（0x7C）大多数游戏无绑定
+            // F13 / F14（0x7C / 0x7D）大多数游戏无绑定
             SendVirtualKey(0x7C, 4);
+            SendVirtualKey(0x7D, 4);
             // 左右 Shift 单键（游戏无单独绑定）
             SendVirtualKey(0xA0, 4);
             SendVirtualKey(0xA1, 4);
-            // 再补一个 F14，增强输入检测
-            SendVirtualKey(0x7D, 4);
+            // 左右方向键短按：产生角色移动/转向动作，让服务端认为有操作
+            SendVirtualKey(0x25, 30);
+            SendVirtualKey(0x27, 30);
             LastError = null;
         }
         catch (Exception ex)

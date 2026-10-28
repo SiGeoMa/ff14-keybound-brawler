@@ -503,88 +503,113 @@ public sealed class KtgMonitor
     }
 
     /// <summary>
-    /// 直接写入输入框并调用游戏提交回调（学自 FFMoGuang）：
-    /// KTGInput 的节点 7 是 AtkComponentTextInput，SetText 写入后调用 Callback(Enter) 提交。
-    /// 不模拟键盘、不用剪贴板，最稳定。
+    /// 只写输入框（不提交）。逐字写入用，模拟真人打字过程。
+    /// </summary>
+    public unsafe bool TrySetInputText(string text, out string error)
+    {
+        error = string.Empty;
+        var input = GetInputComponent(out _, out error);
+        if (input == null)
+            return false;
+
+        if (!input->Enabled)
+        {
+            error = "输入框未启用";
+            return false;
+        }
+
+        input->SetText(text);
+        var raw = input->RawString.ToString();
+        if (raw != text)
+        {
+            error = $"写入被截断：{raw}";
+            return false;
+        }
+
+        return true;
+    }
+
+    /// <summary>调用游戏输入回调提交当前输入框内容（Enter）。</summary>
+    public unsafe bool TrySubmitInput(out string error)
+    {
+        error = string.Empty;
+        var input = GetInputComponent(out var addon, out error);
+        if (input == null)
+            return false;
+
+        if (input->Callback == null)
+        {
+            error = "输入回调为空";
+            return false;
+        }
+
+        var current = input->RawString.ToString();
+        if (string.IsNullOrEmpty(current))
+        {
+            error = "输入框为空，不提交";
+            return false;
+        }
+
+        var bytes = System.Text.Encoding.UTF8.GetBytes(current + "\0");
+        fixed (byte* p = bytes)
+        {
+            var result = input->Callback(
+                addon,
+                InputCallbackType.Enter,
+                p,
+                p,
+                input->CallbackEventKind);
+
+            if (result == InputCallbackResult.ClearText)
+            {
+                input->SetText(string.Empty);
+                return true;
+            }
+
+            error = $"回调返回 {result}";
+            return false;
+        }
+    }
+
+    /// <summary>取 KTGInput 的文本输入组件。</summary>
+    private unsafe AtkComponentTextInput* GetInputComponent(out AtkUnitBase* addon, out string error)
+    {
+        addon = null;
+        error = string.Empty;
+
+        var ptr = gameGui.GetAddonByName("KTGInput", 1);
+        if (ptr.IsNull)
+        {
+            error = "KTGInput 不可见";
+            return null;
+        }
+
+        addon = (AtkUnitBase*)ptr.Address;
+        if (addon == null || !addon->IsReady || !addon->IsVisible)
+        {
+            error = "KTGInput 未就绪";
+            return null;
+        }
+
+        var input = FindTextInput(addon);
+        if (input == null)
+        {
+            error = "找不到 KTGInput 的文本输入组件（节点 7）";
+            return null;
+        }
+
+        return input;
+    }
+
+    /// <summary>
+    /// 直接写入输入框并调用游戏提交回调（一次性版本，保留兼容）。
     /// </summary>
     public unsafe bool TryDirectSubmit(string text, out string error)
     {
-        error = string.Empty;
-        if (string.IsNullOrEmpty(text))
-        {
-            error = "空词";
+        if (!TrySetInputText(text, out error))
             return false;
-        }
 
-        try
-        {
-            var ptr = gameGui.GetAddonByName("KTGInput", 1);
-            if (ptr.IsNull)
-            {
-                error = "KTGInput 不可见";
-                return false;
-            }
-
-            var addon = (AtkUnitBase*)ptr.Address;
-            if (addon == null || !addon->IsReady || !addon->IsVisible)
-            {
-                error = "KTGInput 未就绪";
-                return false;
-            }
-
-            var input = FindTextInput(addon);
-            if (input == null)
-            {
-                error = "找不到 KTGInput 的文本输入组件（节点 7）";
-                return false;
-            }
-
-            if (!input->Enabled)
-            {
-                error = "输入框未启用";
-                return false;
-            }
-
-            if (input->Callback == null)
-            {
-                error = "输入回调为空";
-                return false;
-            }
-
-            input->SetText(text);
-
-            var raw = input->RawString.ToString();
-            if (raw != text)
-            {
-                error = $"写入被截断：{raw}";
-                return false;
-            }
-
-            var bytes = System.Text.Encoding.UTF8.GetBytes(text + "\0");
-            fixed (byte* p = bytes)
-            {
-                var result = input->Callback(
-                    addon,
-                    InputCallbackType.Enter,
-                    p,
-                    p,
-                    input->CallbackEventKind);
-
-                if (result == InputCallbackResult.ClearText)
-                {
-                    input->SetText(string.Empty);
-                    return true;
-                }
-
-                error = $"回调返回 {result}";
-                return false;
-            }
-        }
-        catch (Exception ex)
-        {
-            error = $"直接提交异常：{ex.Message}";
-            return false;
-        }
+        return TrySubmitInput(out error);
     }
 
     /// <summary>在 addon 的 NodeList 里找节点 7 对应的 TextInput 组件。</summary>

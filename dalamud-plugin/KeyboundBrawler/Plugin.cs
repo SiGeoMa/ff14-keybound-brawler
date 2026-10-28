@@ -51,9 +51,14 @@ public sealed class Plugin : IDalamudPlugin
     private DateTime lastAfkWiggleAt = DateTime.MinValue;
     private readonly object submitGate = new();
     private bool pendingSubmit;
-    private bool pendingDirectSubmit;
     private string pendingSubmitText = string.Empty;
     private DateTime pendingSubmitAt;
+
+    // 逐字写入状态（模拟真人打字，避免瞬间消词被判定外挂）
+    private bool directTyping;
+    private string pendingDirectText = string.Empty;
+    private int pendingDirectIndex;
+    private DateTime nextDirectCharAt;
 
     /// <summary>这些确认类对话框出现时，绝不能发按键（否则回车会确认默认选项，可能退本/退队）。</summary>
     private static readonly string[] BlockingAddons =
@@ -322,6 +327,7 @@ public sealed class Plugin : IDalamudPlugin
         CheckTerritoryAutoOpen();
         Ktg.Poll();
         UpdateAntiAfk();
+        ProcessDirectTyping();
         ProcessPendingSubmit();
         UpdateAutoLoop();
     }
@@ -505,16 +511,17 @@ public sealed class Plugin : IDalamudPlugin
 
                 if (Configuration.AutoInputMode == "direct")
                 {
-                    // 直接写输入框 + 调游戏回调：必须在主线程执行，这里只排队
+                    // 逐字写入：由主线程分帧执行，模拟真人打字过程
                     lock (submitGate)
                     {
-                        pendingDirectSubmit = true;
-                        pendingSubmitText = text;
-                        pendingSubmitAt = DateTime.Now;
+                        directTyping = true;
+                        pendingDirectText = text;
+                        pendingDirectIndex = 0;
+                        nextDirectCharAt = DateTime.Now.AddMilliseconds(Random.Shared.Next(80, 200));
                     }
 
-                    WriteAutoLog($"[自动] 直接提交排队 词「{target}」 输入「{text}」 反应{reaction}ms");
-                    LastAutoMessage = $"已排队直接提交「{text}」";
+                    WriteAutoLog($"[自动] 逐字写入开始 词「{target}」 输入「{text}」 反应{reaction}ms");
+                    LastAutoMessage = $"开始逐字写入「{text}」";
                 }
                 else
                 {
@@ -673,19 +680,107 @@ public sealed class Plugin : IDalamudPlugin
     }
 
     /// <summary>
+    /// 逐字写入：主线程分帧把词一个字一个字符写进 KTGInput，写完再走提交。
+    /// 避免"瞬间消词"被判定外挂，同时让输入框内容逐渐出现，观感像真人打字。
+    /// </summary>
+    private void ProcessDirectTyping()
+    {
+        string text;
+        int index;
+        DateTime nextAt;
+        lock (submitGate)
+        {
+            if (!directTyping)
+                return;
+
+            text = pendingDirectText;
+            index = pendingDirectIndex;
+            nextAt = nextDirectCharAt;
+        }
+
+        if (string.IsNullOrEmpty(text))
+        {
+            lock (submitGate) { directTyping = false; }
+            return;
+        }
+
+        // 状态不安全就取消
+        var state = Ktg.State;
+        if (state.GameOver || !state.InGame || !Ktg.IsAddonVisible("KTGInput") ||
+            !AutoTyper.IsGameForeground() || IsBlockingDialogVisible())
+        {
+            lock (submitGate)
+            {
+                directTyping = false;
+                pendingDirectText = string.Empty;
+            }
+
+            WriteAutoLog("[逐字] 状态不安全，取消写入");
+            return;
+        }
+
+        if (DateTime.Now < nextAt)
+            return;
+
+        index++;
+        if (index > text.Length)
+            index = text.Length;
+
+        var partial = text[..index];
+        if (!Ktg.TrySetInputText(partial, out var error))
+        {
+            lock (submitGate)
+            {
+                directTyping = false;
+                pendingDirectText = string.Empty;
+            }
+
+            WriteAutoLog($"[逐字] 写入失败：{error}");
+            return;
+        }
+
+        lock (submitGate)
+        {
+            pendingDirectIndex = index;
+        }
+
+        if (index >= text.Length)
+        {
+            // 写完了，进入提交环节（慢一点点再回车）
+            lock (submitGate)
+            {
+                directTyping = false;
+                pendingSubmit = true;
+                pendingSubmitText = text;
+                pendingSubmitAt = DateTime.Now;
+            }
+
+            WriteAutoLog($"[逐字] 完成「{text}」，等待提交");
+            return;
+        }
+
+        // 下一个字的随机间隔：拟人化时围绕基准延迟抖动，演都不演就很快
+        int delay;
+        if (Configuration.AutoBlatantMode)
+            delay = Random.Shared.Next(8, 25);
+        else
+            delay = (int)(Configuration.AutoCharDelayMs * (0.75 + Random.Shared.NextDouble() * 0.6));
+
+        nextDirectCharAt = DateTime.Now.AddMilliseconds(Math.Max(30, delay));
+    }
+
+    /// <summary>
     /// 主线程提交：只有确认输入框里真的有内容时才按回车。
     /// 这是防"自动退本"的关键——空输入框按回车可能触发游戏其他确认行为。
     /// </summary>
     private void ProcessPendingSubmit()
     {
         bool pending;
-        bool direct;
         string text;
         DateTime at;
         lock (submitGate)
         {
-            pending = pendingSubmit || pendingDirectSubmit;
-            direct = pendingDirectSubmit;
+            pending = pendingSubmit;
             text = pendingSubmitText;
             at = pendingSubmitAt;
         }
@@ -695,10 +790,10 @@ public sealed class Plugin : IDalamudPlugin
 
         try
         {
-            // 超时（2.5 秒没处理）就放弃
-            if ((DateTime.Now - at).TotalMilliseconds > 2500)
+            // 超时（3 秒没处理）就放弃
+            if ((DateTime.Now - at).TotalMilliseconds > 3000)
             {
-                lock (submitGate) { pendingSubmit = false; pendingDirectSubmit = false; }
+                lock (submitGate) { pendingSubmit = false; }
                 WriteAutoLog($"[提交] 超时，放弃提交「{text}」");
                 return;
             }
@@ -707,26 +802,25 @@ public sealed class Plugin : IDalamudPlugin
             var state = Ktg.State;
             if (state.GameOver || !state.InGame || !Ktg.IsAddonVisible("KTGInput"))
             {
-                lock (submitGate) { pendingSubmit = false; pendingDirectSubmit = false; }
+                lock (submitGate) { pendingSubmit = false; }
                 WriteAutoLog("[提交] 游戏已结束或输入框消失，跳过提交");
                 return;
             }
 
-            if (direct)
+            if (!AutoTyper.IsGameForeground() || IsBlockingDialogVisible())
             {
-                // 直接写输入框 + 游戏回调：只在安全条件下执行
-                if (!AutoTyper.IsGameForeground() || IsBlockingDialogVisible())
-                {
-                    lock (submitGate) { pendingDirectSubmit = false; }
-                    WriteAutoLog("[提交] 前台/对话框状态不安全，跳过直接提交");
-                    return;
-                }
+                lock (submitGate) { pendingSubmit = false; }
+                WriteAutoLog("[提交] 前台/对话框状态不安全，跳过提交");
+                return;
+            }
 
-                // 提交前补一次键盘心跳（防 AFK 判定）
+            if (Configuration.AutoInputMode == "direct")
+            {
+                // 提交前补一次键盘动作心跳（防 AFK 判定）
                 AutoTyper.SendAfkWiggle();
 
-                var ok = Ktg.TryDirectSubmit(text, out var error);
-                lock (submitGate) { pendingDirectSubmit = false; }
+                var ok = Ktg.TrySubmitInput(out var error);
+                lock (submitGate) { pendingSubmit = false; }
                 WriteAutoLog($"[提交] {(ok ? "直接提交OK" : "FAIL")} 「{text}」 {error}");
                 LastAutoMessage = ok ? $"已直接提交「{text}」" : $"直接提交失败：{error}";
                 return;
@@ -744,7 +838,7 @@ public sealed class Plugin : IDalamudPlugin
         }
         catch (Exception ex)
         {
-            lock (submitGate) { pendingSubmit = false; pendingDirectSubmit = false; }
+            lock (submitGate) { pendingSubmit = false; }
             WriteAutoLog($"[提交] 异常：{ex.Message}");
         }
     }
